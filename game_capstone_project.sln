@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{40CAF645-063C-6991-2005-B2D21C021E97}") = "game_capstone_project", "Assembly-CSharp-firstpass.csproj", "{9BAEA00B-33D2-6E09-6678-0B4EB730A63B}"
 EndProject
+Project("{40CAF645-063C-6991-2005-B2D21C021E97}") = "game_capstone_project", "Assembly-CSharp.csproj", "{107ECC52-CE6A-27A4-E390-09B7A2CFCAAC}"
+EndProject
 Project("{40CAF645-063C-6991-2005-B2D21C021E97}") = "game_capstone_project", "Assembly-CSharp-Editor.csproj", "{4A383207-8631-62F0-039F-5E1583BE5E8A}"
 EndProject
 Project("{40CAF645-063C-6991-2005-B2D21C021E97}") = "game_capstone_project", "Assembly-UnityScript.unityproj", "{BAC7CD02-BBE6-3E59-FB20-8462F6702F6B}"
@@ -17,6 +19,10 @@ Global
 		{9BAEA00B-33D2-6E09-6678-0B4EB730A63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BAEA00B-33D2-6E09-6678-0B4EB730A63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BAEA00B-33D2-6E09-6678-0B4EB730A63B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107ECC52-CE6A-27A4-E390-09B7A2CFCAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107ECC52-CE6A-27A4-E390-09B7A2CFCAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107ECC52-CE6A-27A4-E390-09B7A2CFCAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107ECC52-CE6A-27A4-E390-09B7A2CFCAAC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4A383207-8631-62F0-039F-5E1583BE5E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A383207-8631-62F0-039F-5E1583BE5E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A383207-8631-62F0-039F-5E1583BE5E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,7 +35,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-							GlobalSection(MonoDevelopProperties) = preSolution
+											GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
