@@ -5,6 +5,7 @@ public class KeyPadInteractable : MonoBehaviour, Interactable {
 
 	public AudioClip keyClip;
 	private AudioSource audioSource;
+	private int order;
 
 	// Use this for initialization
 	void Start () {
@@ -18,6 +19,12 @@ public class KeyPadInteractable : MonoBehaviour, Interactable {
 
 	public void Action () {
 		audioSource.Play ();
+		SoundPuzzleMaster soundPuzzleMaster = transform.parent.GetComponent<SoundPuzzleMaster> ();
+		soundPuzzleMaster.ReceiveSequence (order);
+	}
+
+	public void SetOrder (int val) {
+		order = val;
 	}
 
 	void SetupAudioSource() {
