@@ -7,8 +7,6 @@ Project("{40CAF645-063C-6991-2005-B2D21C021E97}") = "game_capstone_project", "As
 EndProject
 Project("{40CAF645-063C-6991-2005-B2D21C021E97}") = "game_capstone_project", "Assembly-CSharp-Editor.csproj", "{4A383207-8631-62F0-039F-5E1583BE5E8A}"
 EndProject
-Project("{40CAF645-063C-6991-2005-B2D21C021E97}") = "game_capstone_project", "Assembly-UnityScript.unityproj", "{BAC7CD02-BBE6-3E59-FB20-8462F6702F6B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,15 +25,11 @@ Global
 		{4A383207-8631-62F0-039F-5E1583BE5E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A383207-8631-62F0-039F-5E1583BE5E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A383207-8631-62F0-039F-5E1583BE5E8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BAC7CD02-BBE6-3E59-FB20-8462F6702F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAC7CD02-BBE6-3E59-FB20-8462F6702F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAC7CD02-BBE6-3E59-FB20-8462F6702F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BAC7CD02-BBE6-3E59-FB20-8462F6702F6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																		GlobalSection(MonoDevelopProperties) = preSolution
+																																													GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

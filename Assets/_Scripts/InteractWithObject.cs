@@ -27,6 +27,12 @@ public class InteractWithObject : MonoBehaviour {
 			if(i != null) {
 				i.Action();
 			}
+
+            GameObject p = hit.collider.gameObject;
+            if (p.CompareTag("Pill")){
+                p.SetActive(false);
+                gameObject.GetComponent<SanityMeter>().IncreaseSanity(50.0f);
+            }
 		}
 	}
 }
