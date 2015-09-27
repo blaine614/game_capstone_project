@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: b4983046bbe722a4fb91b43c45c46f49
+timeCreated: 1443316648
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: floor_plan_psych_ward_0
+    100004: floor_plan_psych_ward_0 1
+    100006: floor_plan_psych_ward_0 10
+    100008: floor_plan_psych_ward_0 11
+    100010: floor_plan_psych_ward_0 12
+    100012: floor_plan_psych_ward_0 13
+    100014: floor_plan_psych_ward_0 14
+    100016: floor_plan_psych_ward_0 15
+    100018: floor_plan_psych_ward_0 16
+    100020: floor_plan_psych_ward_0 17
+    100022: floor_plan_psych_ward_0 18
+    100024: floor_plan_psych_ward_0 19
+    100026: floor_plan_psych_ward_0 2
+    100028: floor_plan_psych_ward_0 20
+    100030: floor_plan_psych_ward_0 21
+    100032: floor_plan_psych_ward_0 22
+    100034: floor_plan_psych_ward_0 23
+    100036: floor_plan_psych_ward_0 24
+    100038: floor_plan_psych_ward_0 25
+    100040: floor_plan_psych_ward_0 26
+    100042: floor_plan_psych_ward_0 27
+    100044: floor_plan_psych_ward_0 28
+    100046: floor_plan_psych_ward_0 29
+    100048: floor_plan_psych_ward_0 3
+    100050: floor_plan_psych_ward_0 30
+    100052: floor_plan_psych_ward_0 31
+    100054: floor_plan_psych_ward_0 32
+    100056: floor_plan_psych_ward_0 33
+    100058: floor_plan_psych_ward_0 34
+    100060: floor_plan_psych_ward_0 35
+    100062: floor_plan_psych_ward_0 4
+    100064: floor_plan_psych_ward_0 5
+    100066: floor_plan_psych_ward_0 6
+    100068: floor_plan_psych_ward_0 7
+    100070: floor_plan_psych_ward_0 8
+    100072: floor_plan_psych_ward_0 9
+    400000: //RootNode
+    400002: floor_plan_psych_ward_0
+    400004: floor_plan_psych_ward_0 1
+    400006: floor_plan_psych_ward_0 10
+    400008: floor_plan_psych_ward_0 11
+    400010: floor_plan_psych_ward_0 12
+    400012: floor_plan_psych_ward_0 13
+    400014: floor_plan_psych_ward_0 14
+    400016: floor_plan_psych_ward_0 15
+    400018: floor_plan_psych_ward_0 16
+    400020: floor_plan_psych_ward_0 17
+    400022: floor_plan_psych_ward_0 18
+    400024: floor_plan_psych_ward_0 19
+    400026: floor_plan_psych_ward_0 2
+    400028: floor_plan_psych_ward_0 20
+    400030: floor_plan_psych_ward_0 21
+    400032: floor_plan_psych_ward_0 22
+    400034: floor_plan_psych_ward_0 23
+    400036: floor_plan_psych_ward_0 24
+    400038: floor_plan_psych_ward_0 25
+    400040: floor_plan_psych_ward_0 26
+    400042: floor_plan_psych_ward_0 27
+    400044: floor_plan_psych_ward_0 28
+    400046: floor_plan_psych_ward_0 29
+    400048: floor_plan_psych_ward_0 3
+    400050: floor_plan_psych_ward_0 30
+    400052: floor_plan_psych_ward_0 31
+    400054: floor_plan_psych_ward_0 32
+    400056: floor_plan_psych_ward_0 33
+    400058: floor_plan_psych_ward_0 34
+    400060: floor_plan_psych_ward_0 35
+    400062: floor_plan_psych_ward_0 4
+    400064: floor_plan_psych_ward_0 5
+    400066: floor_plan_psych_ward_0 6
+    400068: floor_plan_psych_ward_0 7
+    400070: floor_plan_psych_ward_0 8
+    400072: floor_plan_psych_ward_0 9
+    2300000: floor_plan_psych_ward_0
+    2300002: floor_plan_psych_ward_0 1
+    2300004: floor_plan_psych_ward_0 10
+    2300006: floor_plan_psych_ward_0 11
+    2300008: floor_plan_psych_ward_0 12
+    2300010: floor_plan_psych_ward_0 13
+    2300012: floor_plan_psych_ward_0 14
+    2300014: floor_plan_psych_ward_0 15
+    2300016: floor_plan_psych_ward_0 16
+    2300018: floor_plan_psych_ward_0 17
+    2300020: floor_plan_psych_ward_0 18
+    2300022: floor_plan_psych_ward_0 19
+    2300024: floor_plan_psych_ward_0 2
+    2300026: floor_plan_psych_ward_0 20
+    2300028: floor_plan_psych_ward_0 21
+    2300030: floor_plan_psych_ward_0 22
+    2300032: floor_plan_psych_ward_0 23
+    2300034: floor_plan_psych_ward_0 24
+    2300036: floor_plan_psych_ward_0 25
+    2300038: floor_plan_psych_ward_0 26
+    2300040: floor_plan_psych_ward_0 27
+    2300042: floor_plan_psych_ward_0 28
+    2300044: floor_plan_psych_ward_0 29
+    2300046: floor_plan_psych_ward_0 3
+    2300048: floor_plan_psych_ward_0 30
+    2300050: floor_plan_psych_ward_0 31
+    2300052: floor_plan_psych_ward_0 32
+    2300054: floor_plan_psych_ward_0 33
+    2300056: floor_plan_psych_ward_0 34
+    2300058: floor_plan_psych_ward_0 35
+    2300060: floor_plan_psych_ward_0 4
+    2300062: floor_plan_psych_ward_0 5
+    2300064: floor_plan_psych_ward_0 6
+    2300066: floor_plan_psych_ward_0 7
+    2300068: floor_plan_psych_ward_0 8
+    2300070: floor_plan_psych_ward_0 9
+    3300000: floor_plan_psych_ward_0
+    3300002: floor_plan_psych_ward_0 1
+    3300004: floor_plan_psych_ward_0 10
+    3300006: floor_plan_psych_ward_0 11
+    3300008: floor_plan_psych_ward_0 12
+    3300010: floor_plan_psych_ward_0 13
+    3300012: floor_plan_psych_ward_0 14
+    3300014: floor_plan_psych_ward_0 15
+    3300016: floor_plan_psych_ward_0 16
+    3300018: floor_plan_psych_ward_0 17
+    3300020: floor_plan_psych_ward_0 18
+    3300022: floor_plan_psych_ward_0 19
+    3300024: floor_plan_psych_ward_0 2
+    3300026: floor_plan_psych_ward_0 20
+    3300028: floor_plan_psych_ward_0 21
+    3300030: floor_plan_psych_ward_0 22
+    3300032: floor_plan_psych_ward_0 23
+    3300034: floor_plan_psych_ward_0 24
+    3300036: floor_plan_psych_ward_0 25
+    3300038: floor_plan_psych_ward_0 26
+    3300040: floor_plan_psych_ward_0 27
+    3300042: floor_plan_psych_ward_0 28
+    3300044: floor_plan_psych_ward_0 29
+    3300046: floor_plan_psych_ward_0 3
+    3300048: floor_plan_psych_ward_0 30
+    3300050: floor_plan_psych_ward_0 31
+    3300052: floor_plan_psych_ward_0 32
+    3300054: floor_plan_psych_ward_0 33
+    3300056: floor_plan_psych_ward_0 34
+    3300058: floor_plan_psych_ward_0 35
+    3300060: floor_plan_psych_ward_0 4
+    3300062: floor_plan_psych_ward_0 5
+    3300064: floor_plan_psych_ward_0 6
+    3300066: floor_plan_psych_ward_0 7
+    3300068: floor_plan_psych_ward_0 8
+    3300070: floor_plan_psych_ward_0 9
+    4300000: floor_plan_psych_ward_0
+    4300002: floor_plan_psych_ward_0
+    4300004: floor_plan_psych_ward_0
+    4300006: floor_plan_psych_ward_0
+    4300008: floor_plan_psych_ward_0
+    4300010: floor_plan_psych_ward_0
+    4300012: floor_plan_psych_ward_0
+    4300014: floor_plan_psych_ward_0
+    4300016: floor_plan_psych_ward_0
+    4300018: floor_plan_psych_ward_0
+    4300020: floor_plan_psych_ward_0
+    4300022: floor_plan_psych_ward_0
+    4300024: floor_plan_psych_ward_0
+    4300026: floor_plan_psych_ward_0
+    4300028: floor_plan_psych_ward_0
+    4300030: floor_plan_psych_ward_0
+    4300032: floor_plan_psych_ward_0
+    4300034: floor_plan_psych_ward_0
+    4300036: floor_plan_psych_ward_0
+    4300038: floor_plan_psych_ward_0
+    4300040: floor_plan_psych_ward_0
+    4300042: floor_plan_psych_ward_0
+    4300044: floor_plan_psych_ward_0
+    4300046: floor_plan_psych_ward_0
+    4300048: floor_plan_psych_ward_0
+    4300050: floor_plan_psych_ward_0
+    4300052: floor_plan_psych_ward_0
+    4300054: floor_plan_psych_ward_0
+    4300056: floor_plan_psych_ward_0
+    4300058: floor_plan_psych_ward_0
+    4300060: floor_plan_psych_ward_0
+    4300062: floor_plan_psych_ward_0
+    4300064: floor_plan_psych_ward_0
+    4300066: floor_plan_psych_ward_0
+    4300068: floor_plan_psych_ward_0
+    4300070: floor_plan_psych_ward_0
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
