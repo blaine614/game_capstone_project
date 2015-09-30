@@ -16,7 +16,7 @@ public class SanityMeter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		float numberLost = Time.deltaTime * sanityLoseSpeed;
+		//float numberLost = Time.deltaTime * sanityLoseSpeed;
 		if (sanity > 0.0f) {
 			sanity -= Time.deltaTime * sanityLoseSpeed;
 		}
@@ -27,9 +27,9 @@ public class SanityMeter : MonoBehaviour {
 		visionAffect = 1 - sanity / 100.0f;
 		vision.radius.x = visionAffect;
 		vision.radius.y = visionAffect;
-		Debug.Log ("numberLost: " + numberLost);
-		Debug.Log ("visionAffect: " + visionAffect);
-		Debug.Log ("Sanity: " + sanity);
+		//Debug.Log ("numberLost: " + numberLost);
+		//Debug.Log ("visionAffect: " + visionAffect);
+		//Debug.Log ("Sanity: " + sanity);
 	}
 
     public void IncreaseSanity(float increase)
