@@ -18,7 +18,7 @@ public class SoundPuzzleMaster : MonoBehaviour {
 		audioSource.maxDistance = 10.0f;
 		audioSource.minDistance = 3.0f;
 		audioSource.spatialBlend = 1.0f;
-		audioSource.Play ();
+		//audioSource.Play ();
 	}
 	
 	// Update is called once per frame
@@ -29,8 +29,8 @@ public class SoundPuzzleMaster : MonoBehaviour {
 	}
 
 	void GetRandomHauntSound () {
-		audioSource.clip = Resources.Load ("Sounds/Music/HauntDCB", typeof(AudioClip)) as AudioClip;
-		SetOrder (0, 3, 2, 1);
+		//audioSource.clip = Resources.Load ("Sounds/Music/HauntDCB", typeof(AudioClip)) as AudioClip;
+		SetOrder (0, 3, 2, 1, 0, 0);
 	}
 
 	public void ReceiveSequence(int key) {
@@ -42,7 +42,7 @@ public class SoundPuzzleMaster : MonoBehaviour {
 		Debug.Log (currentPosition);
 	}
 
-	void SetOrder (int A, int B, int C, int D) {
+	void SetOrder (int A, int B, int C, int D, int E, int F) {
 		foreach (Transform keypad in transform) {
 			KeyPadInteractable keyPadInteractable = keypad.GetComponent<KeyPadInteractable>();
 			if(keypad.CompareTag("KeyPadA")) {
@@ -57,6 +57,12 @@ public class SoundPuzzleMaster : MonoBehaviour {
 			} else if(keypad.CompareTag("KeyPadD")) {
 				keyPadInteractable.SetOrder (D);
 				Debug.Log ("Found D");
+			} else if(keypad.CompareTag("KeyPadE")) {
+				keyPadInteractable.SetOrder (E);
+				Debug.Log ("Found E");
+			} else if(keypad.CompareTag("KeyPadF")) {
+				keyPadInteractable.SetOrder (F);
+				Debug.Log ("Found F");
 			}
 		}
 	}
