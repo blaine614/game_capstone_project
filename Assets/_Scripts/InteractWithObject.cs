@@ -1,12 +1,16 @@
 ﻿using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 using System.Collections;
 
 public class InteractWithObject : MonoBehaviour {
 	GameObject mainCamera;
 	public float distance;
+
+	private bool readingNote;
 	// Use this for initialization
 	void Start () {
 		mainCamera = GameObject.FindWithTag("MainCamera");
+		readingNote = false;
 	}
 	
 	// Update is called once per frame
@@ -32,8 +36,20 @@ public class InteractWithObject : MonoBehaviour {
             if (p.CompareTag("Pill")){
                 p.SetActive(false);
                 gameObject.GetComponent<SanityMeter>().IncreaseSanity(50.0f);
-            }
+            } else if (p.CompareTag("Note")){
+				ReadNote ();
+			}
 		}
+	}
+
+	void ReadNote() {
+		gameObject.GetComponent<RigidbodyFirstPersonController> ().movementSettings.ForwardSpeed = 0.0f;
+		gameObject.GetComponent<RigidbodyFirstPersonController> ().movementSettings.BackwardSpeed = 0.0f;
+		gameObject.GetComponent<RigidbodyFirstPersonController> ().movementSettings.StrafeSpeed = 0.0f;
+
+		gameObject.GetComponent<RigidbodyFirstPersonController> ().movementSettings.ForwardSpeed = 6.0f;
+		gameObject.GetComponent<RigidbodyFirstPersonController> ().movementSettings.BackwardSpeed = 3.0f;
+		gameObject.GetComponent<RigidbodyFirstPersonController> ().movementSettings.StrafeSpeed = 3.0f;
 	}
 }
 
