@@ -4,15 +4,23 @@ using System.Collections;
 public class SoundPuzzleMaster : MonoBehaviour {
 
 	public GameObject audioSourceGameObject;
+	public AudioClip audioClip;
+	public int A;
+	public int B;
+	public int C;
+	public int D;
+	public int E;
+	public int F;
 
 	private int currentPosition;
 	private AudioSource audioSource;
 
 	// Use this for initialization
 	void Start () {
+		SetOrder ();
 		currentPosition = 1;
 		audioSource = audioSourceGameObject.AddComponent<AudioSource>();
-		GetRandomHauntSound ();
+		audioSource.clip = audioClip;
 		audioSource.dopplerLevel = 0.0f;
 		audioSource.loop = true;
 		audioSource.maxDistance = 10.0f;
@@ -28,11 +36,6 @@ public class SoundPuzzleMaster : MonoBehaviour {
 		}
 	}
 
-	void GetRandomHauntSound () {
-		//audioSource.clip = Resources.Load ("Sounds/Music/HauntDCB", typeof(AudioClip)) as AudioClip;
-		SetOrder (0, 3, 2, 1, 0, 0);
-	}
-
 	public void ReceiveSequence(int key) {
 		if (currentPosition == key) {
 			currentPosition++;
@@ -42,7 +45,7 @@ public class SoundPuzzleMaster : MonoBehaviour {
 		Debug.Log (currentPosition);
 	}
 
-	void SetOrder (int A, int B, int C, int D, int E, int F) {
+	void SetOrder () {
 		foreach (Transform keypad in transform) {
 			KeyPadInteractable keyPadInteractable = keypad.GetComponent<KeyPadInteractable>();
 			if(keypad.CompareTag("KeyPadA")) {

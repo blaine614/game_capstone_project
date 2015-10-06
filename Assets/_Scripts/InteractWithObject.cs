@@ -61,6 +61,7 @@ public class InteractWithObject : MonoBehaviour {
 	}
 
 	void StopNote() {
+		readingNote = false;
 		canvas.GetComponent<Canvas>().enabled = false;
 		gameObject.GetComponent<RigidbodyFirstPersonController> ().mouseLook.XSensitivity = 2.0f;
 		gameObject.GetComponent<RigidbodyFirstPersonController> ().mouseLook.YSensitivity = 2.0f;
