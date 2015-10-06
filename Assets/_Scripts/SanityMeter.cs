@@ -6,12 +6,15 @@ public class SanityMeter : MonoBehaviour {
 
 	private float sanity = 100.0f;
 	public float sanityLoseSpeed = 5.0f;
-	private Twirl vision;
-	private float visionAffect = 0;
+    //private Twirl vision;
+    //private float visionAffect = 0;
+    private SanityFisheye vision;
+    private float visionAffect = 0;
 
 	// Use this for initialization
 	void Start () {
-		vision = gameObject.GetComponent<Twirl> ();
+        //vision = gameObject.GetComponent<Twirl> ();
+        vision = gameObject.GetComponent<SanityFisheye>();
 	}
 	
 	// Update is called once per frame
@@ -24,12 +27,18 @@ public class SanityMeter : MonoBehaviour {
         {
             sanity = 100.0f;
         }
+        if(sanity < 0.0f)
+        {
+            sanity = 0.0f;
+        }
 		visionAffect = 1 - sanity / 100.0f;
-		vision.radius.x = visionAffect;
-		vision.radius.y = visionAffect;
+        vision.strengthX = visionAffect;
+        vision.strengthY = visionAffect;
+		//vision.radius.x = visionAffect;
+		//vision.radius.y = visionAffect;
 		//Debug.Log ("numberLost: " + numberLost);
-		//Debug.Log ("visionAffect: " + visionAffect);
-		//Debug.Log ("Sanity: " + sanity);
+		Debug.Log ("visionAffect: " + visionAffect);
+		Debug.Log ("Sanity: " + sanity);
 	}
 
     public void IncreaseSanity(float increase)
