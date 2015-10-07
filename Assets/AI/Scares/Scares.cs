@@ -24,7 +24,7 @@ public class Scares : MonoBehaviour {
 				scare.SetActive(false);
 				remove.Add(scare);
 				//Debug.Log("finishing stage...");
-				SendMessage("FinishStage");
+				SendMessage("FinishStage", scare.name);
 			}
 		}
 		foreach (GameObject scare in remove) {
@@ -89,13 +89,12 @@ public class Scares : MonoBehaviour {
 	}
 
 	Vector3 FindScarePosition(ScareData.scareTypes scareType) {
-		const float SCARE_DEPTH = 2;
+		const float SCARE_DEPTH = 4;
 		const float SCARE_VARIANCE = 5;
-		const float SCARE_HEIGHT = 1;
+		float scareHeight = camera.transform.position.y;
 		Vector3 cameraPosition = camera.transform.position;
 		Vector3 scarePosition = cameraPosition;
 		Vector3 cameraDirection = camera.transform.forward;
-		Rect cameraRect = camera.rect;
 
 		switch (scareType) {
 		case ScareData.scareTypes.jump:
@@ -109,7 +108,7 @@ public class Scares : MonoBehaviour {
 			break;
 		}
 
-		scarePosition.y = SCARE_HEIGHT;
+		scarePosition.y = scareHeight;
 
 		return scarePosition;
 	}

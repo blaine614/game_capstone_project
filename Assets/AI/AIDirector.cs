@@ -41,6 +41,7 @@ public class AIDirector : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		relaxCounter -= Time.deltaTime;
+		//Debug.Log ("relaxCounter = " + relaxCounter + ", relaxOn = " + relaxOn + ", executing = " + executing);
 		if (relaxCounter <= 0 && relaxOn && !executing) {
 			//Debug.Log ("minor vs comedy");
 			relaxOn = false;
@@ -105,21 +106,24 @@ public class AIDirector : MonoBehaviour {
 		}
 	}
 
-	void FinishStage(){
+	void FinishStage(string scareName){
 		//Debug.Log ("finish stage");
 		executing = false;
+		if (!scareName.StartsWith("Min"))
+			relaxCounter = ReturnNormal () * COUNTER_MULTIPLIER;
 	}
 
 	void StartRelax() {
 		//Debug.Log ("start relax");
 		relaxOn = true;
 		scaredMeter = 0;
-		relaxCounter = ReturnNormal () * COUNTER_MULTIPLIER;
 	}
 
 	ScareData.minorScareTimes UniformRandomMinScare() {
-		int rand = Random.Range (1, 3);
+		int rand = Random.Range (1, 4);
 		ScareData.minorScareTimes scare;
+
+		Debug.Log ("rand = " + rand);
 
 		if (rand == 1)
 			scare = ScareData.minorScareTimes.Scare1;
@@ -132,8 +136,10 @@ public class AIDirector : MonoBehaviour {
 	}
 
 	ScareData.majorScareTimes UniformRandomMajScare() {
-		int rand = Random.Range (1, 3);
-		ScareData.majorScareTimes scare;// = SendMessage ("GetMajScareFromNum", rand, SendMessageOptions.DontRequireReceiver);
+		int rand = Random.Range (1, 4);
+		ScareData.majorScareTimes scare;
+
+		Debug.Log ("rand = " + rand);
 
 		if (rand ==1)
 			scare = ScareData.majorScareTimes.Scare1;
@@ -146,8 +152,10 @@ public class AIDirector : MonoBehaviour {
 	}
 
 	ScareData.comedyTimes UniformRandomComedy() {
-		int rand = Random.Range (1, 3);
+		int rand = Random.Range (1, 4);
 		ScareData.comedyTimes comedy;
+
+		Debug.Log ("rand = " + rand);
 
 		if (rand == 1)
 			comedy = ScareData.comedyTimes.Comedy1;
@@ -182,7 +190,7 @@ public class AIDirector : MonoBehaviour {
 	}
 
 	void UpdateScaredMeter() {
-		const float MAX_COUNT = 3;
+		const float MAX_COUNT = 2;
 
 		lastCameraDirection = camera.transform.forward;
 		scareMeterCounter = MAX_COUNT;

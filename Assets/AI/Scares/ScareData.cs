@@ -102,7 +102,7 @@ public class ScareData : MonoBehaviour {
 		}
 	}
 
-	minorScareTimes GetMinScareFromNum(int num) {
+	/*minorScareTimes GetMinScareFromNum(int num) {
 		minorScareTimes scare;
 		if (num == 1)
 			scare = minorScareTimes.Scare1;
@@ -111,9 +111,9 @@ public class ScareData : MonoBehaviour {
 		else
 			scare = minorScareTimes.Scare3;
 		return scare;
-	}
+	}*/
 
-	majorScareTimes GetMajScareFromNum(int num) {
+	/*majorScareTimes GetMajScareFromNum(int num) {
 		majorScareTimes scare;
 		if (num == 1)
 			scare = majorScareTimes.Scare1;
@@ -122,7 +122,7 @@ public class ScareData : MonoBehaviour {
 		else
 			scare = majorScareTimes.Scare3;
 		return scare;
-	}
+	}*/
 
 	Vector3 GetClosestDoor(Vector3 pos) {
 		ArrayList doors = new ArrayList ();
