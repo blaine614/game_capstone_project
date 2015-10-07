@@ -3,8 +3,9 @@ using System.Collections;
 
 public class SoundPuzzleMaster : MonoBehaviour {
 
-	public GameObject audioSourceGameObject;
-	public AudioClip audioClip;
+	//public GameObject audioSourceGameObject;
+	//public AudioClip audioClip;
+	public GameObject cube;
 	public int A;
 	public int B;
 	public int C;
@@ -19,26 +20,28 @@ public class SoundPuzzleMaster : MonoBehaviour {
 	void Start () {
 		SetOrder ();
 		currentPosition = 1;
-		audioSource = audioSourceGameObject.AddComponent<AudioSource>();
+		/*audioSource = audioSourceGameObject.AddComponent<AudioSource>();
 		audioSource.clip = audioClip;
 		audioSource.dopplerLevel = 0.0f;
 		audioSource.loop = true;
 		audioSource.maxDistance = 10.0f;
 		audioSource.minDistance = 3.0f;
-		audioSource.spatialBlend = 1.0f;
+		audioSource.spatialBlend = 1.0f;*/
 		//audioSource.Play ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (currentPosition >= 4) {
-			audioSource.Stop ();
+			//audioSource.Stop ();
+			cube.transform.Translate(new Vector3(0.0f, 0.0f, -4.0f));
 		}
 	}
 
 	public void ReceiveSequence(int key) {
 		if (currentPosition == key) {
 			currentPosition++;
+			Debug.Log (currentPosition);
 		} else {
 			currentPosition = 1;
 		}

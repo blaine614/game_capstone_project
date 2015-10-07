@@ -44,7 +44,7 @@ public class InteractWithObject : MonoBehaviour {
                 p.SetActive(false);
                 gameObject.GetComponent<SanityMeter>().IncreaseSanity(50.0f);
             } else if (p.CompareTag("Note")){
-				ReadNote ("Some note.");
+				ReadNote ("Easy as ABC.");
 			}
 		}
 	}
