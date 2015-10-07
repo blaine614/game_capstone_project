@@ -6,15 +6,15 @@ public class SanityMeter : MonoBehaviour {
 
 	private float sanity = 100.0f;
 	public float sanityLoseSpeed = 5.0f;
-    //private Twirl vision;
-    //private float visionAffect = 0;
-    private SanityFisheye vision;
-    private float visionAffect = 0;
+    private SanityFisheye warp;
+    private float warpAffect = 0;
+    private NoiseAndGrain color;
+    private float colorAffect = 0;
 
 	// Use this for initialization
 	void Start () {
-        //vision = gameObject.GetComponent<Twirl> ();
-        vision = gameObject.GetComponent<SanityFisheye>();
+        warp = gameObject.GetComponent<SanityFisheye>();
+        color = gameObject.GetComponent<NoiseAndGrain>();
 	}
 	
 	// Update is called once per frame
@@ -31,13 +31,21 @@ public class SanityMeter : MonoBehaviour {
         {
             sanity = 0.0f;
         }
-		visionAffect = 1 - sanity / 100.0f;
-        vision.strengthX = visionAffect;
-        vision.strengthY = visionAffect;
-		//vision.radius.x = visionAffect;
-		//vision.radius.y = visionAffect;
+
+        
+		warpAffect = sanity / 100.0f;
+        warpAffect *= .75f;
+        warpAffect = .75f - warpAffect;
+        warp.strengthX = warpAffect;
+        warp.strengthY = warpAffect;
+        
+        colorAffect = sanity / 100.0f;
+        colorAffect *= 5.0f;
+        colorAffect = 5.0f - colorAffect;
+        color.intensityMultiplier = colorAffect;
+
 		//Debug.Log ("numberLost: " + numberLost);
-		Debug.Log ("visionAffect: " + visionAffect);
+		//Debug.Log ("warpingAffect: " + visionAffect);
 		Debug.Log ("Sanity: " + sanity);
 	}
 
