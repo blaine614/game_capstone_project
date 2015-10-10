@@ -5,7 +5,7 @@ using UnityStandardAssets.ImageEffects;
 public class SanityMeter : MonoBehaviour {
 
 	private float sanity = 100.0f;
-	public float sanityLoseSpeed = 5.0f;
+	public float sanityLoseSpeed = 0.5f;
     private SanityFisheye warp;
     private float warpAffect = 0;
     private NoiseAndGrain color;
