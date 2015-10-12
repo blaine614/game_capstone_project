@@ -34,18 +34,21 @@ public class InteractWithObject : MonoBehaviour {
 		Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(new Vector3(x,y));
 		RaycastHit hit;
 		if(Physics.Raycast(ray, out hit)) {
-			Interactable i = hit.collider.GetComponent<Interactable>();
-			if(i != null) {
-				i.Action();
+			Interactable a = hit.collider.GetComponent<Interactable>();
+			if(a != null) {
+				a.Action();
 			}
 
-            GameObject p = hit.collider.gameObject;
+			NoteInteractable b = hit.collider.GetComponent<NoteInteractable>();
+			if(b != null) {
+				ReadNote (b.ReceiveNote());
+			}
+			
+			GameObject p = hit.collider.gameObject;
             if (p.CompareTag("Pill")){
                 p.SetActive(false);
                 gameObject.GetComponent<SanityMeter>().IncreaseSanity(50.0f);
-            } else if (p.CompareTag("Note")){
-				ReadNote ("Easy as ABC.");
-			}
+            }
 		}
 	}
 
