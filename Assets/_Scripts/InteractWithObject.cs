@@ -4,16 +4,18 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class InteractWithObject : MonoBehaviour {
-	GameObject mainCamera;
-	GameObject canvas;
 	public float distance;
+	public Font font;
 
-	private bool readingNote;
-	// Use this for initialization
+	private Camera mainCamera;
+	private GameObject display;
+	private bool readingNote = false;
+
 	void Start () {
-		mainCamera = GameObject.FindWithTag("MainCamera");
-		canvas = GameObject.FindWithTag ("Canvas");
-		readingNote = false;
+		mainCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
+		display = new GameObject ("Canvas");
+		SetupCanvas ();
+		SetupText ();
 	}
 	
 	// Update is called once per frame
@@ -31,9 +33,10 @@ public class InteractWithObject : MonoBehaviour {
 		int x = Screen.width / 2;
 		int y = Screen.height / 2;
 			
-		Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(new Vector3(x,y));
+		Ray ray = mainCamera.ScreenPointToRay(new Vector3(x,y));
 		RaycastHit hit;
 		if(Physics.Raycast(ray, out hit)) {
+
 			Interactable a = hit.collider.GetComponent<Interactable>();
 			if(a != null) {
 				a.Action();
@@ -54,23 +57,47 @@ public class InteractWithObject : MonoBehaviour {
 
 	void ReadNote(string note) {
 		readingNote = true;
-		canvas.GetComponent<Canvas>().enabled = true;
-		canvas.GetComponent<Text> ().text = note;
-		gameObject.GetComponent<RigidbodyFirstPersonController> ().mouseLook.XSensitivity = 0.0f;
-		gameObject.GetComponent<RigidbodyFirstPersonController> ().mouseLook.YSensitivity = 0.0f;
-		gameObject.GetComponent<RigidbodyFirstPersonController> ().movementSettings.ForwardSpeed = 0.0f;
-		gameObject.GetComponent<RigidbodyFirstPersonController> ().movementSettings.BackwardSpeed = 0.0f;
-		gameObject.GetComponent<RigidbodyFirstPersonController> ().movementSettings.StrafeSpeed = 0.0f;
+		display.GetComponent<Canvas>().enabled = true;
+		display.GetComponent<Text> ().text = note;
+		SetMovement (0.0f, 0.0f, 0.0f, 0.0f, 0.0f);
 	}
 
 	void StopNote() {
 		readingNote = false;
-		canvas.GetComponent<Canvas>().enabled = false;
-		gameObject.GetComponent<RigidbodyFirstPersonController> ().mouseLook.XSensitivity = 2.0f;
-		gameObject.GetComponent<RigidbodyFirstPersonController> ().mouseLook.YSensitivity = 2.0f;
-		gameObject.GetComponent<RigidbodyFirstPersonController> ().movementSettings.ForwardSpeed = 6.0f;
-		gameObject.GetComponent<RigidbodyFirstPersonController> ().movementSettings.BackwardSpeed = 3.0f;
-		gameObject.GetComponent<RigidbodyFirstPersonController> ().movementSettings.StrafeSpeed = 3.0f;
+		display.GetComponent<Canvas>().enabled = false;
+		display.GetComponent<Text> ().text = "";
+		SetMovement (2.0f, 2.0f, 6.0f, 3.0f, 3.0f);
+	}
+
+	void SetMovement(float xSense, float ySense, float forwardSpeed, float backwardSpeed, float strafeSpeed) {
+		RigidbodyFirstPersonController rfpc = gameObject.GetComponent<RigidbodyFirstPersonController> ();
+		rfpc.mouseLook.XSensitivity = ySense;
+		rfpc.mouseLook.YSensitivity = xSense;
+		rfpc.movementSettings.ForwardSpeed = forwardSpeed;
+		rfpc.movementSettings.BackwardSpeed = backwardSpeed;
+		rfpc.movementSettings.StrafeSpeed = strafeSpeed;
+	}
+
+	void SetupCanvas () {
+		Canvas canvas = display.AddComponent<Canvas> ();
+		canvas.enabled = false;
+		canvas.renderMode = RenderMode.ScreenSpaceCamera;
+		canvas.pixelPerfect = false;
+		canvas.worldCamera = mainCamera;
+		canvas.planeDistance = 0.35f;
+	}
+
+	void SetupText () {
+		Text text = display.AddComponent<Text> ();
+		text.font = font;
+		text.fontStyle = FontStyle.BoldAndItalic;
+		text.fontSize = 14;
+		text.supportRichText = true;
+		text.alignment = TextAnchor.MiddleCenter;
+		text.horizontalOverflow = HorizontalWrapMode.Wrap;
+		text.verticalOverflow = VerticalWrapMode.Truncate;
+		text.resizeTextForBestFit = true;
+		text.color = Color.white;
 	}
 }
 
