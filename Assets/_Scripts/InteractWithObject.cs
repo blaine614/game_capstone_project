@@ -91,7 +91,7 @@ public class InteractWithObject : MonoBehaviour {
 		Text text = display.AddComponent<Text> ();
 		text.font = font;
 		text.fontStyle = FontStyle.BoldAndItalic;
-		text.fontSize = 14;
+		text.fontSize = 12;
 		text.supportRichText = true;
 		text.alignment = TextAnchor.MiddleCenter;
 		text.horizontalOverflow = HorizontalWrapMode.Wrap;
