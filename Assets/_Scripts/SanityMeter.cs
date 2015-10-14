@@ -24,7 +24,6 @@ public class SanityMeter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//float numberLost = Time.deltaTime * sanityLoseSpeed;
 		if (sanity > 0.0f) {
 			sanity -= Time.deltaTime * sanityLoseSpeed;
 		}
@@ -34,7 +33,7 @@ public class SanityMeter : MonoBehaviour {
         }
         if(sanity <= 0.0f)
         {
-            Die();
+            StartCoroutine(Die());
         }
 
 		warpAffect = sanity / 100.0f;
@@ -56,20 +55,20 @@ public class SanityMeter : MonoBehaviour {
         sanity += increase;
     }
 
-    void Die()
+    IEnumerator Die()
     {
         if (controller.enabled) {
-            //transform.Rotate(0, 0, 90);
             controller.enabled = false;
-            //Debug.Log(transform.rotation);
         }
 
-        if(transform.localRotation.eulerAngles.z < 90)
+        if(transform.localRotation.eulerAngles.z < 90 || transform.localRotation.eulerAngles.z > 270)
         {
             transform.Rotate(Vector3.forward, Time.deltaTime * deathRotateSpeed, Space.World);
         }
         else
         {
+            float fadeTime = gameObject.GetComponent<Fading>().BeginFade(1);
+            yield return new WaitForSeconds(fadeTime);
             Application.LoadLevel(Application.loadedLevel);
         }
 

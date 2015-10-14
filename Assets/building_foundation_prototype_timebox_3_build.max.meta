@@ -192,6 +192,43 @@ ModelImporter:
     4300068: floor_plan_psych_ward_timebox_3_object
     4300070: floor_plan_psych_ward_timebox_3_object
     4300072: floor_plan_psych_ward_timebox_3_object
+    6400000: floor_plan_psych_ward_timebox_3_object
+    6400002: floor_plan_psych_ward_timebox_3_object 1
+    6400004: floor_plan_psych_ward_timebox_3_object 10
+    6400006: floor_plan_psych_ward_timebox_3_object 11
+    6400008: floor_plan_psych_ward_timebox_3_object 12
+    6400010: floor_plan_psych_ward_timebox_3_object 13
+    6400012: floor_plan_psych_ward_timebox_3_object 14
+    6400014: floor_plan_psych_ward_timebox_3_object 15
+    6400016: floor_plan_psych_ward_timebox_3_object 16
+    6400018: floor_plan_psych_ward_timebox_3_object 17
+    6400020: floor_plan_psych_ward_timebox_3_object 18
+    6400022: floor_plan_psych_ward_timebox_3_object 19
+    6400024: floor_plan_psych_ward_timebox_3_object 2
+    6400026: floor_plan_psych_ward_timebox_3_object 20
+    6400028: floor_plan_psych_ward_timebox_3_object 21
+    6400030: floor_plan_psych_ward_timebox_3_object 22
+    6400032: floor_plan_psych_ward_timebox_3_object 23
+    6400034: floor_plan_psych_ward_timebox_3_object 24
+    6400036: floor_plan_psych_ward_timebox_3_object 25
+    6400038: floor_plan_psych_ward_timebox_3_object 26
+    6400040: floor_plan_psych_ward_timebox_3_object 27
+    6400042: floor_plan_psych_ward_timebox_3_object 28
+    6400044: floor_plan_psych_ward_timebox_3_object 29
+    6400046: floor_plan_psych_ward_timebox_3_object 3
+    6400048: floor_plan_psych_ward_timebox_3_object 30
+    6400050: floor_plan_psych_ward_timebox_3_object 31
+    6400052: floor_plan_psych_ward_timebox_3_object 32
+    6400054: floor_plan_psych_ward_timebox_3_object 33
+    6400056: floor_plan_psych_ward_timebox_3_object 34
+    6400058: floor_plan_psych_ward_timebox_3_object 35
+    6400060: floor_plan_psych_ward_timebox_3_object 36
+    6400062: floor_plan_psych_ward_timebox_3_object 4
+    6400064: floor_plan_psych_ward_timebox_3_object 5
+    6400066: floor_plan_psych_ward_timebox_3_object 6
+    6400068: floor_plan_psych_ward_timebox_3_object 7
+    6400070: floor_plan_psych_ward_timebox_3_object 8
+    6400072: floor_plan_psych_ward_timebox_3_object 9
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -218,7 +255,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
