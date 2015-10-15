@@ -32,10 +32,10 @@ public class InteractWithObject : MonoBehaviour {
 	void Interact() {
 		int x = Screen.width / 2;
 		int y = Screen.height / 2;
-			
+
 		Ray ray = mainCamera.ScreenPointToRay(new Vector3(x,y));
 		RaycastHit hit;
-		if(Physics.Raycast(ray, out hit)) {
+		if(Physics.Raycast(ray, out hit, distance)) {
 
 			Interactable a = hit.collider.GetComponent<Interactable>();
 			if(a != null) {
