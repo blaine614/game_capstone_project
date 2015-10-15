@@ -46,6 +46,13 @@ ModelImporter:
     4300008: Boss-Extrude7[5]
     4300010: Boss-Extrude7[6]
     4300012: Boss-Extrude7[7]
+    6400000: Boss-Extrude7[1]
+    6400002: Boss-Extrude7[2]
+    6400004: Boss-Extrude7[3]
+    6400006: Boss-Extrude7[4]
+    6400008: Boss-Extrude7[5]
+    6400010: Boss-Extrude7[6]
+    6400012: Boss-Extrude7[7]
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -72,7 +79,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
