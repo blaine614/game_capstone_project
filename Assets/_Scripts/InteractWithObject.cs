@@ -50,7 +50,7 @@ public class InteractWithObject : MonoBehaviour {
 			GameObject p = hit.collider.gameObject;
             if (p.CompareTag("Pill")){
                 p.SetActive(false);
-                gameObject.GetComponent<SanityMeter>().IncreaseSanity(50.0f);
+                gameObject.GetComponentInChildren<SanityMeter>().IncreaseSanity(25.0f);
             }
 		}
 	}
