@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cc633396b5f95da4b916357a5508ee4f
+guid: 5d4ad3e61176f1844947a9ee2315d4d0
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
@@ -396,10 +396,8 @@ ModelImporter:
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
-    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
-  humanoidOversampling: 1
   additionalBone: 1
   userData: 
   assetBundleName: steve stuff
