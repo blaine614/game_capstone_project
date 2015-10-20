@@ -1,0 +1,1021 @@
+fileFormatVersion: 2
+guid: 3fe844812a118ec4ea9d87c60aa75f24
+timeCreated: 1445313805
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Shell
+    100004: Shell 1
+    100006: Shell 10
+    100008: Shell 11
+    100010: Shell 12
+    100012: Shell 13
+    100014: Shell 14
+    100016: Shell 15
+    100018: Shell 16
+    100020: Shell 17
+    100022: Shell 2
+    100024: Shell 3
+    100026: Shell 4
+    100028: Shell 5
+    100030: Shell 6
+    100032: Shell 7
+    100034: Shell 8
+    100036: Shell 9
+    100038: TrimSrf
+    100040: TrimSrf 1
+    100042: TrimSrf 10
+    100044: TrimSrf 100
+    100046: TrimSrf 101
+    100048: TrimSrf 102
+    100050: TrimSrf 103
+    100052: TrimSrf 104
+    100054: TrimSrf 105
+    100056: TrimSrf 106
+    100058: TrimSrf 107
+    100060: TrimSrf 108
+    100062: TrimSrf 109
+    100064: TrimSrf 11
+    100066: TrimSrf 110
+    100068: TrimSrf 111
+    100070: TrimSrf 112
+    100072: TrimSrf 113
+    100074: TrimSrf 114
+    100076: TrimSrf 115
+    100078: TrimSrf 116
+    100080: TrimSrf 117
+    100082: TrimSrf 118
+    100084: TrimSrf 119
+    100086: TrimSrf 12
+    100088: TrimSrf 120
+    100090: TrimSrf 121
+    100092: TrimSrf 122
+    100094: TrimSrf 123
+    100096: TrimSrf 124
+    100098: TrimSrf 125
+    100100: TrimSrf 126
+    100102: TrimSrf 127
+    100104: TrimSrf 128
+    100106: TrimSrf 129
+    100108: TrimSrf 13
+    100110: TrimSrf 130
+    100112: TrimSrf 131
+    100114: TrimSrf 132
+    100116: TrimSrf 133
+    100118: TrimSrf 134
+    100120: TrimSrf 135
+    100122: TrimSrf 136
+    100124: TrimSrf 137
+    100126: TrimSrf 138
+    100128: TrimSrf 139
+    100130: TrimSrf 14
+    100132: TrimSrf 140
+    100134: TrimSrf 141
+    100136: TrimSrf 142
+    100138: TrimSrf 143
+    100140: TrimSrf 144
+    100142: TrimSrf 145
+    100144: TrimSrf 146
+    100146: TrimSrf 147
+    100148: TrimSrf 148
+    100150: TrimSrf 149
+    100152: TrimSrf 15
+    100154: TrimSrf 150
+    100156: TrimSrf 151
+    100158: TrimSrf 152
+    100160: TrimSrf 153
+    100162: TrimSrf 154
+    100164: TrimSrf 155
+    100166: TrimSrf 156
+    100168: TrimSrf 157
+    100170: TrimSrf 158
+    100172: TrimSrf 159
+    100174: TrimSrf 16
+    100176: TrimSrf 160
+    100178: TrimSrf 161
+    100180: TrimSrf 161_MeshPart0
+    100182: TrimSrf 161_MeshPart1
+    100184: TrimSrf 162
+    100186: TrimSrf 162_MeshPart0
+    100188: TrimSrf 162_MeshPart1
+    100190: TrimSrf 163
+    100192: TrimSrf 164
+    100194: TrimSrf 165
+    100196: TrimSrf 166
+    100198: TrimSrf 167
+    100200: TrimSrf 168
+    100202: TrimSrf 17
+    100204: TrimSrf 18
+    100206: TrimSrf 19
+    100208: TrimSrf 2
+    100210: TrimSrf 20
+    100212: TrimSrf 21
+    100214: TrimSrf 22
+    100216: TrimSrf 23
+    100218: TrimSrf 24
+    100220: TrimSrf 25
+    100222: TrimSrf 26
+    100224: TrimSrf 27
+    100226: TrimSrf 28
+    100228: TrimSrf 29
+    100230: TrimSrf 3
+    100232: TrimSrf 30
+    100234: TrimSrf 31
+    100236: TrimSrf 32
+    100238: TrimSrf 33
+    100240: TrimSrf 34
+    100242: TrimSrf 35
+    100244: TrimSrf 36
+    100246: TrimSrf 37
+    100248: TrimSrf 38
+    100250: TrimSrf 39
+    100252: TrimSrf 4
+    100254: TrimSrf 40
+    100256: TrimSrf 41
+    100258: TrimSrf 42
+    100260: TrimSrf 43
+    100262: TrimSrf 44
+    100264: TrimSrf 45
+    100266: TrimSrf 46
+    100268: TrimSrf 47
+    100270: TrimSrf 48
+    100272: TrimSrf 49
+    100274: TrimSrf 5
+    100276: TrimSrf 50
+    100278: TrimSrf 51
+    100280: TrimSrf 52
+    100282: TrimSrf 53
+    100284: TrimSrf 54
+    100286: TrimSrf 55
+    100288: TrimSrf 56
+    100290: TrimSrf 57
+    100292: TrimSrf 58
+    100294: TrimSrf 59
+    100296: TrimSrf 6
+    100298: TrimSrf 60
+    100300: TrimSrf 61
+    100302: TrimSrf 62
+    100304: TrimSrf 63
+    100306: TrimSrf 64
+    100308: TrimSrf 65
+    100310: TrimSrf 66
+    100312: TrimSrf 67
+    100314: TrimSrf 68
+    100316: TrimSrf 69
+    100318: TrimSrf 7
+    100320: TrimSrf 70
+    100322: TrimSrf 71
+    100324: TrimSrf 72
+    100326: TrimSrf 73
+    100328: TrimSrf 74
+    100330: TrimSrf 75
+    100332: TrimSrf 76
+    100334: TrimSrf 77
+    100336: TrimSrf 78
+    100338: TrimSrf 79
+    100340: TrimSrf 8
+    100342: TrimSrf 80
+    100344: TrimSrf 81
+    100346: TrimSrf 82
+    100348: TrimSrf 83
+    100350: TrimSrf 84
+    100352: TrimSrf 85
+    100354: TrimSrf 86
+    100356: TrimSrf 87
+    100358: TrimSrf 88
+    100360: TrimSrf 89
+    100362: TrimSrf 9
+    100364: TrimSrf 90
+    100366: TrimSrf 91
+    100368: TrimSrf 92
+    100370: TrimSrf 93
+    100372: TrimSrf 94
+    100374: TrimSrf 95
+    100376: TrimSrf 96
+    100378: TrimSrf 97
+    100380: TrimSrf 98
+    100382: TrimSrf 99
+    400000: //RootNode
+    400002: Shell
+    400004: Shell 1
+    400006: Shell 10
+    400008: Shell 11
+    400010: Shell 12
+    400012: Shell 13
+    400014: Shell 14
+    400016: Shell 15
+    400018: Shell 16
+    400020: Shell 17
+    400022: Shell 2
+    400024: Shell 3
+    400026: Shell 4
+    400028: Shell 5
+    400030: Shell 6
+    400032: Shell 7
+    400034: Shell 8
+    400036: Shell 9
+    400038: TrimSrf
+    400040: TrimSrf 1
+    400042: TrimSrf 10
+    400044: TrimSrf 100
+    400046: TrimSrf 101
+    400048: TrimSrf 102
+    400050: TrimSrf 103
+    400052: TrimSrf 104
+    400054: TrimSrf 105
+    400056: TrimSrf 106
+    400058: TrimSrf 107
+    400060: TrimSrf 108
+    400062: TrimSrf 109
+    400064: TrimSrf 11
+    400066: TrimSrf 110
+    400068: TrimSrf 111
+    400070: TrimSrf 112
+    400072: TrimSrf 113
+    400074: TrimSrf 114
+    400076: TrimSrf 115
+    400078: TrimSrf 116
+    400080: TrimSrf 117
+    400082: TrimSrf 118
+    400084: TrimSrf 119
+    400086: TrimSrf 12
+    400088: TrimSrf 120
+    400090: TrimSrf 121
+    400092: TrimSrf 122
+    400094: TrimSrf 123
+    400096: TrimSrf 124
+    400098: TrimSrf 125
+    400100: TrimSrf 126
+    400102: TrimSrf 127
+    400104: TrimSrf 128
+    400106: TrimSrf 129
+    400108: TrimSrf 13
+    400110: TrimSrf 130
+    400112: TrimSrf 131
+    400114: TrimSrf 132
+    400116: TrimSrf 133
+    400118: TrimSrf 134
+    400120: TrimSrf 135
+    400122: TrimSrf 136
+    400124: TrimSrf 137
+    400126: TrimSrf 138
+    400128: TrimSrf 139
+    400130: TrimSrf 14
+    400132: TrimSrf 140
+    400134: TrimSrf 141
+    400136: TrimSrf 142
+    400138: TrimSrf 143
+    400140: TrimSrf 144
+    400142: TrimSrf 145
+    400144: TrimSrf 146
+    400146: TrimSrf 147
+    400148: TrimSrf 148
+    400150: TrimSrf 149
+    400152: TrimSrf 15
+    400154: TrimSrf 150
+    400156: TrimSrf 151
+    400158: TrimSrf 152
+    400160: TrimSrf 153
+    400162: TrimSrf 154
+    400164: TrimSrf 155
+    400166: TrimSrf 156
+    400168: TrimSrf 157
+    400170: TrimSrf 158
+    400172: TrimSrf 159
+    400174: TrimSrf 16
+    400176: TrimSrf 160
+    400178: TrimSrf 161
+    400180: TrimSrf 161_MeshPart0
+    400182: TrimSrf 161_MeshPart1
+    400184: TrimSrf 162
+    400186: TrimSrf 162_MeshPart0
+    400188: TrimSrf 162_MeshPart1
+    400190: TrimSrf 163
+    400192: TrimSrf 164
+    400194: TrimSrf 165
+    400196: TrimSrf 166
+    400198: TrimSrf 167
+    400200: TrimSrf 168
+    400202: TrimSrf 17
+    400204: TrimSrf 18
+    400206: TrimSrf 19
+    400208: TrimSrf 2
+    400210: TrimSrf 20
+    400212: TrimSrf 21
+    400214: TrimSrf 22
+    400216: TrimSrf 23
+    400218: TrimSrf 24
+    400220: TrimSrf 25
+    400222: TrimSrf 26
+    400224: TrimSrf 27
+    400226: TrimSrf 28
+    400228: TrimSrf 29
+    400230: TrimSrf 3
+    400232: TrimSrf 30
+    400234: TrimSrf 31
+    400236: TrimSrf 32
+    400238: TrimSrf 33
+    400240: TrimSrf 34
+    400242: TrimSrf 35
+    400244: TrimSrf 36
+    400246: TrimSrf 37
+    400248: TrimSrf 38
+    400250: TrimSrf 39
+    400252: TrimSrf 4
+    400254: TrimSrf 40
+    400256: TrimSrf 41
+    400258: TrimSrf 42
+    400260: TrimSrf 43
+    400262: TrimSrf 44
+    400264: TrimSrf 45
+    400266: TrimSrf 46
+    400268: TrimSrf 47
+    400270: TrimSrf 48
+    400272: TrimSrf 49
+    400274: TrimSrf 5
+    400276: TrimSrf 50
+    400278: TrimSrf 51
+    400280: TrimSrf 52
+    400282: TrimSrf 53
+    400284: TrimSrf 54
+    400286: TrimSrf 55
+    400288: TrimSrf 56
+    400290: TrimSrf 57
+    400292: TrimSrf 58
+    400294: TrimSrf 59
+    400296: TrimSrf 6
+    400298: TrimSrf 60
+    400300: TrimSrf 61
+    400302: TrimSrf 62
+    400304: TrimSrf 63
+    400306: TrimSrf 64
+    400308: TrimSrf 65
+    400310: TrimSrf 66
+    400312: TrimSrf 67
+    400314: TrimSrf 68
+    400316: TrimSrf 69
+    400318: TrimSrf 7
+    400320: TrimSrf 70
+    400322: TrimSrf 71
+    400324: TrimSrf 72
+    400326: TrimSrf 73
+    400328: TrimSrf 74
+    400330: TrimSrf 75
+    400332: TrimSrf 76
+    400334: TrimSrf 77
+    400336: TrimSrf 78
+    400338: TrimSrf 79
+    400340: TrimSrf 8
+    400342: TrimSrf 80
+    400344: TrimSrf 81
+    400346: TrimSrf 82
+    400348: TrimSrf 83
+    400350: TrimSrf 84
+    400352: TrimSrf 85
+    400354: TrimSrf 86
+    400356: TrimSrf 87
+    400358: TrimSrf 88
+    400360: TrimSrf 89
+    400362: TrimSrf 9
+    400364: TrimSrf 90
+    400366: TrimSrf 91
+    400368: TrimSrf 92
+    400370: TrimSrf 93
+    400372: TrimSrf 94
+    400374: TrimSrf 95
+    400376: TrimSrf 96
+    400378: TrimSrf 97
+    400380: TrimSrf 98
+    400382: TrimSrf 99
+    2300000: Shell
+    2300002: Shell 1
+    2300004: Shell 10
+    2300006: Shell 11
+    2300008: Shell 12
+    2300010: Shell 13
+    2300012: Shell 14
+    2300014: Shell 15
+    2300016: Shell 16
+    2300018: Shell 17
+    2300020: Shell 2
+    2300022: Shell 3
+    2300024: Shell 4
+    2300026: Shell 5
+    2300028: Shell 6
+    2300030: Shell 7
+    2300032: Shell 8
+    2300034: Shell 9
+    2300036: TrimSrf
+    2300038: TrimSrf 1
+    2300040: TrimSrf 10
+    2300042: TrimSrf 100
+    2300044: TrimSrf 101
+    2300046: TrimSrf 102
+    2300048: TrimSrf 103
+    2300050: TrimSrf 104
+    2300052: TrimSrf 105
+    2300054: TrimSrf 106
+    2300056: TrimSrf 107
+    2300058: TrimSrf 108
+    2300060: TrimSrf 109
+    2300062: TrimSrf 11
+    2300064: TrimSrf 110
+    2300066: TrimSrf 111
+    2300068: TrimSrf 112
+    2300070: TrimSrf 113
+    2300072: TrimSrf 114
+    2300074: TrimSrf 115
+    2300076: TrimSrf 116
+    2300078: TrimSrf 117
+    2300080: TrimSrf 118
+    2300082: TrimSrf 119
+    2300084: TrimSrf 12
+    2300086: TrimSrf 120
+    2300088: TrimSrf 121
+    2300090: TrimSrf 122
+    2300092: TrimSrf 123
+    2300094: TrimSrf 124
+    2300096: TrimSrf 125
+    2300098: TrimSrf 126
+    2300100: TrimSrf 127
+    2300102: TrimSrf 128
+    2300104: TrimSrf 129
+    2300106: TrimSrf 13
+    2300108: TrimSrf 130
+    2300110: TrimSrf 131
+    2300112: TrimSrf 132
+    2300114: TrimSrf 133
+    2300116: TrimSrf 134
+    2300118: TrimSrf 135
+    2300120: TrimSrf 136
+    2300122: TrimSrf 137
+    2300124: TrimSrf 138
+    2300126: TrimSrf 139
+    2300128: TrimSrf 14
+    2300130: TrimSrf 140
+    2300132: TrimSrf 141
+    2300134: TrimSrf 142
+    2300136: TrimSrf 143
+    2300138: TrimSrf 144
+    2300140: TrimSrf 145
+    2300142: TrimSrf 146
+    2300144: TrimSrf 147
+    2300146: TrimSrf 148
+    2300148: TrimSrf 149
+    2300150: TrimSrf 15
+    2300152: TrimSrf 150
+    2300154: TrimSrf 151
+    2300156: TrimSrf 152
+    2300158: TrimSrf 153
+    2300160: TrimSrf 154
+    2300162: TrimSrf 155
+    2300164: TrimSrf 156
+    2300166: TrimSrf 157
+    2300168: TrimSrf 158
+    2300170: TrimSrf 159
+    2300172: TrimSrf 16
+    2300174: TrimSrf 160
+    2300176: TrimSrf 161_MeshPart0
+    2300178: TrimSrf 161_MeshPart1
+    2300180: TrimSrf 162_MeshPart0
+    2300182: TrimSrf 162_MeshPart1
+    2300184: TrimSrf 163
+    2300186: TrimSrf 164
+    2300188: TrimSrf 165
+    2300190: TrimSrf 166
+    2300192: TrimSrf 167
+    2300194: TrimSrf 168
+    2300196: TrimSrf 17
+    2300198: TrimSrf 18
+    2300200: TrimSrf 19
+    2300202: TrimSrf 2
+    2300204: TrimSrf 20
+    2300206: TrimSrf 21
+    2300208: TrimSrf 22
+    2300210: TrimSrf 23
+    2300212: TrimSrf 24
+    2300214: TrimSrf 25
+    2300216: TrimSrf 26
+    2300218: TrimSrf 27
+    2300220: TrimSrf 28
+    2300222: TrimSrf 29
+    2300224: TrimSrf 3
+    2300226: TrimSrf 30
+    2300228: TrimSrf 31
+    2300230: TrimSrf 32
+    2300232: TrimSrf 33
+    2300234: TrimSrf 34
+    2300236: TrimSrf 35
+    2300238: TrimSrf 36
+    2300240: TrimSrf 37
+    2300242: TrimSrf 38
+    2300244: TrimSrf 39
+    2300246: TrimSrf 4
+    2300248: TrimSrf 40
+    2300250: TrimSrf 41
+    2300252: TrimSrf 42
+    2300254: TrimSrf 43
+    2300256: TrimSrf 44
+    2300258: TrimSrf 45
+    2300260: TrimSrf 46
+    2300262: TrimSrf 47
+    2300264: TrimSrf 48
+    2300266: TrimSrf 49
+    2300268: TrimSrf 5
+    2300270: TrimSrf 50
+    2300272: TrimSrf 51
+    2300274: TrimSrf 52
+    2300276: TrimSrf 53
+    2300278: TrimSrf 54
+    2300280: TrimSrf 55
+    2300282: TrimSrf 56
+    2300284: TrimSrf 57
+    2300286: TrimSrf 58
+    2300288: TrimSrf 59
+    2300290: TrimSrf 6
+    2300292: TrimSrf 60
+    2300294: TrimSrf 61
+    2300296: TrimSrf 62
+    2300298: TrimSrf 63
+    2300300: TrimSrf 64
+    2300302: TrimSrf 65
+    2300304: TrimSrf 66
+    2300306: TrimSrf 67
+    2300308: TrimSrf 68
+    2300310: TrimSrf 69
+    2300312: TrimSrf 7
+    2300314: TrimSrf 70
+    2300316: TrimSrf 71
+    2300318: TrimSrf 72
+    2300320: TrimSrf 73
+    2300322: TrimSrf 74
+    2300324: TrimSrf 75
+    2300326: TrimSrf 76
+    2300328: TrimSrf 77
+    2300330: TrimSrf 78
+    2300332: TrimSrf 79
+    2300334: TrimSrf 8
+    2300336: TrimSrf 80
+    2300338: TrimSrf 81
+    2300340: TrimSrf 82
+    2300342: TrimSrf 83
+    2300344: TrimSrf 84
+    2300346: TrimSrf 85
+    2300348: TrimSrf 86
+    2300350: TrimSrf 87
+    2300352: TrimSrf 88
+    2300354: TrimSrf 89
+    2300356: TrimSrf 9
+    2300358: TrimSrf 90
+    2300360: TrimSrf 91
+    2300362: TrimSrf 92
+    2300364: TrimSrf 93
+    2300366: TrimSrf 94
+    2300368: TrimSrf 95
+    2300370: TrimSrf 96
+    2300372: TrimSrf 97
+    2300374: TrimSrf 98
+    2300376: TrimSrf 99
+    3300000: Shell
+    3300002: Shell 1
+    3300004: Shell 10
+    3300006: Shell 11
+    3300008: Shell 12
+    3300010: Shell 13
+    3300012: Shell 14
+    3300014: Shell 15
+    3300016: Shell 16
+    3300018: Shell 17
+    3300020: Shell 2
+    3300022: Shell 3
+    3300024: Shell 4
+    3300026: Shell 5
+    3300028: Shell 6
+    3300030: Shell 7
+    3300032: Shell 8
+    3300034: Shell 9
+    3300036: TrimSrf
+    3300038: TrimSrf 1
+    3300040: TrimSrf 10
+    3300042: TrimSrf 100
+    3300044: TrimSrf 101
+    3300046: TrimSrf 102
+    3300048: TrimSrf 103
+    3300050: TrimSrf 104
+    3300052: TrimSrf 105
+    3300054: TrimSrf 106
+    3300056: TrimSrf 107
+    3300058: TrimSrf 108
+    3300060: TrimSrf 109
+    3300062: TrimSrf 11
+    3300064: TrimSrf 110
+    3300066: TrimSrf 111
+    3300068: TrimSrf 112
+    3300070: TrimSrf 113
+    3300072: TrimSrf 114
+    3300074: TrimSrf 115
+    3300076: TrimSrf 116
+    3300078: TrimSrf 117
+    3300080: TrimSrf 118
+    3300082: TrimSrf 119
+    3300084: TrimSrf 12
+    3300086: TrimSrf 120
+    3300088: TrimSrf 121
+    3300090: TrimSrf 122
+    3300092: TrimSrf 123
+    3300094: TrimSrf 124
+    3300096: TrimSrf 125
+    3300098: TrimSrf 126
+    3300100: TrimSrf 127
+    3300102: TrimSrf 128
+    3300104: TrimSrf 129
+    3300106: TrimSrf 13
+    3300108: TrimSrf 130
+    3300110: TrimSrf 131
+    3300112: TrimSrf 132
+    3300114: TrimSrf 133
+    3300116: TrimSrf 134
+    3300118: TrimSrf 135
+    3300120: TrimSrf 136
+    3300122: TrimSrf 137
+    3300124: TrimSrf 138
+    3300126: TrimSrf 139
+    3300128: TrimSrf 14
+    3300130: TrimSrf 140
+    3300132: TrimSrf 141
+    3300134: TrimSrf 142
+    3300136: TrimSrf 143
+    3300138: TrimSrf 144
+    3300140: TrimSrf 145
+    3300142: TrimSrf 146
+    3300144: TrimSrf 147
+    3300146: TrimSrf 148
+    3300148: TrimSrf 149
+    3300150: TrimSrf 15
+    3300152: TrimSrf 150
+    3300154: TrimSrf 151
+    3300156: TrimSrf 152
+    3300158: TrimSrf 153
+    3300160: TrimSrf 154
+    3300162: TrimSrf 155
+    3300164: TrimSrf 156
+    3300166: TrimSrf 157
+    3300168: TrimSrf 158
+    3300170: TrimSrf 159
+    3300172: TrimSrf 16
+    3300174: TrimSrf 160
+    3300176: TrimSrf 161_MeshPart0
+    3300178: TrimSrf 161_MeshPart1
+    3300180: TrimSrf 162_MeshPart0
+    3300182: TrimSrf 162_MeshPart1
+    3300184: TrimSrf 163
+    3300186: TrimSrf 164
+    3300188: TrimSrf 165
+    3300190: TrimSrf 166
+    3300192: TrimSrf 167
+    3300194: TrimSrf 168
+    3300196: TrimSrf 17
+    3300198: TrimSrf 18
+    3300200: TrimSrf 19
+    3300202: TrimSrf 2
+    3300204: TrimSrf 20
+    3300206: TrimSrf 21
+    3300208: TrimSrf 22
+    3300210: TrimSrf 23
+    3300212: TrimSrf 24
+    3300214: TrimSrf 25
+    3300216: TrimSrf 26
+    3300218: TrimSrf 27
+    3300220: TrimSrf 28
+    3300222: TrimSrf 29
+    3300224: TrimSrf 3
+    3300226: TrimSrf 30
+    3300228: TrimSrf 31
+    3300230: TrimSrf 32
+    3300232: TrimSrf 33
+    3300234: TrimSrf 34
+    3300236: TrimSrf 35
+    3300238: TrimSrf 36
+    3300240: TrimSrf 37
+    3300242: TrimSrf 38
+    3300244: TrimSrf 39
+    3300246: TrimSrf 4
+    3300248: TrimSrf 40
+    3300250: TrimSrf 41
+    3300252: TrimSrf 42
+    3300254: TrimSrf 43
+    3300256: TrimSrf 44
+    3300258: TrimSrf 45
+    3300260: TrimSrf 46
+    3300262: TrimSrf 47
+    3300264: TrimSrf 48
+    3300266: TrimSrf 49
+    3300268: TrimSrf 5
+    3300270: TrimSrf 50
+    3300272: TrimSrf 51
+    3300274: TrimSrf 52
+    3300276: TrimSrf 53
+    3300278: TrimSrf 54
+    3300280: TrimSrf 55
+    3300282: TrimSrf 56
+    3300284: TrimSrf 57
+    3300286: TrimSrf 58
+    3300288: TrimSrf 59
+    3300290: TrimSrf 6
+    3300292: TrimSrf 60
+    3300294: TrimSrf 61
+    3300296: TrimSrf 62
+    3300298: TrimSrf 63
+    3300300: TrimSrf 64
+    3300302: TrimSrf 65
+    3300304: TrimSrf 66
+    3300306: TrimSrf 67
+    3300308: TrimSrf 68
+    3300310: TrimSrf 69
+    3300312: TrimSrf 7
+    3300314: TrimSrf 70
+    3300316: TrimSrf 71
+    3300318: TrimSrf 72
+    3300320: TrimSrf 73
+    3300322: TrimSrf 74
+    3300324: TrimSrf 75
+    3300326: TrimSrf 76
+    3300328: TrimSrf 77
+    3300330: TrimSrf 78
+    3300332: TrimSrf 79
+    3300334: TrimSrf 8
+    3300336: TrimSrf 80
+    3300338: TrimSrf 81
+    3300340: TrimSrf 82
+    3300342: TrimSrf 83
+    3300344: TrimSrf 84
+    3300346: TrimSrf 85
+    3300348: TrimSrf 86
+    3300350: TrimSrf 87
+    3300352: TrimSrf 88
+    3300354: TrimSrf 89
+    3300356: TrimSrf 9
+    3300358: TrimSrf 90
+    3300360: TrimSrf 91
+    3300362: TrimSrf 92
+    3300364: TrimSrf 93
+    3300366: TrimSrf 94
+    3300368: TrimSrf 95
+    3300370: TrimSrf 96
+    3300372: TrimSrf 97
+    3300374: TrimSrf 98
+    3300376: TrimSrf 99
+    4300000: TrimSrf
+    4300002: TrimSrf
+    4300004: TrimSrf
+    4300006: TrimSrf
+    4300008: TrimSrf
+    4300010: TrimSrf
+    4300012: TrimSrf
+    4300014: TrimSrf
+    4300016: TrimSrf
+    4300018: TrimSrf
+    4300020: TrimSrf
+    4300022: TrimSrf
+    4300024: TrimSrf
+    4300026: TrimSrf
+    4300028: TrimSrf
+    4300030: TrimSrf
+    4300032: TrimSrf
+    4300034: TrimSrf
+    4300036: TrimSrf
+    4300038: Shell
+    4300040: Shell
+    4300042: TrimSrf
+    4300044: TrimSrf
+    4300046: TrimSrf
+    4300048: TrimSrf
+    4300050: Shell
+    4300052: Shell
+    4300054: Shell
+    4300056: Shell
+    4300058: TrimSrf
+    4300060: TrimSrf
+    4300062: TrimSrf
+    4300064: TrimSrf
+    4300066: TrimSrf
+    4300068: TrimSrf
+    4300070: TrimSrf
+    4300072: TrimSrf
+    4300074: TrimSrf
+    4300076: TrimSrf
+    4300078: TrimSrf
+    4300080: TrimSrf
+    4300082: TrimSrf
+    4300084: TrimSrf
+    4300086: TrimSrf
+    4300088: TrimSrf
+    4300090: TrimSrf
+    4300092: TrimSrf
+    4300094: TrimSrf
+    4300096: TrimSrf
+    4300098: TrimSrf
+    4300100: TrimSrf
+    4300102: TrimSrf
+    4300104: TrimSrf
+    4300106: TrimSrf
+    4300108: TrimSrf
+    4300110: TrimSrf
+    4300112: TrimSrf
+    4300114: TrimSrf
+    4300116: TrimSrf
+    4300118: TrimSrf
+    4300120: TrimSrf
+    4300122: TrimSrf
+    4300124: TrimSrf
+    4300126: TrimSrf
+    4300128: TrimSrf
+    4300130: TrimSrf
+    4300132: TrimSrf
+    4300134: TrimSrf
+    4300136: TrimSrf
+    4300138: TrimSrf
+    4300140: TrimSrf
+    4300142: TrimSrf
+    4300144: TrimSrf
+    4300146: TrimSrf
+    4300148: TrimSrf
+    4300150: TrimSrf
+    4300152: TrimSrf
+    4300154: TrimSrf
+    4300156: TrimSrf
+    4300158: TrimSrf
+    4300160: TrimSrf
+    4300162: TrimSrf
+    4300164: TrimSrf
+    4300166: TrimSrf
+    4300168: TrimSrf
+    4300170: TrimSrf
+    4300172: TrimSrf
+    4300174: TrimSrf
+    4300176: TrimSrf
+    4300178: TrimSrf
+    4300180: TrimSrf
+    4300182: TrimSrf
+    4300184: TrimSrf
+    4300186: TrimSrf
+    4300188: Shell
+    4300190: Shell
+    4300192: TrimSrf
+    4300194: TrimSrf
+    4300196: TrimSrf
+    4300198: TrimSrf
+    4300200: Shell
+    4300202: Shell
+    4300204: Shell
+    4300206: Shell
+    4300208: TrimSrf
+    4300210: TrimSrf
+    4300212: TrimSrf
+    4300214: TrimSrf
+    4300216: TrimSrf
+    4300218: TrimSrf
+    4300220: TrimSrf
+    4300222: TrimSrf
+    4300224: TrimSrf
+    4300226: TrimSrf
+    4300228: TrimSrf
+    4300230: TrimSrf
+    4300232: TrimSrf
+    4300234: TrimSrf
+    4300236: TrimSrf
+    4300238: TrimSrf
+    4300240: TrimSrf
+    4300242: TrimSrf
+    4300244: TrimSrf
+    4300246: TrimSrf
+    4300248: TrimSrf
+    4300250: TrimSrf
+    4300252: TrimSrf
+    4300254: TrimSrf
+    4300256: TrimSrf
+    4300258: TrimSrf
+    4300260: TrimSrf
+    4300262: TrimSrf
+    4300264: TrimSrf
+    4300266: TrimSrf
+    4300268: TrimSrf
+    4300270: TrimSrf
+    4300272: TrimSrf
+    4300274: TrimSrf
+    4300276: TrimSrf
+    4300278: TrimSrf
+    4300280: TrimSrf
+    4300282: TrimSrf
+    4300284: TrimSrf
+    4300286: TrimSrf
+    4300288: TrimSrf
+    4300290: TrimSrf
+    4300292: TrimSrf
+    4300294: TrimSrf
+    4300296: TrimSrf
+    4300298: TrimSrf
+    4300300: TrimSrf
+    4300302: TrimSrf
+    4300304: TrimSrf
+    4300306: TrimSrf
+    4300308: TrimSrf
+    4300310: TrimSrf
+    4300312: TrimSrf
+    4300314: TrimSrf
+    4300316: TrimSrf
+    4300318: TrimSrf
+    4300320: TrimSrf
+    4300322: TrimSrf
+    4300324: TrimSrf
+    4300326: TrimSrf
+    4300328: TrimSrf
+    4300330: TrimSrf
+    4300332: TrimSrf
+    4300334: TrimSrf
+    4300336: TrimSrf
+    4300338: TrimSrf
+    4300340: TrimSrf
+    4300342: TrimSrf
+    4300344: TrimSrf
+    4300346: TrimSrf
+    4300348: TrimSrf
+    4300350: TrimSrf
+    4300352: TrimSrf
+    4300354: TrimSrf
+    4300356: TrimSrf
+    4300358: TrimSrf_MeshPart0
+    4300360: TrimSrf_MeshPart1
+    4300362: TrimSrf_MeshPart0
+    4300364: TrimSrf_MeshPart1
+    4300366: Shell
+    4300368: Shell
+    4300370: Shell
+    4300372: Shell
+    4300374: Shell
+    4300376: Shell
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
