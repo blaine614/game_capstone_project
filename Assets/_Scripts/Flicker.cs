@@ -6,10 +6,11 @@ public class Flicker : MonoBehaviour {
 	public Light flashingLight;
 	// public Light secondFlashingLight;
 	private float randomNumber;
-	public Material[] materials;
-	public GameObject sphere;
+	private Material[] Led_materials;
+	public Material Change_UP, Change_Down;
+	public GameObject Led;
 	void Start(){
-		
+		Led_materials = Led.GetComponent<Renderer>().materials;
 		flashingLight.enabled = false;
 		//secondFlashingLight.enabled = false;
 	}
@@ -20,15 +21,14 @@ public class Flicker : MonoBehaviour {
 		randomNumber = Random.value;
 		
 		if (randomNumber <= 0.95f) {
-
-			sphere.GetComponent<Renderer>().material = materials[0];
-			flashingLight.enabled = true;
-			// secondFlashingLight.enabled = true;
-		} else {
-			sphere.GetComponent<Renderer>().material = materials[1];
-			flashingLight.enabled = false;
-			//  secondFlashingLight.enabled = false;
 			
+			flashingLight.enabled = true;
+			Led_materials[3] = Change_UP;
+			Led.GetComponent<Renderer>().materials = Led_materials;
+		} else {
+			Led_materials[3] = Change_Down;
+			flashingLight.enabled = false;
+			Led.GetComponent<Renderer>().materials = Led_materials;
 		}
 		
 
