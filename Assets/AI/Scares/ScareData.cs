@@ -2,20 +2,12 @@
 using System.Collections;
 
 public class ScareData : MonoBehaviour {
-
-	public enum minorScareTimes {Scare1, Scare2, Scare3};
-	public enum majorScareTimes {Scare1, Scare2, Scare3};
+	
+	public enum minorScareTimes {Scare1, Scare2, Scare3, Scare4, Scare5, Scare6, Scare7, Scare8, Scare9};
+	public enum majorScareTimes {Scare1, Scare2};
 	public enum comedyTimes {Comedy1, Comedy2, Comedy3};
-	public enum scareTypes {door, jump};
+	public enum scareTypes {door, jump, player, ceiling, far, farBehind};
 	public static ArrayList majorScarePool;
-	private float time = 10;
-	public float Timer {
-		get {
-			return time;
-		} set {
-			time = value;
-		}
-	}
 	private scareTypes type = scareTypes.jump;
 	public scareTypes Type {
 		get {
@@ -44,18 +36,33 @@ public class ScareData : MonoBehaviour {
 
 	}
 
-	void SetMinTimerAndType(minorScareTimes scare) {
+	void SetMinType(minorScareTimes scare) {
 		switch (scare) {
 		case minorScareTimes.Scare1:
-			time = 2;
-			type = scareTypes.jump;
+			type = scareTypes.far;
 			break;
 		case minorScareTimes.Scare2:
-			time = 5;
-			type = scareTypes.jump;
+			type = scareTypes.player;
 			break;
 		case minorScareTimes.Scare3:
-			time = 8;
+			type = scareTypes.ceiling;
+			break;
+		case minorScareTimes.Scare4:
+			type = scareTypes.player;
+			break;
+		case minorScareTimes.Scare5:
+			type = scareTypes.far;
+			break;
+		case minorScareTimes.Scare6:
+			type = scareTypes.player;
+			break;
+		case minorScareTimes.Scare7:
+			type = scareTypes.far;
+			break;
+		case minorScareTimes.Scare8:
+			type = scareTypes.player;
+			break;
+		case minorScareTimes.Scare9:
 			type = scareTypes.door;
 			break;
 		default:
@@ -67,16 +74,10 @@ public class ScareData : MonoBehaviour {
 		majorScarePool.Remove (scare);
 		switch (scare) {
 		case majorScareTimes.Scare1:
-			time = 3;
-			type = scareTypes.door;
+			type = scareTypes.jump;
 			break;
 		case majorScareTimes.Scare2:
-			time = 6;
-			type = scareTypes.door;
-			break;
-		case majorScareTimes.Scare3:
-			time = 9;
-			type = scareTypes.jump;
+			type = scareTypes.farBehind;
 			break;
 		default:
 			break;
@@ -86,15 +87,12 @@ public class ScareData : MonoBehaviour {
 	void SetComTimerAndType(comedyTimes comedy) {
 		switch (comedy) {
 		case comedyTimes.Comedy1:
-			time = 2;
 			type = scareTypes.door;
 			break;
 		case comedyTimes.Comedy2:
-			time = 4;
 			type = scareTypes.door;
 			break;
 		case comedyTimes.Comedy3:
-			time = 6;
 			type = scareTypes.door;
 			break;
 		default:
@@ -125,7 +123,6 @@ public class ScareData : MonoBehaviour {
 	}*/
 
 	Vector3 GetClosestDoor(Vector3 pos) {
-		ArrayList doors = new ArrayList ();
 		//
 		return new Vector3(0, 0, 0);
 	}

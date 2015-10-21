@@ -4,7 +4,7 @@ using System.Collections;
 public class AIDirector : MonoBehaviour {
 
 	public float scaredMeter;
-	public Camera camera;
+	new public Camera camera;
 
 	public enum stage{minorScare, majorScare, comedy};
 	private Vector3 lastCameraDirection;
@@ -18,8 +18,8 @@ public class AIDirector : MonoBehaviour {
 	private bool buildUp;
 	private const float MEAN = 0.5f;
 	private const float STD_DEV = 0.5f / 3;
-	private const float COUNTER_MULTIPLIER = 10;
-	private const float SCARE_COUNTER_MULT = 5;
+	private const float COUNTER_MULTIPLIER = 60;
+	private const float SCARE_COUNTER_MULT = 30;
 	private const float BUILD_UP_PROBABILITY = 0.9f;
 	private const float MAX_SCARED = 50;
 	private const float SCARE_STEP = 5;
@@ -92,7 +92,6 @@ public class AIDirector : MonoBehaviour {
 				majScare = UniformRandomMajScare();
 			} while (!ScareData.MajorScarePool.Contains(majScare.ToString()));
 			SendMessage("ActivateMajor", majScare, SendMessageOptions.DontRequireReceiver);
-			//Debug.Log("activate major");
 			StartRelax();
 			break;
 		case stage.comedy:
@@ -106,10 +105,9 @@ public class AIDirector : MonoBehaviour {
 		}
 	}
 
-	void FinishStage(string scareName){
-		//Debug.Log ("finish stage");
+	public void FinishStage(bool minScare){
 		executing = false;
-		if (!scareName.StartsWith("Min"))
+		if (!minScare)
 			relaxCounter = ReturnNormal () * COUNTER_MULTIPLIER;
 	}
 
@@ -120,43 +118,52 @@ public class AIDirector : MonoBehaviour {
 	}
 
 	ScareData.minorScareTimes UniformRandomMinScare() {
-		int rand = Random.Range (1, 4);
+		int rand = Random.Range (1, 9);
 		ScareData.minorScareTimes scare;
 
-		Debug.Log ("rand = " + rand);
+		//Debug.Log ("rand = " + rand);
 
 		if (rand == 1)
 			scare = ScareData.minorScareTimes.Scare1;
 		else if (rand == 2)
 			scare = ScareData.minorScareTimes.Scare2;
-		else
+		else if (rand == 3)
 			scare = ScareData.minorScareTimes.Scare3;
+		else if (rand == 4)
+			scare = ScareData.minorScareTimes.Scare4;
+		else if (rand == 5)
+			scare = ScareData.minorScareTimes.Scare5;
+		else if (rand == 6)
+			scare = ScareData.minorScareTimes.Scare6;
+		else if (rand == 7)
+			scare = ScareData.minorScareTimes.Scare7;
+		else if (rand == 8)
+			scare = ScareData.minorScareTimes.Scare8;
+		else// if (rand == 9)
+			scare = ScareData.minorScareTimes.Scare9;
 
 		return scare;
 	}
 
 	ScareData.majorScareTimes UniformRandomMajScare() {
-		int rand = Random.Range (1, 4);
+		/*int rand = Random.Range (1, 3);
 		ScareData.majorScareTimes scare;
-
-		Debug.Log ("rand = " + rand);
 
 		if (rand ==1)
 			scare = ScareData.majorScareTimes.Scare1;
-		else if (rand == 2)
+		else //if (rand == 2)
 			scare = ScareData.majorScareTimes.Scare2;
-		else
-			scare = ScareData.majorScareTimes.Scare3;
+		/*else
+			scare = ScareData.majorScareTimes.Scare3;*/
 
-		return scare;
+		//return scare;
+		return ScareData.majorScareTimes.Scare2;
 	}
 
 	ScareData.comedyTimes UniformRandomComedy() {
 		int rand = Random.Range (1, 4);
 		ScareData.comedyTimes comedy;
-
-		Debug.Log ("rand = " + rand);
-
+	
 		if (rand == 1)
 			comedy = ScareData.comedyTimes.Comedy1;
 		else if (rand == 2)
