@@ -4,20 +4,18 @@ using UnityEditor;
 
 public class Scares : MonoBehaviour {
 
-	public Camera camera;
+	new public Camera camera;
 
-	private ArrayList activeScares;
 	private const string MIN_SCARE_NAMES = "Min";
 	private const string MAJ_SCARE_NAMES = "Maj";
 
 	// Use this for initialization
 	void Start () {
-		activeScares = new ArrayList ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		ArrayList remove = new ArrayList ();
+		/*ArrayList remove = new ArrayList ();
 		foreach (GameObject scare in activeScares) {
 			scare.GetComponent<ScareData>().Timer -= Time.deltaTime;
 			if (scare.GetComponent<ScareData>().Timer <= 0 && scare.activeSelf) {
@@ -30,7 +28,7 @@ public class Scares : MonoBehaviour {
 		foreach (GameObject scare in remove) {
 			activeScares.Remove(scare);
 		}
-		remove.Clear ();
+		remove.Clear ();*/
 	}
 
 	void ActivateMinor(ScareData.minorScareTimes scareNum) {
@@ -68,7 +66,7 @@ public class Scares : MonoBehaviour {
 		Quaternion scareRotation = new Quaternion (0, 0, 0, 0);
 		GameObject scare = new GameObject ();
 		Object prefab = AssetDatabase.LoadAssetAtPath (prefabPath, (typeof(GameObject))) as GameObject;
-		
+
 		scare = (GameObject)Instantiate (prefab, scarePosition, scareRotation);
 		scare.AddComponent<ScareData> ();
 		switch (stage) {
@@ -85,12 +83,28 @@ public class Scares : MonoBehaviour {
 			break;
 		}
 		scare.transform.position = FindScarePosition (scare.GetComponent<ScareData> ().Type);
-		activeScares.Add (scare);
+		CreateHierarchy (scare);
+		//activeScares.Add (scare);
+	}
+
+	void CreateHierarchy(GameObject scare) {
+		switch (scare.GetComponent<ScareData>().Type) {
+		case ScareData.scareTypes.ceiling:
+			scare.transform.parent = gameObject.transform;
+			break;
+		case ScareData.scareTypes.player:
+			scare.transform.parent = gameObject.transform;
+			break;
+		default:
+			break;
+		}
 	}
 
 	Vector3 FindScarePosition(ScareData.scareTypes scareType) {
 		const float SCARE_DEPTH = 4;
+		const float FAR_SCARE_DEPTH = 10;
 		const float SCARE_VARIANCE = 5;
+		const float HEIGHT_ERROR = 1.4f;
 		float scareHeight = camera.transform.position.y;
 		Vector3 cameraPosition = camera.transform.position;
 		Vector3 scarePosition = cameraPosition;
@@ -104,11 +118,25 @@ public class Scares : MonoBehaviour {
 			scarePosition = new Vector3(Random.value, Random.value, Random.value) * SCARE_VARIANCE;
 			scarePosition += cameraDirection * SCARE_DEPTH;
 			break;
+		case ScareData.scareTypes.player:
+			scarePosition = cameraPosition;
+			break;
+		case ScareData.scareTypes.ceiling:
+			scarePosition = cameraPosition;
+			scarePosition.y += 2;
+			break;
+		case ScareData.scareTypes.far:
+			scarePosition = new Vector3(Random.value, Random.value, Random.value) * SCARE_VARIANCE;
+			scarePosition += cameraDirection * FAR_SCARE_DEPTH;
+			break;
+		case ScareData.scareTypes.farBehind:
+			scarePosition = cameraPosition - cameraDirection * FAR_SCARE_DEPTH;
+			break;
 		default:
 			break;
 		}
 
-		scarePosition.y = scareHeight;
+		scarePosition.y = scareHeight - HEIGHT_ERROR;
 
 		return scarePosition;
 	}

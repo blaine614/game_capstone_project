@@ -11,6 +11,7 @@ GameObject:
   - 33: {fileID: 3388156}
   - 136: {fileID: 13666378}
   - 23: {fileID: 2347288}
+  - 114: {fileID: 11465454}
   m_Layer: 0
   m_Name: Comedy1
   m_TagString: Untagged
@@ -61,6 +62,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 109366}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &11465454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63cc4fbedb27ca3449eef104d7358168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &13666378
 CapsuleCollider:
   m_ObjectHideFlags: 1
