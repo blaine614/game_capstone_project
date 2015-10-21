@@ -20,15 +20,16 @@ public class SoundPuzzleMaster : MonoBehaviour {
 	}
 	
 	void Update () {
-		if (currentPosition >= 4) {
-			trigger.Action ();
-		}
+
 	}
 
 	public void ReceiveSequence(int key) {
-		if (currentPosition == key) {
+
+		if (currentPosition >= 4) {
+			trigger.Action ();
+			currentPosition = 1;
+		} else if (currentPosition == key) {
 			currentPosition++;
-			Debug.Log (currentPosition);
 		} else {
 			currentPosition = 1;
 		}

@@ -3,7 +3,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 using System.Collections;
 using UnityEngine.UI;
 
-public class InteractWithObject : MonoBehaviour {
+public class InteractWithObject : Audible {
 	public float distance;
 	public Font font;
 
@@ -16,6 +16,7 @@ public class InteractWithObject : MonoBehaviour {
 		display = new GameObject ("Canvas");
 		SetupCanvas ();
 		SetupText ();
+		SetupAudioSource ();
 	}
 	
 	// Update is called once per frame
@@ -27,6 +28,10 @@ public class InteractWithObject : MonoBehaviour {
 				Interact ();
 			}
 		}
+	}
+
+	public override void Action() {
+		audioSource.Play ();
 	}
 	
 	void Interact() {
@@ -97,7 +102,7 @@ public class InteractWithObject : MonoBehaviour {
 		text.horizontalOverflow = HorizontalWrapMode.Wrap;
 		text.verticalOverflow = VerticalWrapMode.Truncate;
 		text.resizeTextForBestFit = true;
-		text.color = Color.white;
+		text.color = Color.grey;
 	}
 }
 
