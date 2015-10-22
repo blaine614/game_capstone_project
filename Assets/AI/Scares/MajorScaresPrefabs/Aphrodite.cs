@@ -40,11 +40,11 @@ public class Aphrodite : MonoBehaviour {
 		}
 		else if (!beingWatched && !sound2.isPlaying) {
 			if (!glitchAdded) {
-				camera.gameObject.AddComponent<GlitchEffect>();
+				//camera.gameObject.AddComponent<GlitchEffect>();
 				//Shader glitchShader = Shader.Find("GlitchShader");
 				//camera.RenderWithShader(glitchShader, null);
 				glitchAdded = true;
-				camera.gameObject.GetComponent<GlitchEffect>().Intensity = 20;
+				//camera.gameObject.GetComponent<GlitchEffect>().Intensity = 20;
 			}
 			Vector3 lookPos = camera.transform.position - transform.position;
 			lookPos.y = 0;

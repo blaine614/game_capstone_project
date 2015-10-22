@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TriggerLight : MonoBehaviour {
+public class LightTrigger : MonoBehaviour {
 	public Light triggered;
 	// Use this for initialization
 	void Start () {
