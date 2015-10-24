@@ -46,8 +46,6 @@ public class SanityMeter : MonoBehaviour {
         colorAffect *= 5.0f;
         colorAffect = 5.0f - colorAffect;
         color.intensityMultiplier = colorAffect;
-
-		Debug.Log ("Sanity: " + sanity);
 	}
 
     public void IncreaseSanity(float increase)

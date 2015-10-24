@@ -50,6 +50,11 @@ public class InteractWithObject : Audible {
 			if(b != null) {
 				ReadNote (b.ReceiveNote());
 			}
+
+			KeyInteractable c = hit.collider.GetComponent<KeyInteractable>();
+			if(c != null) {
+				gameObject.GetComponentInChildren<SanityMeter>().IncreaseSanity(-10.0f);
+			}
 			
 			GameObject p = hit.collider.gameObject;
             if (p.CompareTag("Pill")){

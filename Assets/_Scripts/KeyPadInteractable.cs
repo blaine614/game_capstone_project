@@ -3,7 +3,7 @@ using System.Collections;
 
 public class KeyPadInteractable : Audible {
 	
-	private int order;
+	private int order = -1;
 
 	void Start () {
 		SetupAudioSource ();

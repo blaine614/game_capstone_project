@@ -10,6 +10,7 @@ public class SoundPuzzleMaster : MonoBehaviour {
 	public int D;
 	public int E;
 	public int F;
+	public GameObject player;
 
 	private int currentPosition;
 	private AudioSource audioSource;
@@ -24,14 +25,15 @@ public class SoundPuzzleMaster : MonoBehaviour {
 	}
 
 	public void ReceiveSequence(int key) {
-
-		if (currentPosition >= 4) {
+		if (currentPosition >= 4 && key == -1) {
 			trigger.Action ();
+			player.GetComponentInChildren<SanityMeter>().IncreaseSanity(15.0f);
 			currentPosition = 1;
 		} else if (currentPosition == key) {
 			currentPosition++;
 		} else {
 			currentPosition = 1;
+			player.GetComponentInChildren<SanityMeter>().IncreaseSanity(-10.0f);
 		}
 		Debug.Log (currentPosition);
 	}
