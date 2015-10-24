@@ -6,16 +6,15 @@ using UnityEngine.UI;
 public class InteractWithObject : Audible {
 	public float distance;
 	public Font font;
+	public GameObject mainCamera;
+	public GameObject canvas;
+	public GameObject text;
 
-	private Camera mainCamera;
-	private GameObject display;
+	private Camera camera;
 	private bool readingNote = false;
 
 	void Start () {
-		mainCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
-		display = new GameObject ("Canvas");
-		SetupCanvas ();
-		SetupText ();
+		camera = mainCamera.GetComponent<Camera>();
 		SetupAudioSource ();
 	}
 	
@@ -38,7 +37,7 @@ public class InteractWithObject : Audible {
 		int x = Screen.width / 2;
 		int y = Screen.height / 2;
 
-		Ray ray = mainCamera.ScreenPointToRay(new Vector3(x,y));
+		Ray ray = camera.ScreenPointToRay(new Vector3(x,y));
 		RaycastHit hit;
 		if(Physics.Raycast(ray, out hit, distance)) {
 
@@ -62,15 +61,15 @@ public class InteractWithObject : Audible {
 
 	void ReadNote(string note) {
 		readingNote = true;
-		display.GetComponent<Canvas>().enabled = true;
-		display.GetComponent<Text> ().text = note;
+		canvas.SetActive (true);
+		text.GetComponent<Text> ().text = note;
 		SetMovement (0.0f, 0.0f, 0.0f, 0.0f, 0.0f);
 	}
 
 	void StopNote() {
 		readingNote = false;
-		display.GetComponent<Canvas>().enabled = false;
-		display.GetComponent<Text> ().text = "";
+		canvas.SetActive (false);
+		text.GetComponent<Text> ().text = "";
 		SetMovement (2.0f, 2.0f, 6.0f, 3.0f, 3.0f);
 	}
 
@@ -81,28 +80,6 @@ public class InteractWithObject : Audible {
 		rfpc.movementSettings.ForwardSpeed = forwardSpeed;
 		rfpc.movementSettings.BackwardSpeed = backwardSpeed;
 		rfpc.movementSettings.StrafeSpeed = strafeSpeed;
-	}
-
-	void SetupCanvas () {
-		Canvas canvas = display.AddComponent<Canvas> ();
-		canvas.enabled = false;
-		canvas.renderMode = RenderMode.ScreenSpaceCamera;
-		canvas.pixelPerfect = false;
-		canvas.worldCamera = mainCamera;
-		canvas.planeDistance = 0.35f;
-	}
-
-	void SetupText () {
-		Text text = display.AddComponent<Text> ();
-		text.font = font;
-		text.fontStyle = FontStyle.BoldAndItalic;
-		text.fontSize = 12;
-		text.supportRichText = true;
-		text.alignment = TextAnchor.MiddleCenter;
-		text.horizontalOverflow = HorizontalWrapMode.Wrap;
-		text.verticalOverflow = VerticalWrapMode.Truncate;
-		text.resizeTextForBestFit = true;
-		text.color = Color.grey;
 	}
 }
 
