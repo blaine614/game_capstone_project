@@ -16,6 +16,7 @@ public class InteractWithObject : Audible {
 	void Start () {
 		camera = mainCamera.GetComponent<Camera>();
 		SetupAudioSource ();
+		audioSource.loop = true;
 	}
 	
 	// Update is called once per frame
@@ -26,6 +27,12 @@ public class InteractWithObject : Audible {
 			} else {
 				Interact ();
 			}
+		}
+
+		if (IsMoving () && !audioSource.isPlaying) {
+			audioSource.Play ();
+		} else if (!IsMoving () && audioSource.isPlaying) {
+			audioSource.Stop ();
 		}
 	}
 
@@ -49,6 +56,7 @@ public class InteractWithObject : Audible {
 			NoteInteractable b = hit.collider.GetComponent<NoteInteractable>();
 			if(b != null) {
 				ReadNote (b.ReceiveNote());
+				gameObject.GetComponentInChildren<SanityMeter>().IncreaseSanity(-2.5f);
 			}
 
 			KeyInteractable c = hit.collider.GetComponent<KeyInteractable>();
@@ -85,6 +93,15 @@ public class InteractWithObject : Audible {
 		rfpc.movementSettings.ForwardSpeed = forwardSpeed;
 		rfpc.movementSettings.BackwardSpeed = backwardSpeed;
 		rfpc.movementSettings.StrafeSpeed = strafeSpeed;
+	}
+
+	bool IsMoving() {
+		if (Input.GetKey(KeyCode.W) || Input.GetKey (KeyCode.A) ||
+		    Input.GetKey (KeyCode.S) || Input.GetKey (KeyCode.D)) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 }
 
