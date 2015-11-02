@@ -25,12 +25,14 @@ public class SoundPuzzleMaster : MonoBehaviour {
 	}
 
 	public void ReceiveSequence(int key) {
-		if (currentPosition >= 4 && key == -1) {
+		if (currentPosition == 4 && key == -1) {
 			trigger.Action ();
-			player.GetComponentInChildren<SanityMeter>().IncreaseSanity(15.0f);
-			currentPosition = 1;
+			player.GetComponentInChildren<SanityMeter> ().IncreaseSanity (20.0f);
+			currentPosition = 5;
 		} else if (currentPosition == key) {
 			currentPosition++;
+		} else if (currentPosition > 4) {
+			player.GetComponentInChildren<SanityMeter> ().IncreaseSanity (-10.0f);
 		} else {
 			currentPosition = 1;
 			player.GetComponentInChildren<SanityMeter>().IncreaseSanity(-10.0f);

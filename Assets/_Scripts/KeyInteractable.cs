@@ -8,6 +8,7 @@ public class KeyInteractable : Audible {
 	public AudioClip nearClip;
 	public AudioClip hereClip;
 	public AudioClip collisionClip;
+	public GameObject player;
 
 	private AudioSource noiseSource;
 	private bool hit = false;
@@ -27,6 +28,9 @@ public class KeyInteractable : Audible {
 
 	public override void Action () {
 		audioSource.Play ();
+		if (!hit) {
+			player.GetComponentInChildren<SanityMeter>().IncreaseSanity(-10.0f);
+		}
 	}
 
 	void CheckAudio() {
@@ -41,6 +45,7 @@ public class KeyInteractable : Audible {
 		} else if (distance <= 0.5f && noiseSource.clip != collisionClip) {
 			noiseSource.loop = false;
 			ChangeAudio (collisionClip, 0.0f);
+			player.GetComponentInChildren<SanityMeter> ().IncreaseSanity (20.0f);
 			hit = true;
 		}
 	}
@@ -56,7 +61,7 @@ public class KeyInteractable : Audible {
 		noiseSource = gameObject.AddComponent<AudioSource>();
 		noiseSource.clip = farClip;
 		noiseSource.dopplerLevel = 0.0f;
-		noiseSource.volume = 0.1f;
+		noiseSource.volume = 0.5f;
 		noiseSource.loop = true;
 		noiseSource.maxDistance = 4.0f;
 		noiseSource.minDistance = 1.5f;
