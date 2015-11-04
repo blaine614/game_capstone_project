@@ -40,7 +40,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7c18d097af390714cae366fc39ecb0c0, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .0219999999
+  m_Volume: .273999989
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -119,6 +119,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Volume
+      value: .273999989
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

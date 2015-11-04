@@ -3,10 +3,10 @@ using System.Collections;
 
 public class ScareData : MonoBehaviour {
 	
-	public enum minorScareTimes {Scare1, Scare2, Scare3, Scare4, Scare5, Scare6, Scare7, Scare8, Scare9};
+	public enum minorScareTimes {Scare1, Scare2, Scare3, Scare4, Scare5, Scare6, Scare7, Scare8, Scare9, Scare10, Scare11};
 	public enum majorScareTimes {Scare1, Scare2};
 	public enum comedyTimes {Comedy1, Comedy2, Comedy3};
-	public enum scareTypes {door, jump, player, ceiling, far, farBehind};
+	public enum scareTypes {door, jump, player, ceiling, far, behind};
 	public static ArrayList majorScarePool;
 	private scareTypes type = scareTypes.jump;
 	public scareTypes Type {
@@ -65,6 +65,12 @@ public class ScareData : MonoBehaviour {
 		case minorScareTimes.Scare9:
 			type = scareTypes.door;
 			break;
+		case minorScareTimes.Scare10:
+			type = scareTypes.player;
+			break;
+		case minorScareTimes.Scare11:
+			type = scareTypes.player;
+			break;
 		default:
 			break;
 		}
@@ -77,7 +83,7 @@ public class ScareData : MonoBehaviour {
 			type = scareTypes.jump;
 			break;
 		case majorScareTimes.Scare2:
-			type = scareTypes.farBehind;
+			type = scareTypes.behind;
 			break;
 		default:
 			break;

@@ -13,9 +13,13 @@ public class Aphrodite : MonoBehaviour {
 	private AudioSource sound1;
 	private AudioSource sound2;
 	private const float DEPTH = 2;
+	private float glitchTimer = 4.0f;
 
 	// Use this for initialization
 	void Start () {
+		NavMeshHit hit;
+		NavMesh.SamplePosition (transform.position, out hit, 1.0f, NavMesh.AllAreas);
+		//transform.position = hit.position;
 		agent = GetComponent<NavMeshAgent> ();
 		camera = Camera.main;
 		beingWatched = false;
@@ -32,17 +36,14 @@ public class Aphrodite : MonoBehaviour {
 		const float ROTATION_SPEED = 10;
 		target = camera.transform.position - camera.transform.forward * DEPTH;
 		//check raycast
-		if (GetComponentInChildren<Renderer>().isVisible)
-			beingWatched = true;
+		//RaycastHit rayHit;
+		//Physics.Raycast (camera.transform.position, camera.transform.forward, out rayHit); 
+		//if (Physics.Raycast(camera.ScreenPointToRay(camera.transform.forward), out rayHit))
+		//	beingWatched = true;
 		if (destroyObj && !sound2.isPlaying) {
-			Destroy(camera.gameObject.GetComponent("GlitchEffect"));
 			Destroy (gameObject);
-		}
-		else if (!beingWatched && !sound2.isPlaying) {
+		} else if (!beingWatched && !sound2.isPlaying) {
 			if (!glitchAdded) {
-				//camera.gameObject.AddComponent<GlitchEffect>();
-				//Shader glitchShader = Shader.Find("GlitchShader");
-				//camera.RenderWithShader(glitchShader, null);
 				glitchAdded = true;
 				//camera.gameObject.GetComponent<GlitchEffect>().Intensity = 20;
 			}
@@ -52,13 +53,29 @@ public class Aphrodite : MonoBehaviour {
 			transform.rotation = Quaternion.Slerp (transform.rotation, quat, Time.deltaTime * ROTATION_SPEED);
 			agent.SetDestination (target);
 			agent.Resume ();
-			if (!sound1.isPlaying)
+			if ((agent.transform.position - target).magnitude < DEPTH) {
+				sound1.Pause ();
+			} else if (!sound1.isPlaying)
 				sound1.UnPause ();
 		} else if (!sound2.isPlaying) {
 			sound1.Pause ();
 			agent.Stop ();
-			sound2.UnPause();
+			sound2.UnPause ();
 			destroyObj = true;
+		} else if (sound2.isPlaying) {
+			glitchTimer -= Time.deltaTime;
+			if (glitchTimer <= 0) {
+				transform.position = new Vector3(-100, -100, -100);
+				camera.gameObject.GetComponent<GlitchEffect>().intensity = 0.1f;
+//				camera.gameObject.GetComponent<GlitchEffect>().glitchOn = false;
+			} else {
+				camera.gameObject.GetComponent<GlitchEffect>().intensity += 0.01f;
+			}
 		}
+	}
+
+	void OnBecameVisible() {
+		beingWatched = true;
+		//camera.gameObject.GetComponent<GlitchEffect> ().glitchOn = true;
 	}
 }

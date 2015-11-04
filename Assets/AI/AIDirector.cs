@@ -20,7 +20,7 @@ public class AIDirector : MonoBehaviour {
 	private const float STD_DEV = 0.5f / 3;
 	private const float COUNTER_MULTIPLIER = 60;
 	private const float SCARE_COUNTER_MULT = 30;
-	private const float BUILD_UP_PROBABILITY = 0.9f;
+	private const float BUILD_UP_PROBABILITY = 1.0f;
 	private const float MAX_SCARED = 50;
 	private const float SCARE_STEP = 5;
 	private const float SCARE_MULT = 10;
@@ -84,13 +84,14 @@ public class AIDirector : MonoBehaviour {
 			ScareData.minorScareTimes minScare = UniformRandomMinScare();
 			SendMessage("ActivateMinor", minScare, SendMessageOptions.DontRequireReceiver);
 			betweenScareCounter = ReturnNormal() * SCARE_COUNTER_MULT;
-			//Debug.Log("activate minor");
+			Debug.Log("minor: " + minScare.ToString());
 			break;
 		case stage.majorScare:
 			ScareData.majorScareTimes majScare;
 			do {
 				majScare = UniformRandomMajScare();
 			} while (!ScareData.MajorScarePool.Contains(majScare.ToString()));
+			Debug.Log ("major: " + majScare.ToString());
 			SendMessage("ActivateMajor", majScare, SendMessageOptions.DontRequireReceiver);
 			StartRelax();
 			break;
@@ -118,7 +119,7 @@ public class AIDirector : MonoBehaviour {
 	}
 
 	ScareData.minorScareTimes UniformRandomMinScare() {
-		int rand = Random.Range (1, 9);
+		int rand = Random.Range (1, 12);
 		ScareData.minorScareTimes scare;
 
 		//Debug.Log ("rand = " + rand);
@@ -139,8 +140,12 @@ public class AIDirector : MonoBehaviour {
 			scare = ScareData.minorScareTimes.Scare7;
 		else if (rand == 8)
 			scare = ScareData.minorScareTimes.Scare8;
-		else// if (rand == 9)
+		else if (rand == 9)
 			scare = ScareData.minorScareTimes.Scare9;
+		else if (rand == 10)
+			scare = ScareData.minorScareTimes.Scare10;
+		else //if (rand == 11)
+			scare = ScareData.minorScareTimes.Scare11;
 
 		return scare;
 	}

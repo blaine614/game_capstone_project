@@ -104,7 +104,7 @@ public class Scares : MonoBehaviour {
 		const float SCARE_DEPTH = 4;
 		const float FAR_SCARE_DEPTH = 10;
 		const float SCARE_VARIANCE = 5;
-		const float HEIGHT_ERROR = 1.4f;
+		//const float HEIGHT_ERROR = 1.4f;
 		float scareHeight = camera.transform.position.y;
 		Vector3 cameraPosition = camera.transform.position;
 		Vector3 scarePosition = cameraPosition;
@@ -129,14 +129,14 @@ public class Scares : MonoBehaviour {
 			scarePosition = new Vector3(Random.value, Random.value, Random.value) * SCARE_VARIANCE;
 			scarePosition += cameraDirection * FAR_SCARE_DEPTH;
 			break;
-		case ScareData.scareTypes.farBehind:
-			scarePosition = cameraPosition - cameraDirection * FAR_SCARE_DEPTH;
+		case ScareData.scareTypes.behind:
+			scarePosition = cameraPosition - cameraDirection;// * SCARE_DEPTH;
 			break;
 		default:
 			break;
 		}
 
-		scarePosition.y = scareHeight - HEIGHT_ERROR;
+		scarePosition.y = scareHeight;
 
 		return scarePosition;
 	}

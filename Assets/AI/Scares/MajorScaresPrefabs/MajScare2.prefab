@@ -12,6 +12,9 @@ GameObject:
   - 82: {fileID: 8218648}
   - 82: {fileID: 8284950}
   - 195: {fileID: 19577576}
+  - 136: {fileID: 13659168}
+  - 54: {fileID: 5477714}
+  - 23: {fileID: 2300052}
   m_Layer: 0
   m_Name: MajScare2
   m_TagString: Untagged
@@ -61,6 +64,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 459452}
   m_RootOrder: 0
+--- !u!23 &2300052
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137020}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!23 &2365206
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -92,6 +119,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 160156}
   m_Mesh: {fileID: 4300000, guid: 24e06701ec573f34fba33da9abd8cd4b, type: 3}
+--- !u!54 &5477714
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137020}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!82 &8218648
 AudioSource:
   m_ObjectHideFlags: 1
@@ -103,7 +145,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1e491ad1b9e4b8249add1e83f5c6a447, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .0399999991
+  m_Volume: .507000029
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -172,7 +214,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 05aa65f4b998cba469b983f8502e53ad, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .0350000001
+  m_Volume: .512000024
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -241,6 +283,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb7246806f3cede4098af09536902a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &13659168
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137020}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: .5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &19577576
 NavMeshAgent:
   m_ObjectHideFlags: 1
@@ -282,7 +337,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Volume
-      value: .0350000001
+      value: .507000029
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_PlayOnAwake

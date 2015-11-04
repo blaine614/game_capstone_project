@@ -11,8 +11,8 @@ GameObject:
   - 33: {fileID: 3357104}
   - 65: {fileID: 6540912}
   - 23: {fileID: 2327880}
-  - 82: {fileID: 8244770}
   - 114: {fileID: 11466172}
+  - 82: {fileID: 8252986}
   m_Layer: 0
   m_Name: MinScare1
   m_TagString: Untagged
@@ -75,7 +75,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!82 &8244770
+--- !u!82 &8252986
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -84,9 +84,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7ec8b92913cd7684bab57338ae6225ce, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e06b4dfae0d715a4ba8f0c30a3d47084, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .0320000015
+  m_Volume: .115999997
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -118,7 +118,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -164,7 +164,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: m_Volume
-      value: .0320000015
+      value: .115999997
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Pitch
@@ -178,6 +178,10 @@ Prefab:
       propertyPath: director
       value: 
       objectReference: {fileID: 123358, guid: 0988298872fa42446bb935deb549644c, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e06b4dfae0d715a4ba8f0c30a3d47084, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 152180}
