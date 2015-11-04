@@ -53,6 +53,11 @@ public class SanityMeter : MonoBehaviour {
         sanity += increase;
     }
 
+    public void Kill()
+    {
+        sanity = -10f;
+    }
+
     IEnumerator Die()
     {
         if (controller.enabled) {
