@@ -47,7 +47,7 @@ public class SteveScript : MonoBehaviour {
         else if (distance <= 2)
         {
             waypointInd += 1;
-            if (waypointInd > waypoints.Length)
+            if (waypointInd >= waypoints.Length)
             {
                 waypointInd = 0;
             }
