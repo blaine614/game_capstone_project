@@ -14,11 +14,13 @@ public class SteveScript : MonoBehaviour {
     private bool chasing = false;
     public float patrolSpeed = 1.5f;
     public float chaseSpeed = 2.5f;
+    private Animator animator;
 
     void Start()
     {
         target = waypoints[waypointInd];
-        agent = this.gameObject.GetComponent<NavMeshAgent>();
+        agent = gameObject.GetComponent<NavMeshAgent>();
+        animator = gameObject.GetComponent<Animator>();
     }
 
     void Update()
@@ -47,7 +49,7 @@ public class SteveScript : MonoBehaviour {
         else if (distance <= 2)
         {
             waypointInd += 1;
-            if (waypointInd > waypoints.Length)
+            if (waypointInd >= waypoints.Length)
             {
                 waypointInd = 0;
             }
@@ -63,9 +65,16 @@ public class SteveScript : MonoBehaviour {
 
         if (distance <= attackDistance)
         {
-            chasing = false;
-            target.GetComponentInChildren<SanityMeter>().Kill();
+            StartCoroutine(Attack()); 
         }
+    }
+
+    IEnumerator Attack()
+    {
+        animator.SetBool("Attack", true);
+        yield return new WaitForSeconds(.75f);
+        chasing = false;
+        target.GetComponentInChildren<SanityMeter>().Kill();
     }
 
     void OnTriggerEnter(Collider coll)
