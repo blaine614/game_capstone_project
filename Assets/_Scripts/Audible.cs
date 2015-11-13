@@ -2,8 +2,9 @@
 using System.Collections;
 
 public abstract class Audible : MonoBehaviour, Interactable {
-
+	
 	public AudioClip keyClip;
+	private bool transitionable = false;
 	protected AudioSource audioSource;
 
 	protected void SetupAudioSource() {

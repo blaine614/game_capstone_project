@@ -12,6 +12,7 @@ public class InteractWithObject1 : MonoBehaviour {
 
 	private Camera camera;
 	private bool readingNote = false;
+	private bool isTransitioning = false;
 
 	void Start () {
 		camera = mainCamera.GetComponent<Camera>();

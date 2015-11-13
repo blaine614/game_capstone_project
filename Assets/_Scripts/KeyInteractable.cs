@@ -23,13 +23,15 @@ public class KeyInteractable : Audible {
 	void Update () {
 		if (!hit) {
 			CheckAudio ();
+		} else {
+			player.GetComponent<Transition>().Change ();
 		}
 	}
 
 	public override void Action () {
 		audioSource.Play ();
 		if (!hit) {
-			player.GetComponentInChildren<SanityMeter>().IncreaseSanity(-10.0f);
+			player.GetComponentInChildren<SanityMeter1>().IncreaseSanity(-10.0f);
 		}
 	}
 
@@ -45,7 +47,7 @@ public class KeyInteractable : Audible {
 		} else if (distance <= 0.5f && noiseSource.clip != collisionClip) {
 			noiseSource.loop = false;
 			ChangeAudio (collisionClip, 0.0f);
-			player.GetComponentInChildren<SanityMeter> ().IncreaseSanity (20.0f);
+			player.GetComponentInChildren<SanityMeter1> ().IncreaseSanity (20.0f);
 			hit = true;
 		}
 	}
