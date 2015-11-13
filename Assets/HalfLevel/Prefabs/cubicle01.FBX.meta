@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 623decba1822ec84fb4a3b8c0d6211e6
+timeCreated: 1446865954
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: cubicle01_cornereast
+    100004: cubicle01_cornernortheast
+    100006: cubicle01_cornernorthwest
+    100008: cubicle01_cornersoutheast
+    100010: cubicle01_cornersouthwest
+    100012: cubicle01_east
+    100014: cubicle01_eastwall
+    100016: cubicle01_frame
+    100018: cubicle01_lowernorth
+    100020: cubicle01_lowerwest
+    100022: cubicle01_north
+    100024: cubicle01_northwall
+    100026: cubicle01_shelves
+    100028: cubicle01_south
+    100030: cubicle01_southwall
+    100032: cubicle01_upperwest
+    100034: cubicle01_walls
+    100036: cubicle01_west
+    100038: cubicle01_westwall
+    400000: //RootNode
+    400002: cubicle01_cornereast
+    400004: cubicle01_cornernortheast
+    400006: cubicle01_cornernorthwest
+    400008: cubicle01_cornersoutheast
+    400010: cubicle01_cornersouthwest
+    400012: cubicle01_east
+    400014: cubicle01_eastwall
+    400016: cubicle01_frame
+    400018: cubicle01_lowernorth
+    400020: cubicle01_lowerwest
+    400022: cubicle01_north
+    400024: cubicle01_northwall
+    400026: cubicle01_shelves
+    400028: cubicle01_south
+    400030: cubicle01_southwall
+    400032: cubicle01_upperwest
+    400034: cubicle01_walls
+    400036: cubicle01_west
+    400038: cubicle01_westwall
+    2300000: cubicle01_cornereast
+    2300002: cubicle01_cornernortheast
+    2300004: cubicle01_cornernorthwest
+    2300006: cubicle01_cornersoutheast
+    2300008: cubicle01_cornersouthwest
+    2300010: cubicle01_east
+    2300012: cubicle01_eastwall
+    2300014: cubicle01_lowernorth
+    2300016: cubicle01_lowerwest
+    2300018: cubicle01_north
+    2300020: cubicle01_northwall
+    2300022: cubicle01_south
+    2300024: cubicle01_southwall
+    2300026: cubicle01_upperwest
+    2300028: cubicle01_west
+    2300030: cubicle01_westwall
+    3300000: cubicle01_cornereast
+    3300002: cubicle01_cornernortheast
+    3300004: cubicle01_cornernorthwest
+    3300006: cubicle01_cornersoutheast
+    3300008: cubicle01_cornersouthwest
+    3300010: cubicle01_east
+    3300012: cubicle01_eastwall
+    3300014: cubicle01_lowernorth
+    3300016: cubicle01_lowerwest
+    3300018: cubicle01_north
+    3300020: cubicle01_northwall
+    3300022: cubicle01_south
+    3300024: cubicle01_southwall
+    3300026: cubicle01_upperwest
+    3300028: cubicle01_west
+    3300030: cubicle01_westwall
+    4300000: cubicle01_northwall
+    4300002: cubicle01_southwall
+    4300004: cubicle01_westwall
+    4300006: cubicle01_eastwall
+    4300008: cubicle01_cornereast
+    4300010: cubicle01_cornernortheast
+    4300012: cubicle01_cornernorthwest
+    4300014: cubicle01_cornersoutheast
+    4300016: cubicle01_cornersouthwest
+    4300018: cubicle01_north
+    4300020: cubicle01_south
+    4300022: cubicle01_west
+    4300024: cubicle01_east
+    4300026: cubicle01_lowernorth
+    4300028: cubicle01_lowerwest
+    4300030: cubicle01_upperwest
+    6400000: cubicle01_cornereast
+    6400002: cubicle01_cornernortheast
+    6400004: cubicle01_cornernorthwest
+    6400006: cubicle01_cornersoutheast
+    6400008: cubicle01_cornersouthwest
+    6400010: cubicle01_east
+    6400012: cubicle01_eastwall
+    6400014: cubicle01_lowernorth
+    6400016: cubicle01_lowerwest
+    6400018: cubicle01_north
+    6400020: cubicle01_northwall
+    6400022: cubicle01_south
+    6400024: cubicle01_southwall
+    6400026: cubicle01_upperwest
+    6400028: cubicle01_west
+    6400030: cubicle01_westwall
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
