@@ -44,25 +44,27 @@ public class InteractWithObject1 : MonoBehaviour {
 			NoteInteractable b = hit.collider.GetComponent<NoteInteractable>();
 			if(b != null) {
 				ReadNote (b.ReceiveNote());
-				gameObject.GetComponentInChildren<SanityMeter>().IncreaseSanity(-2.5f);
+				gameObject.GetComponentInChildren<SanityMeter1>().IncreaseSanity(-2.5f);
 			}
 			
 			GameObject p = hit.collider.gameObject;
             if (p.CompareTag("Pill")){
                 p.SetActive(false);
-                gameObject.GetComponentInChildren<SanityMeter>().IncreaseSanity(25.0f);
+                gameObject.GetComponentInChildren<SanityMeter1>().IncreaseSanity(25.0f);
             }
 		}
 	}
 
 	void ReadNote(string note) {
 		readingNote = true;
+		gameObject.GetComponent<FirstPersonController> ().enabled = false;
 		canvas.SetActive (true);
 		text.GetComponent<Text> ().text = note;
 	}
 
 	void StopNote() {
 		readingNote = false;
+		gameObject.GetComponent<FirstPersonController> ().enabled = true;
 		canvas.SetActive (false);
 		text.GetComponent<Text> ().text = "";
 	}
