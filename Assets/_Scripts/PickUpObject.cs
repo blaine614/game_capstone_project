@@ -5,7 +5,8 @@ public class PickUpObject : MonoBehaviour {
 	GameObject mainCamera;
 	bool carrying;
 	GameObject carriedObject;
-	public float distance;
+	public float distanceToPickup;
+	public float distanceToCarry;
 	public float smooth;
 	// Use this for initialization
 	void Start () {
@@ -28,7 +29,7 @@ public class PickUpObject : MonoBehaviour {
 	}
 	
 	void carry(GameObject o) {
-		o.transform.position = Vector3.Lerp (o.transform.position, mainCamera.transform.position + mainCamera.transform.forward * distance, Time.deltaTime * smooth);
+		o.transform.position = Vector3.Lerp (o.transform.position, mainCamera.transform.position + mainCamera.transform.forward * distanceToCarry, Time.deltaTime * smooth);
 		o.transform.rotation = Quaternion.identity;
 	}
 	
@@ -39,7 +40,7 @@ public class PickUpObject : MonoBehaviour {
 			
 			Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(new Vector3(x,y));
 			RaycastHit hit;
-			if(Physics.Raycast(ray, out hit)) {
+			if(Physics.Raycast(ray, out hit, distanceToPickup)) {
 				Pickupable p = hit.collider.GetComponent<Pickupable>();
 				if(p != null) {
 					carrying = true;

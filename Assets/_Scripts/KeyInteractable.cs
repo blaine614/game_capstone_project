@@ -42,9 +42,9 @@ public class KeyInteractable : Audible {
 			ChangeAudio (farClip, noiseSource.time);
 		} else if (distance <= 25.0f && distance > 10.0f && noiseSource.clip != nearClip) {
 			ChangeAudio (nearClip, noiseSource.time);
-		} else if (distance <= 10.0f && distance > 0.8f && noiseSource.clip != hereClip) {
+		} else if (distance <= 10.0f && distance > 0.6f && noiseSource.clip != hereClip) {
 			ChangeAudio (hereClip, noiseSource.time);
-		} else if (distance <= 0.8f && noiseSource.clip != collisionClip) {
+		} else if (distance <= 0.6f && noiseSource.clip != collisionClip) {
 			noiseSource.loop = false;
 			ChangeAudio (collisionClip, 0.0f);
 			player.GetComponentInChildren<SanityMeter1> ().IncreaseSanity (20.0f);
