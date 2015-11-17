@@ -1,105 +1,111 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 //https://www.youtube.com/watch?v=s67AYDD3j1E
 
-namespace UnityStandardAssets.Characters.ThirdPerson
+public class BasicAI : MonoBehaviour
 {
-    public class BasicAI : MonoBehaviour
+
+    public int attackDistance = 2;
+    private float distance;
+    public GameObject[] waypoints;
+    private int waypointInd;
+    private GameObject target;
+    private NavMeshAgent agent;
+    private bool chasing = false;
+    public float patrolSpeed = 1.5f;
+    public float chaseSpeed = 2.5f;
+    private Animator animator;
+    public State state;
+
+    public enum State
+    {
+        PATROL,
+        CHASE
+    }
+
+    void Start()
     {
 
-        public NavMeshAgent agent;
-        public ThirdPersonCharacter character;
+        agent = gameObject.GetComponent<NavMeshAgent>();
+        animator = gameObject.GetComponent<Animator>();
 
-        public enum State
+        waypoints = GameObject.FindGameObjectsWithTag("Waypoint");
+        waypointInd = Random.Range(0, waypoints.Length);
+
+        state = BasicAI.State.PATROL;
+        target = waypoints[waypointInd];
+    }
+
+    void Update()
+    {
+        switch (state)
         {
-            PATROL,
-            CHASE
+            case State.PATROL:
+                Patrolling();
+                break;
+            case State.CHASE:
+                Chasing();
+                break;
+        }
+        if (!chasing)
+        {
+            Patrolling();
+        }
+        else
+        {
+            Chasing();
         }
 
-        public State state;
-        private bool alive;
 
-        //Variables for Patrolling
-        public GameObject[] waypoints;
-        private int waypointInd = 0;
-        public float patrolSpeed = 0.5f;
+    }
 
-        //Variables for Chasing
-        public float chaseSpeed = 1f;
-        public GameObject target;
+    void Patrolling()
+    {
+        agent.speed = patrolSpeed;
+        distance = Vector3.Distance(target.transform.position, transform.position);
 
-        // Use this for initialization
-        void Start()
+        if (distance >= 2)
         {
-            agent = GetComponent<NavMeshAgent>();
-            character = GetComponent<ThirdPersonCharacter>();
-
-            agent.updatePosition = true;
-            agent.updateRotation = false;
-
-            state = BasicAI.State.PATROL;
-
-            alive = true;
-
-            StartCoroutine("FSM");
-        }
-
-        IEnumerator FSM()
-        {
-            while (alive)
-            {
-                switch (state)
-                {
-                    case State.PATROL:
-                        Patrol();
-                        break;
-                    case State.CHASE:
-                        Chase();
-                        break;
-                }
-                yield return null;
-            }
-        }
-
-        void Patrol()
-        {
-            agent.speed = patrolSpeed;
-            if(Vector3.Distance(this.transform.position, waypoints[waypointInd].transform.position) >= 2)
-            {
-                agent.SetDestination(waypoints[waypointInd].transform.position);
-                character.Move(agent.desiredVelocity, false, false);
-            }else if(Vector3.Distance(this.transform.position, waypoints[waypointInd].transform.position) <= 2)
-            {
-                waypointInd += 1;
-                if(waypointInd > waypoints.Length)
-                {
-                    waypointInd = 0;
-                }
-            }
-            else
-            {
-                character.Move(Vector3.zero, false, false);
-            }
-        }
-
-        void Chase()
-        {
-            agent.speed = chaseSpeed;
             agent.SetDestination(target.transform.position);
-            character.Move(agent.desiredVelocity, false, false);
-
         }
-
-        void OnTriggerEnter(Collider coll)
+        else if (distance <= 2)
         {
-            if (coll.tag == "Player")
-            {
-                state = BasicAI.State.CHASE;
-                target = coll.gameObject;
-            } 
+            waypointInd = Random.Range(0, waypoints.Length);
+
+            target = waypoints[waypointInd];
         }
     }
-}
 
+    void Chasing()
+    {
+        agent.speed = chaseSpeed;
+        distance = Vector3.Distance(target.transform.position, transform.position);
+        agent.SetDestination(target.transform.position);
+
+        if (distance <= attackDistance)
+        {
+            StartCoroutine(Attack());
+        }
+    }
+
+    IEnumerator Attack()
+    {
+        animator.SetBool("Attack", true);
+        yield return new WaitForSeconds(.75f);
+        chasing = false;
+        target.GetComponentInChildren<SanityMeter>().Kill();
+    }
+
+    void OnTriggerEnter(Collider coll)
+    {
+
+        if (coll.tag == "Player")
+        {
+            target = coll.gameObject;
+            chasing = true;
+        }
+
+    }
+
+}
