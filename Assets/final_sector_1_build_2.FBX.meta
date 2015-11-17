@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: 82e980404b7ef3b449330d05f0c2c269
+timeCreated: 1447729155
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: final_sector_1_build_1
+    100002: final_sector_1_build_1 1
+    100004: final_sector_1_build_1 10
+    100006: final_sector_1_build_1 11
+    100008: final_sector_1_build_1 12
+    100010: final_sector_1_build_1 13
+    100012: final_sector_1_build_1 14
+    100014: final_sector_1_build_1 15
+    100016: final_sector_1_build_1 16
+    100018: final_sector_1_build_1 17
+    100020: final_sector_1_build_1 18
+    100022: final_sector_1_build_1 19
+    100024: final_sector_1_build_1 2
+    100026: final_sector_1_build_1 20
+    100028: final_sector_1_build_1 21
+    100030: final_sector_1_build_1 22
+    100032: final_sector_1_build_1 23
+    100034: final_sector_1_build_1 24
+    100036: final_sector_1_build_1 25
+    100038: final_sector_1_build_1 26
+    100040: final_sector_1_build_1 27
+    100042: final_sector_1_build_1 28
+    100044: final_sector_1_build_1 29
+    100046: final_sector_1_build_1 3
+    100048: final_sector_1_build_1 30
+    100050: final_sector_1_build_1 31
+    100052: final_sector_1_build_1 32
+    100054: final_sector_1_build_1 33
+    100056: final_sector_1_build_1 34
+    100058: final_sector_1_build_1 35
+    100060: final_sector_1_build_1 36
+    100062: final_sector_1_build_1 4
+    100064: final_sector_1_build_1 5
+    100066: final_sector_1_build_1 6
+    100068: final_sector_1_build_1 7
+    100070: final_sector_1_build_1 8
+    100072: final_sector_1_build_1 9
+    100074: //RootNode
+    400000: final_sector_1_build_1
+    400002: final_sector_1_build_1 1
+    400004: final_sector_1_build_1 10
+    400006: final_sector_1_build_1 11
+    400008: final_sector_1_build_1 12
+    400010: final_sector_1_build_1 13
+    400012: final_sector_1_build_1 14
+    400014: final_sector_1_build_1 15
+    400016: final_sector_1_build_1 16
+    400018: final_sector_1_build_1 17
+    400020: final_sector_1_build_1 18
+    400022: final_sector_1_build_1 19
+    400024: final_sector_1_build_1 2
+    400026: final_sector_1_build_1 20
+    400028: final_sector_1_build_1 21
+    400030: final_sector_1_build_1 22
+    400032: final_sector_1_build_1 23
+    400034: final_sector_1_build_1 24
+    400036: final_sector_1_build_1 25
+    400038: final_sector_1_build_1 26
+    400040: final_sector_1_build_1 27
+    400042: final_sector_1_build_1 28
+    400044: final_sector_1_build_1 29
+    400046: final_sector_1_build_1 3
+    400048: final_sector_1_build_1 30
+    400050: final_sector_1_build_1 31
+    400052: final_sector_1_build_1 32
+    400054: final_sector_1_build_1 33
+    400056: final_sector_1_build_1 34
+    400058: final_sector_1_build_1 35
+    400060: final_sector_1_build_1 36
+    400062: final_sector_1_build_1 4
+    400064: final_sector_1_build_1 5
+    400066: final_sector_1_build_1 6
+    400068: final_sector_1_build_1 7
+    400070: final_sector_1_build_1 8
+    400072: final_sector_1_build_1 9
+    400074: //RootNode
+    2300000: final_sector_1_build_1
+    2300002: final_sector_1_build_1 1
+    2300004: final_sector_1_build_1 10
+    2300006: final_sector_1_build_1 11
+    2300008: final_sector_1_build_1 12
+    2300010: final_sector_1_build_1 13
+    2300012: final_sector_1_build_1 14
+    2300014: final_sector_1_build_1 15
+    2300016: final_sector_1_build_1 16
+    2300018: final_sector_1_build_1 17
+    2300020: final_sector_1_build_1 18
+    2300022: final_sector_1_build_1 19
+    2300024: final_sector_1_build_1 2
+    2300026: final_sector_1_build_1 20
+    2300028: final_sector_1_build_1 21
+    2300030: final_sector_1_build_1 22
+    2300032: final_sector_1_build_1 23
+    2300034: final_sector_1_build_1 24
+    2300036: final_sector_1_build_1 25
+    2300038: final_sector_1_build_1 26
+    2300040: final_sector_1_build_1 27
+    2300042: final_sector_1_build_1 28
+    2300044: final_sector_1_build_1 29
+    2300046: final_sector_1_build_1 3
+    2300048: final_sector_1_build_1 30
+    2300050: final_sector_1_build_1 31
+    2300052: final_sector_1_build_1 32
+    2300054: final_sector_1_build_1 33
+    2300056: final_sector_1_build_1 34
+    2300058: final_sector_1_build_1 35
+    2300060: final_sector_1_build_1 36
+    2300062: final_sector_1_build_1 4
+    2300064: final_sector_1_build_1 5
+    2300066: final_sector_1_build_1 6
+    2300068: final_sector_1_build_1 7
+    2300070: final_sector_1_build_1 8
+    2300072: final_sector_1_build_1 9
+    3300000: final_sector_1_build_1
+    3300002: final_sector_1_build_1 1
+    3300004: final_sector_1_build_1 10
+    3300006: final_sector_1_build_1 11
+    3300008: final_sector_1_build_1 12
+    3300010: final_sector_1_build_1 13
+    3300012: final_sector_1_build_1 14
+    3300014: final_sector_1_build_1 15
+    3300016: final_sector_1_build_1 16
+    3300018: final_sector_1_build_1 17
+    3300020: final_sector_1_build_1 18
+    3300022: final_sector_1_build_1 19
+    3300024: final_sector_1_build_1 2
+    3300026: final_sector_1_build_1 20
+    3300028: final_sector_1_build_1 21
+    3300030: final_sector_1_build_1 22
+    3300032: final_sector_1_build_1 23
+    3300034: final_sector_1_build_1 24
+    3300036: final_sector_1_build_1 25
+    3300038: final_sector_1_build_1 26
+    3300040: final_sector_1_build_1 27
+    3300042: final_sector_1_build_1 28
+    3300044: final_sector_1_build_1 29
+    3300046: final_sector_1_build_1 3
+    3300048: final_sector_1_build_1 30
+    3300050: final_sector_1_build_1 31
+    3300052: final_sector_1_build_1 32
+    3300054: final_sector_1_build_1 33
+    3300056: final_sector_1_build_1 34
+    3300058: final_sector_1_build_1 35
+    3300060: final_sector_1_build_1 36
+    3300062: final_sector_1_build_1 4
+    3300064: final_sector_1_build_1 5
+    3300066: final_sector_1_build_1 6
+    3300068: final_sector_1_build_1 7
+    3300070: final_sector_1_build_1 8
+    3300072: final_sector_1_build_1 9
+    4300000: final_sector_1_build_1
+    4300002: final_sector_1_build_1
+    4300004: final_sector_1_build_1
+    4300006: final_sector_1_build_1
+    4300008: final_sector_1_build_1
+    4300010: final_sector_1_build_1
+    4300012: final_sector_1_build_1
+    4300014: final_sector_1_build_1
+    4300016: final_sector_1_build_1
+    4300018: final_sector_1_build_1
+    4300020: final_sector_1_build_1
+    4300022: final_sector_1_build_1
+    4300024: final_sector_1_build_1
+    4300026: final_sector_1_build_1
+    4300028: final_sector_1_build_1
+    4300030: final_sector_1_build_1
+    4300032: final_sector_1_build_1
+    4300034: final_sector_1_build_1
+    4300036: final_sector_1_build_1
+    4300038: final_sector_1_build_1
+    4300040: final_sector_1_build_1
+    4300042: final_sector_1_build_1
+    4300044: final_sector_1_build_1
+    4300046: final_sector_1_build_1
+    4300048: final_sector_1_build_1
+    4300050: final_sector_1_build_1
+    4300052: final_sector_1_build_1
+    4300054: final_sector_1_build_1
+    4300056: final_sector_1_build_1
+    4300058: final_sector_1_build_1
+    4300060: final_sector_1_build_1
+    4300062: final_sector_1_build_1
+    4300064: final_sector_1_build_1
+    4300066: final_sector_1_build_1
+    4300068: final_sector_1_build_1
+    4300070: final_sector_1_build_1
+    4300072: final_sector_1_build_1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
