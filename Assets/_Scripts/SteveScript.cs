@@ -128,7 +128,7 @@ public class SteveScript : MonoBehaviour {
         animator.SetBool("Attack", true);
         yield return new WaitForSeconds(.75f);
         state = SteveScript.State.PATROL;
-        target.GetComponentInChildren<SanityMeter>().Kill();
+//        target.GetComponentInChildren<SanityMeter>().Kill();
     }
 
     void Investigating()
