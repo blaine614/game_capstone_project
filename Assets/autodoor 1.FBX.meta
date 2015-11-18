@@ -1,0 +1,119 @@
+fileFormatVersion: 2
+guid: eb7b9626bc881cd4d9363afdb41b57e7
+timeCreated: 1447832557
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: automatic_door
+    100004: automatic_door 1
+    100006: automatic_door 2
+    100008: automatic_door 3
+    100010: automatic_door 4
+    100012: automatic_door 5
+    100014: automatic_door 6
+    100016: automatic_door 7
+    100018: automatic_door 8
+    400000: //RootNode
+    400002: automatic_door
+    400004: automatic_door 1
+    400006: automatic_door 2
+    400008: automatic_door 3
+    400010: automatic_door 4
+    400012: automatic_door 5
+    400014: automatic_door 6
+    400016: automatic_door 7
+    400018: automatic_door 8
+    2300000: automatic_door
+    2300002: automatic_door 1
+    2300004: automatic_door 2
+    2300006: automatic_door 3
+    2300008: automatic_door 4
+    2300010: automatic_door 5
+    2300012: automatic_door 6
+    2300014: automatic_door 7
+    2300016: automatic_door 8
+    3300000: automatic_door
+    3300002: automatic_door 1
+    3300004: automatic_door 2
+    3300006: automatic_door 3
+    3300008: automatic_door 4
+    3300010: automatic_door 5
+    3300012: automatic_door 6
+    3300014: automatic_door 7
+    3300016: automatic_door 8
+    4300000: automatic_door
+    4300002: automatic_door
+    4300004: automatic_door
+    4300006: automatic_door
+    4300008: automatic_door
+    4300010: automatic_door
+    4300012: automatic_door
+    4300014: automatic_door
+    4300016: automatic_door
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

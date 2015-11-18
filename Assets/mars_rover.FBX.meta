@@ -1,0 +1,3220 @@
+fileFormatVersion: 2
+guid: e6a96a19f4541be48b456f6c3c639dd2
+timeCreated: 1447829530
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: 100_1500 Lights_42
+    100002: 100_1500 Lights_43
+    100004: 100_2000 Lights_44
+    100006: 100_3000 Lights_45
+    100008: 100_3000 Lights_70
+    100010: 100_3000 Lights_71
+    100012: 100_3000 Lights_72
+    100014: Aerator Bottom_32
+    100016: Aerator Bottom_33
+    100018: Aerator Bottom_34
+    100020: Aerator Bottom_35
+    100022: Aerator Bottom_36
+    100024: Aerator Bottom_37
+    100026: Aerator Bottom_38
+    100028: Aerator Bottom_39
+    100030: Aerator Bottom_40
+    100032: Aerator in Lab_73
+    100034: Aerator in Lab_74
+    100036: Aerator in Lab_75
+    100038: Aerator_29
+    100040: Aerator_30
+    100042: Aerator_31
+    100044: Air Springs 2_22
+    100046: Air Springs 2_22 1
+    100048: Air Springs 2_22 2
+    100050: Air Springs 2_22 3
+    100052: Air Springs 2_22 4
+    100054: Air Springs 2_22 5
+    100056: Air Springs 2_22 6
+    100058: Air Springs 2_22 7
+    100060: Air Springs 2_MirrorDefault_24
+    100062: Air Springs 2_MirrorDefault_24 1
+    100064: Air Springs 2_MirrorDefault_24 2
+    100066: Air Springs 2_MirrorDefault_24 3
+    100068: Air Springs 2_MirrorDefault_24 4
+    100070: Air Springs 2_MirrorDefault_24 5
+    100072: Air Springs 2_MirrorDefault_24 6
+    100074: Air Springs 2_MirrorDefault_24 7
+    100076: Air Springs_21
+    100078: Air Springs_21 1
+    100080: Air Springs_21 2
+    100082: Air Springs_21 3
+    100084: Air Springs_21 4
+    100086: Air Springs_MirrorDefault_23
+    100088: Air Springs_MirrorDefault_23 1
+    100090: Air Springs_MirrorDefault_23 2
+    100092: Air Springs_MirrorDefault_23 3
+    100094: Air Springs_MirrorDefault_23 4
+    100096: Airlock Door_66
+    100098: Airlock Door_66 1
+    100100: Airlock Door_66 2
+    100102: Airlock Door_66 3
+    100104: Airlock Door_66 4
+    100106: Aux Pipeline_153
+    100108: Aux Pipeline_154
+    100110: Aux Pipeline_155
+    100112: Aux Pipeline_156
+    100114: Aux Pipeline_157
+    100116: Aux Pipeline_158
+    100118: Aux Pipeline_159
+    100120: Aux Pipeline_160
+    100122: Aux Pipeline_161
+    100124: Aux Pipeline_162
+    100126: Body10_60
+    100128: Body10_60 1
+    100130: Body10_60 2
+    100132: Body10_60 3
+    100134: Body10_60 4
+    100136: Cabin Hatch Module 1_188
+    100138: CO2 Distributor_28
+    100140: CO2 Distributor_28 1
+    100142: CO2 Distributor_28 10
+    100144: CO2 Distributor_28 2
+    100146: CO2 Distributor_28 3
+    100148: CO2 Distributor_28 4
+    100150: CO2 Distributor_28 5
+    100152: CO2 Distributor_28 6
+    100154: CO2 Distributor_28 7
+    100156: CO2 Distributor_28 8
+    100158: CO2 Distributor_28 9
+    100160: CO2 Pipeline Ending_142
+    100162: CO2 Pipeline Main_141
+    100164: CO2 Pipeline Main_141 1
+    100166: CO2 Pipeline Main_141 2
+    100168: CO2 Pipeline Main_141 3
+    100170: CO2 Pipeline_133
+    100172: CO2 Pipeline_134
+    100174: CO2 Pipeline_135
+    100176: CO2 Pipeline_136
+    100178: CO2 Pipeline_137
+    100180: CO2 Pipeline_138
+    100182: CO2 Pipeline_139
+    100184: CO2 Pipeline_140
+    100186: Cockpit Lights_47
+    100188: Com Link 1_171
+    100190: Com Link 1_171 1
+    100192: Com Link 2_170
+    100194: Com Link 2_170 1
+    100196: Com Link 3_168
+    100198: Com Link 4_169
+    100200: Com Link Base_167
+    100202: Com Tower 1_64
+    100204: crane hook_92
+    100206: crane hook_93
+    100208: Crane_61
+    100210: Crane_61 1
+    100212: Crane_61 2
+    100214: Crane_62
+    100216: Crane_62 1
+    100218: Crane_62 2
+    100220: Door2 Hinge_191
+    100222: Explorer Bottom Cover_1
+    100224: Explorer Bottom Cover_1 1
+    100226: Explorer Bottom Cover_1 2
+    100228: Explorer Bottom Cover_1 3
+    100230: Explorer Bottom Cover_1 4
+    100232: Explorer Chassis_2
+    100234: Explorer Chassis_2 1
+    100236: Explorer Chassis_2 10
+    100238: Explorer Chassis_2 11
+    100240: Explorer Chassis_2 12
+    100242: Explorer Chassis_2 13
+    100244: Explorer Chassis_2 2
+    100246: Explorer Chassis_2 3
+    100248: Explorer Chassis_2 4
+    100250: Explorer Chassis_2 5
+    100252: Explorer Chassis_2 6
+    100254: Explorer Chassis_2 7
+    100256: Explorer Chassis_2 8
+    100258: Explorer Chassis_2 9
+    100260: Explorer Main Gear_196
+    100262: Explorer Main Gear_MirrorDefault_178
+    100264: Explorer Mid Wheel Assembly_20
+    100266: Explorer Mid Wheel Assembly_MirrorDefault_53
+    100268: Explorer Tyre_193
+    100270: Explorer Tyre_MirrorDefault_175
+    100272: Explorer Tyre_MirrorDefault_183
+    100274: Explorer Tyre_MirrorMirrorDefault_180
+    100276: Explorer Tyre_MirrorMirrorDefault_180 1
+    100278: Explorer Tyre_MirrorMirrorMirrorDefault_172
+    100280: Explorer Wheel Assembly_MirrorDefault_51
+    100282: Explorer Wheel Assembly_MirrorMirrorDefault_52
+    100284: Explorer Wheel Assembly_MirrorMirrorDefault_55
+    100286: Explorer Wheel Assembly_MirrorMirrorMirrorDefault_54
+    100288: Explorer Wheel Mounting_195
+    100290: Explorer Wheel Mounting_195 1
+    100292: Explorer Wheel Mounting_195 2
+    100294: Explorer Wheel Mounting_195 3
+    100296: Explorer Wheel Mounting_195 4
+    100298: Explorer Wheel Mounting_195 5
+    100300: Explorer Wheel Mounting_MirrorDefault_177
+    100302: Explorer Wheel Mounting_MirrorDefault_177 1
+    100304: Explorer Wheel Mounting_MirrorDefault_177 2
+    100306: Explorer Wheel Mounting_MirrorDefault_177 3
+    100308: Explorer Wheel Mounting_MirrorDefault_177 4
+    100310: Explorer Wheel Mounting_MirrorDefault_177 5
+    100312: Explorer Wheel Mounting_MirrorDefault_185
+    100314: Explorer Wheel Mounting_MirrorDefault_185 1
+    100316: Explorer Wheel Mounting_MirrorDefault_185 2
+    100318: Explorer Wheel Mounting_MirrorDefault_185 3
+    100320: Explorer Wheel Mounting_MirrorDefault_185 4
+    100322: Explorer Wheel Mounting_MirrorDefault_185 5
+    100324: Explorer Wheel Mounting_MirrorMirrorDefault_182
+    100326: Explorer Wheel Mounting_MirrorMirrorDefault_182 1
+    100328: Explorer Wheel Mounting_MirrorMirrorDefault_182 10
+    100330: Explorer Wheel Mounting_MirrorMirrorDefault_182 11
+    100332: Explorer Wheel Mounting_MirrorMirrorDefault_182 2
+    100334: Explorer Wheel Mounting_MirrorMirrorDefault_182 3
+    100336: Explorer Wheel Mounting_MirrorMirrorDefault_182 4
+    100338: Explorer Wheel Mounting_MirrorMirrorDefault_182 5
+    100340: Explorer Wheel Mounting_MirrorMirrorDefault_182 6
+    100342: Explorer Wheel Mounting_MirrorMirrorDefault_182 7
+    100344: Explorer Wheel Mounting_MirrorMirrorDefault_182 8
+    100346: Explorer Wheel Mounting_MirrorMirrorDefault_182 9
+    100348: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174
+    100350: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 1
+    100352: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 2
+    100354: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 3
+    100356: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 4
+    100358: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 5
+    100360: Explorer Wheel_194
+    100362: Explorer Wheel_MirrorDefault_176
+    100364: Explorer Wheel_MirrorDefault_184
+    100366: Explorer Wheel_MirrorMirrorDefault_181
+    100368: Explorer Wheel_MirrorMirrorDefault_181 1
+    100370: Explorer Wheel_MirrorMirrorMirrorDefault_173
+    100372: Front Lights and Laser_187
+    100374: Front Lights and Laser_187 1
+    100376: Front Lights and Laser_187 10
+    100378: Front Lights and Laser_187 11
+    100380: Front Lights and Laser_187 12
+    100382: Front Lights and Laser_187 13
+    100384: Front Lights and Laser_187 14
+    100386: Front Lights and Laser_187 15
+    100388: Front Lights and Laser_187 16
+    100390: Front Lights and Laser_187 17
+    100392: Front Lights and Laser_187 18
+    100394: Front Lights and Laser_187 19
+    100396: Front Lights and Laser_187 2
+    100398: Front Lights and Laser_187 20
+    100400: Front Lights and Laser_187 21
+    100402: Front Lights and Laser_187 22
+    100404: Front Lights and Laser_187 23
+    100406: Front Lights and Laser_187 24
+    100408: Front Lights and Laser_187 25
+    100410: Front Lights and Laser_187 26
+    100412: Front Lights and Laser_187 27
+    100414: Front Lights and Laser_187 3
+    100416: Front Lights and Laser_187 4
+    100418: Front Lights and Laser_187 5
+    100420: Front Lights and Laser_187 6
+    100422: Front Lights and Laser_187 7
+    100424: Front Lights and Laser_187 8
+    100426: Front Lights and Laser_187 9
+    100428: Front Lights Assembly_49
+    100430: Front Lights Assembly_50
+    100432: Front Lights Pod_186
+    100434: Front Lights Pod_186 1
+    100436: Front Lights Pod_186 10
+    100438: Front Lights Pod_186 11
+    100440: Front Lights Pod_186 12
+    100442: Front Lights Pod_186 13
+    100444: Front Lights Pod_186 14
+    100446: Front Lights Pod_186 15
+    100448: Front Lights Pod_186 16
+    100450: Front Lights Pod_186 17
+    100452: Front Lights Pod_186 18
+    100454: Front Lights Pod_186 19
+    100456: Front Lights Pod_186 2
+    100458: Front Lights Pod_186 20
+    100460: Front Lights Pod_186 21
+    100462: Front Lights Pod_186 3
+    100464: Front Lights Pod_186 4
+    100466: Front Lights Pod_186 5
+    100468: Front Lights Pod_186 6
+    100470: Front Lights Pod_186 7
+    100472: Front Lights Pod_186 8
+    100474: Front Lights Pod_186 9
+    100476: Front Plexy_27
+    100478: Frontal Cabin_25
+    100480: Frontal Cabin_25 1
+    100482: Frontal Cabin_25 2
+    100484: Frontal Cabin_25 3
+    100486: Frontal Cabin_25 4
+    100488: Frontal Cabin_25 5
+    100490: Frontal Cabin_25 6
+    100492: Frontal Cabin_25 7
+    100494: Frontal Cabin_25 8
+    100496: Frontal Cabin_25 9
+    100498: Hatch Cabin Module Assembly_48
+    100500: Hatch Door1_189
+    100502: Hatch Door1_189 1
+    100504: Hatch Door1_189 2
+    100506: Hatch Door2_190
+    100508: Lab Module_56
+    100510: Lab Module_56 1
+    100512: Lab Module_56 10
+    100514: Lab Module_56 11
+    100516: Lab Module_56 12
+    100518: Lab Module_56 13
+    100520: Lab Module_56 14
+    100522: Lab Module_56 15
+    100524: Lab Module_56 16
+    100526: Lab Module_56 17
+    100528: Lab Module_56 18
+    100530: Lab Module_56 19
+    100532: Lab Module_56 2
+    100534: Lab Module_56 20
+    100536: Lab Module_56 21
+    100538: Lab Module_56 22
+    100540: Lab Module_56 23
+    100542: Lab Module_56 24
+    100544: Lab Module_56 3
+    100546: Lab Module_56 4
+    100548: Lab Module_56 5
+    100550: Lab Module_56 6
+    100552: Lab Module_56 7
+    100554: Lab Module_56 8
+    100556: Lab Module_56 9
+    100558: Labour Air Distributor_76
+    100560: Labour Air Distributor_76 1
+    100562: Labour Air Distributor_76 2
+    100564: Labour Air Distributor_76 3
+    100566: Labour Plexy_57
+    100568: Labour Plexy_57 1
+    100570: Labour Plexy_57 2
+    100572: Ladder 2_67
+    100574: Ladder 2_67 1
+    100576: Ladder 2_67 10
+    100578: Ladder 2_67 2
+    100580: Ladder 2_67 3
+    100582: Ladder 2_67 4
+    100584: Ladder 2_67 5
+    100586: Ladder 2_67 6
+    100588: Ladder 2_67 7
+    100590: Ladder 2_67 8
+    100592: Ladder 2_67 9
+    100594: Ladder_192
+    100596: Led_46
+    100598: Led_46 1
+    100600: Led_46 2
+    100602: Led_46 3
+    100604: Led_46 4
+    100606: Led_46 5
+    100608: Led_77
+    100610: Led_77 1
+    100612: Led_77 2
+    100614: Led_77 3
+    100616: Led_77 4
+    100618: Led_77 5
+    100620: Led_78
+    100622: Led_78 1
+    100624: Led_78 2
+    100626: Led_78 3
+    100628: Led_78 4
+    100630: Led_78 5
+    100632: Led_79
+    100634: Led_79 1
+    100636: Led_79 2
+    100638: Led_79 3
+    100640: Led_79 4
+    100642: Led_79 5
+    100644: Led_80
+    100646: Led_80 1
+    100648: Led_80 2
+    100650: Led_80 3
+    100652: Led_80 4
+    100654: Led_80 5
+    100656: Led_81
+    100658: Led_81 1
+    100660: Led_81 2
+    100662: Led_81 3
+    100664: Led_81 4
+    100666: Led_81 5
+    100668: Led_82
+    100670: Led_82 1
+    100672: Led_82 2
+    100674: Led_82 3
+    100676: Led_82 4
+    100678: Led_82 5
+    100680: Led_83
+    100682: Led_83 1
+    100684: Led_83 2
+    100686: Led_83 3
+    100688: Led_83 4
+    100690: Led_83 5
+    100692: Main Platform_59
+    100694: //RootNode
+    100696: Mid Lower Cover_11
+    100698: Mid Lower Cover_11 1
+    100700: Mid Lower Cover_11 2
+    100702: Mid Lower Cover_11 3
+    100704: Mid Lower Cover_11 4
+    100706: Mid Lower Cover_11 5
+    100708: Mid Lower Cover_11 6
+    100710: Mid Lower Cover_11 7
+    100712: Mid Lower Cover_11 8
+    100714: MirrorExplorer Wheel Mounting_197
+    100716: MirrorExplorer Wheel Mounting_197 1
+    100718: MirrorExplorer Wheel Mounting_197 2
+    100720: MirrorExplorer Wheel Mounting_197 3
+    100722: MirrorExplorer Wheel Mounting_197 4
+    100724: MirrorExplorer Wheel Mounting_197 5
+    100726: MirrorExplorer Wheel Mounting_MirrorDefault_179
+    100728: MirrorExplorer Wheel Mounting_MirrorDefault_179 1
+    100730: MirrorExplorer Wheel Mounting_MirrorDefault_179 2
+    100732: MirrorExplorer Wheel Mounting_MirrorDefault_179 3
+    100734: MirrorExplorer Wheel Mounting_MirrorDefault_179 4
+    100736: MirrorExplorer Wheel Mounting_MirrorDefault_179 5
+    100738: MOXIE Assembly_68
+    100740: MOXIE Control Panel_163
+    100742: MOXIE Grid_102
+    100744: MOXIE Grid_102 1
+    100746: MOXIE Grid_102 2
+    100748: MOXIE_103
+    100750: MOXIE_104
+    100752: MOXIE_105
+    100754: MOXIE_106
+    100756: MOXIE_107
+    100758: MOXIE_108
+    100760: MOXIE_109
+    100762: MOXIE_110
+    100764: MOXIE_111
+    100766: MOXIE_112
+    100768: MOXIE_113
+    100770: MOXIE_114
+    100772: MOXIE_115
+    100774: MOXIE_116
+    100776: MOXIE_117
+    100778: MOXIE_118
+    100780: MOXIE_119
+    100782: MOXIE_120
+    100784: MOXIE_121
+    100786: MOXIE_122
+    100788: MOXIE_123
+    100790: MOXIE_124
+    100792: MOXIE_125
+    100794: MOXIE_126
+    100796: MOXIE_127
+    100798: MOXIE_128
+    100800: MOXIE_129
+    100802: MOXIE_130
+    100804: MOXIE_131
+    100806: MOXIE_132
+    100808: O2 Distributor_41
+    100810: O2 Distributor_41 1
+    100812: O2 Distributor_41 10
+    100814: O2 Distributor_41 11
+    100816: O2 Distributor_41 12
+    100818: O2 Distributor_41 13
+    100820: O2 Distributor_41 14
+    100822: O2 Distributor_41 2
+    100824: O2 Distributor_41 3
+    100826: O2 Distributor_41 4
+    100828: O2 Distributor_41 5
+    100830: O2 Distributor_41 6
+    100832: O2 Distributor_41 7
+    100834: O2 Distributor_41 8
+    100836: O2 Distributor_41 9
+    100838: O2 Pipeline_143
+    100840: O2 Pipeline_144
+    100842: O2 Pipeline_145
+    100844: O2 Pipeline_146
+    100846: O2 Pipeline_147
+    100848: O2 Pipeline_148
+    100850: O2 Pipeline_149
+    100852: O2 Pipeline_150
+    100854: O2 Pipeline_151
+    100856: O2 Pipeline_152
+    100858: Pipe Junction_164
+    100860: Pipe Junction_164 1
+    100862: Pipe Junction_164 2
+    100864: Pipe Junction_164 3
+    100866: Pipe Main Junction_101
+    100868: Pipe Main Junction_101 1
+    100870: Pipe Main Junction_101 2
+    100872: Pipe Main Junction_101 3
+    100874: Pipe Main Junction_101 4
+    100876: Pipe Main Junction_101 5
+    100878: Plexy Column_58
+    100880: Power Module Assembly_69
+    100882: Radar 1_63
+    100884: Radar 1_86
+    100886: Rubber Cover_26
+    100888: Side Light Cabin Assembly_65
+    100890: Side Light Cabin Assembly_87
+    100892: Side Light Cabin Assembly_88
+    100894: Side Light Cabin Assembly_89
+    100896: Side Light Cabin Assembly_90
+    100898: Side Light Cabin Assembly_91
+    100900: Side Lights Cabin_165
+    100902: Side Lights Cabin_165 1
+    100904: Side Lights Cabin_165 10
+    100906: Side Lights Cabin_165 11
+    100908: Side Lights Cabin_165 12
+    100910: Side Lights Cabin_165 13
+    100912: Side Lights Cabin_165 14
+    100914: Side Lights Cabin_165 15
+    100916: Side Lights Cabin_165 16
+    100918: Side Lights Cabin_165 17
+    100920: Side Lights Cabin_165 2
+    100922: Side Lights Cabin_165 3
+    100924: Side Lights Cabin_165 4
+    100926: Side Lights Cabin_165 5
+    100928: Side Lights Cabin_165 6
+    100930: Side Lights Cabin_165 7
+    100932: Side Lights Cabin_165 8
+    100934: Side Lights Cabin_165 9
+    100936: Side Lights Leds_166
+    100938: Side Lights Leds_166 1
+    100940: Side Lights Leds_166 10
+    100942: Side Lights Leds_166 100
+    100944: Side Lights Leds_166 101
+    100946: Side Lights Leds_166 102
+    100948: Side Lights Leds_166 103
+    100950: Side Lights Leds_166 104
+    100952: Side Lights Leds_166 105
+    100954: Side Lights Leds_166 106
+    100956: Side Lights Leds_166 107
+    100958: Side Lights Leds_166 108
+    100960: Side Lights Leds_166 109
+    100962: Side Lights Leds_166 11
+    100964: Side Lights Leds_166 110
+    100966: Side Lights Leds_166 111
+    100968: Side Lights Leds_166 112
+    100970: Side Lights Leds_166 113
+    100972: Side Lights Leds_166 114
+    100974: Side Lights Leds_166 115
+    100976: Side Lights Leds_166 116
+    100978: Side Lights Leds_166 117
+    100980: Side Lights Leds_166 118
+    100982: Side Lights Leds_166 119
+    100984: Side Lights Leds_166 12
+    100986: Side Lights Leds_166 120
+    100988: Side Lights Leds_166 121
+    100990: Side Lights Leds_166 122
+    100992: Side Lights Leds_166 123
+    100994: Side Lights Leds_166 124
+    100996: Side Lights Leds_166 125
+    100998: Side Lights Leds_166 126
+    101000: Side Lights Leds_166 127
+    101002: Side Lights Leds_166 128
+    101004: Side Lights Leds_166 129
+    101006: Side Lights Leds_166 13
+    101008: Side Lights Leds_166 130
+    101010: Side Lights Leds_166 131
+    101012: Side Lights Leds_166 132
+    101014: Side Lights Leds_166 133
+    101016: Side Lights Leds_166 134
+    101018: Side Lights Leds_166 135
+    101020: Side Lights Leds_166 136
+    101022: Side Lights Leds_166 137
+    101024: Side Lights Leds_166 138
+    101026: Side Lights Leds_166 139
+    101028: Side Lights Leds_166 14
+    101030: Side Lights Leds_166 140
+    101032: Side Lights Leds_166 141
+    101034: Side Lights Leds_166 142
+    101036: Side Lights Leds_166 143
+    101038: Side Lights Leds_166 144
+    101040: Side Lights Leds_166 145
+    101042: Side Lights Leds_166 146
+    101044: Side Lights Leds_166 147
+    101046: Side Lights Leds_166 148
+    101048: Side Lights Leds_166 149
+    101050: Side Lights Leds_166 15
+    101052: Side Lights Leds_166 150
+    101054: Side Lights Leds_166 151
+    101056: Side Lights Leds_166 152
+    101058: Side Lights Leds_166 153
+    101060: Side Lights Leds_166 154
+    101062: Side Lights Leds_166 155
+    101064: Side Lights Leds_166 16
+    101066: Side Lights Leds_166 17
+    101068: Side Lights Leds_166 18
+    101070: Side Lights Leds_166 19
+    101072: Side Lights Leds_166 2
+    101074: Side Lights Leds_166 20
+    101076: Side Lights Leds_166 21
+    101078: Side Lights Leds_166 22
+    101080: Side Lights Leds_166 23
+    101082: Side Lights Leds_166 24
+    101084: Side Lights Leds_166 25
+    101086: Side Lights Leds_166 26
+    101088: Side Lights Leds_166 27
+    101090: Side Lights Leds_166 28
+    101092: Side Lights Leds_166 29
+    101094: Side Lights Leds_166 3
+    101096: Side Lights Leds_166 30
+    101098: Side Lights Leds_166 31
+    101100: Side Lights Leds_166 32
+    101102: Side Lights Leds_166 33
+    101104: Side Lights Leds_166 34
+    101106: Side Lights Leds_166 35
+    101108: Side Lights Leds_166 36
+    101110: Side Lights Leds_166 37
+    101112: Side Lights Leds_166 38
+    101114: Side Lights Leds_166 39
+    101116: Side Lights Leds_166 4
+    101118: Side Lights Leds_166 40
+    101120: Side Lights Leds_166 41
+    101122: Side Lights Leds_166 42
+    101124: Side Lights Leds_166 43
+    101126: Side Lights Leds_166 44
+    101128: Side Lights Leds_166 45
+    101130: Side Lights Leds_166 46
+    101132: Side Lights Leds_166 47
+    101134: Side Lights Leds_166 48
+    101136: Side Lights Leds_166 49
+    101138: Side Lights Leds_166 5
+    101140: Side Lights Leds_166 50
+    101142: Side Lights Leds_166 51
+    101144: Side Lights Leds_166 52
+    101146: Side Lights Leds_166 53
+    101148: Side Lights Leds_166 54
+    101150: Side Lights Leds_166 55
+    101152: Side Lights Leds_166 56
+    101154: Side Lights Leds_166 57
+    101156: Side Lights Leds_166 58
+    101158: Side Lights Leds_166 59
+    101160: Side Lights Leds_166 6
+    101162: Side Lights Leds_166 60
+    101164: Side Lights Leds_166 61
+    101166: Side Lights Leds_166 62
+    101168: Side Lights Leds_166 63
+    101170: Side Lights Leds_166 64
+    101172: Side Lights Leds_166 65
+    101174: Side Lights Leds_166 66
+    101176: Side Lights Leds_166 67
+    101178: Side Lights Leds_166 68
+    101180: Side Lights Leds_166 69
+    101182: Side Lights Leds_166 7
+    101184: Side Lights Leds_166 70
+    101186: Side Lights Leds_166 71
+    101188: Side Lights Leds_166 72
+    101190: Side Lights Leds_166 73
+    101192: Side Lights Leds_166 74
+    101194: Side Lights Leds_166 75
+    101196: Side Lights Leds_166 76
+    101198: Side Lights Leds_166 77
+    101200: Side Lights Leds_166 78
+    101202: Side Lights Leds_166 79
+    101204: Side Lights Leds_166 8
+    101206: Side Lights Leds_166 80
+    101208: Side Lights Leds_166 81
+    101210: Side Lights Leds_166 82
+    101212: Side Lights Leds_166 83
+    101214: Side Lights Leds_166 84
+    101216: Side Lights Leds_166 85
+    101218: Side Lights Leds_166 86
+    101220: Side Lights Leds_166 87
+    101222: Side Lights Leds_166 88
+    101224: Side Lights Leds_166 89
+    101226: Side Lights Leds_166 9
+    101228: Side Lights Leds_166 90
+    101230: Side Lights Leds_166 91
+    101232: Side Lights Leds_166 92
+    101234: Side Lights Leds_166 93
+    101236: Side Lights Leds_166 94
+    101238: Side Lights Leds_166 95
+    101240: Side Lights Leds_166 96
+    101242: Side Lights Leds_166 97
+    101244: Side Lights Leds_166 98
+    101246: Side Lights Leds_166 99
+    101248: Solar Cell 1_100
+    101250: Solar Cell 1_100 1
+    101252: Solar Cell 1_100 10
+    101254: Solar Cell 1_100 11
+    101256: Solar Cell 1_100 12
+    101258: Solar Cell 1_100 13
+    101260: Solar Cell 1_100 14
+    101262: Solar Cell 1_100 15
+    101264: Solar Cell 1_100 2
+    101266: Solar Cell 1_100 3
+    101268: Solar Cell 1_100 4
+    101270: Solar Cell 1_100 5
+    101272: Solar Cell 1_100 6
+    101274: Solar Cell 1_100 7
+    101276: Solar Cell 1_100 8
+    101278: Solar Cell 1_100 9
+    101280: Solar Cell 1_99
+    101282: Solar Cell 1_99 1
+    101284: Solar Cell 1_99 10
+    101286: Solar Cell 1_99 11
+    101288: Solar Cell 1_99 12
+    101290: Solar Cell 1_99 13
+    101292: Solar Cell 1_99 14
+    101294: Solar Cell 1_99 15
+    101296: Solar Cell 1_99 2
+    101298: Solar Cell 1_99 3
+    101300: Solar Cell 1_99 4
+    101302: Solar Cell 1_99 5
+    101304: Solar Cell 1_99 6
+    101306: Solar Cell 1_99 7
+    101308: Solar Cell 1_99 8
+    101310: Solar Cell 1_99 9
+    101312: Solar Cell 2_Default<As Machined>_98
+    101314: Solar Cell 2_Default<As Machined>_98 1
+    101316: Solar Cell Assembly 2_85
+    101318: Solar Cell Assembly_84
+    101320: Solar Cell Mounting_94
+    101322: Solar Cell Mounting_96
+    101324: Solar Power Assembly_95
+    101326: Solar Power Assembly_97
+    101328: Wheel Cover 1_3
+    101330: Wheel Cover 1_MirrorDefault_5
+    101332: Wheel Cover 1_MirrorDefault_7
+    101334: Wheel Cover 1_MirrorMirrorDefault_9
+    101336: Wheel Cover 2_4
+    101338: Wheel Cover 2_MirrorDefault_6
+    101340: Wheel Cover 2_MirrorDefault_8
+    101342: Wheel Cover 2_MirrorMirrorDefault_10
+    101344: Wheel Cover 3_12
+    101346: Wheel Cover 3_MirrorDefault_14
+    101348: Wheel Cover 3_MirrorDefault_18
+    101350: Wheel Cover 3_MirrorMirrorDefault_16
+    101352: Wheel Cover 4_13
+    101354: Wheel Cover 4_MirrorDefault_15
+    101356: Wheel Cover 4_MirrorDefault_19
+    101358: Wheel Cover 4_MirrorMirrorDefault_17
+    400000: 100_1500 Lights_42
+    400002: 100_1500 Lights_43
+    400004: 100_2000 Lights_44
+    400006: 100_3000 Lights_45
+    400008: 100_3000 Lights_70
+    400010: 100_3000 Lights_71
+    400012: 100_3000 Lights_72
+    400014: Aerator Bottom_32
+    400016: Aerator Bottom_33
+    400018: Aerator Bottom_34
+    400020: Aerator Bottom_35
+    400022: Aerator Bottom_36
+    400024: Aerator Bottom_37
+    400026: Aerator Bottom_38
+    400028: Aerator Bottom_39
+    400030: Aerator Bottom_40
+    400032: Aerator in Lab_73
+    400034: Aerator in Lab_74
+    400036: Aerator in Lab_75
+    400038: Aerator_29
+    400040: Aerator_30
+    400042: Aerator_31
+    400044: Air Springs 2_22
+    400046: Air Springs 2_22 1
+    400048: Air Springs 2_22 2
+    400050: Air Springs 2_22 3
+    400052: Air Springs 2_22 4
+    400054: Air Springs 2_22 5
+    400056: Air Springs 2_22 6
+    400058: Air Springs 2_22 7
+    400060: Air Springs 2_MirrorDefault_24
+    400062: Air Springs 2_MirrorDefault_24 1
+    400064: Air Springs 2_MirrorDefault_24 2
+    400066: Air Springs 2_MirrorDefault_24 3
+    400068: Air Springs 2_MirrorDefault_24 4
+    400070: Air Springs 2_MirrorDefault_24 5
+    400072: Air Springs 2_MirrorDefault_24 6
+    400074: Air Springs 2_MirrorDefault_24 7
+    400076: Air Springs_21
+    400078: Air Springs_21 1
+    400080: Air Springs_21 2
+    400082: Air Springs_21 3
+    400084: Air Springs_21 4
+    400086: Air Springs_MirrorDefault_23
+    400088: Air Springs_MirrorDefault_23 1
+    400090: Air Springs_MirrorDefault_23 2
+    400092: Air Springs_MirrorDefault_23 3
+    400094: Air Springs_MirrorDefault_23 4
+    400096: Airlock Door_66
+    400098: Airlock Door_66 1
+    400100: Airlock Door_66 2
+    400102: Airlock Door_66 3
+    400104: Airlock Door_66 4
+    400106: Aux Pipeline_153
+    400108: Aux Pipeline_154
+    400110: Aux Pipeline_155
+    400112: Aux Pipeline_156
+    400114: Aux Pipeline_157
+    400116: Aux Pipeline_158
+    400118: Aux Pipeline_159
+    400120: Aux Pipeline_160
+    400122: Aux Pipeline_161
+    400124: Aux Pipeline_162
+    400126: Body10_60
+    400128: Body10_60 1
+    400130: Body10_60 2
+    400132: Body10_60 3
+    400134: Body10_60 4
+    400136: Cabin Hatch Module 1_188
+    400138: CO2 Distributor_28
+    400140: CO2 Distributor_28 1
+    400142: CO2 Distributor_28 10
+    400144: CO2 Distributor_28 2
+    400146: CO2 Distributor_28 3
+    400148: CO2 Distributor_28 4
+    400150: CO2 Distributor_28 5
+    400152: CO2 Distributor_28 6
+    400154: CO2 Distributor_28 7
+    400156: CO2 Distributor_28 8
+    400158: CO2 Distributor_28 9
+    400160: CO2 Pipeline Ending_142
+    400162: CO2 Pipeline Main_141
+    400164: CO2 Pipeline Main_141 1
+    400166: CO2 Pipeline Main_141 2
+    400168: CO2 Pipeline Main_141 3
+    400170: CO2 Pipeline_133
+    400172: CO2 Pipeline_134
+    400174: CO2 Pipeline_135
+    400176: CO2 Pipeline_136
+    400178: CO2 Pipeline_137
+    400180: CO2 Pipeline_138
+    400182: CO2 Pipeline_139
+    400184: CO2 Pipeline_140
+    400186: Cockpit Lights_47
+    400188: Com Link 1_171
+    400190: Com Link 1_171 1
+    400192: Com Link 2_170
+    400194: Com Link 2_170 1
+    400196: Com Link 3_168
+    400198: Com Link 4_169
+    400200: Com Link Base_167
+    400202: Com Tower 1_64
+    400204: crane hook_92
+    400206: crane hook_93
+    400208: Crane_61
+    400210: Crane_61 1
+    400212: Crane_61 2
+    400214: Crane_62
+    400216: Crane_62 1
+    400218: Crane_62 2
+    400220: Door2 Hinge_191
+    400222: Explorer Bottom Cover_1
+    400224: Explorer Bottom Cover_1 1
+    400226: Explorer Bottom Cover_1 2
+    400228: Explorer Bottom Cover_1 3
+    400230: Explorer Bottom Cover_1 4
+    400232: Explorer Chassis_2
+    400234: Explorer Chassis_2 1
+    400236: Explorer Chassis_2 10
+    400238: Explorer Chassis_2 11
+    400240: Explorer Chassis_2 12
+    400242: Explorer Chassis_2 13
+    400244: Explorer Chassis_2 2
+    400246: Explorer Chassis_2 3
+    400248: Explorer Chassis_2 4
+    400250: Explorer Chassis_2 5
+    400252: Explorer Chassis_2 6
+    400254: Explorer Chassis_2 7
+    400256: Explorer Chassis_2 8
+    400258: Explorer Chassis_2 9
+    400260: Explorer Main Gear_196
+    400262: Explorer Main Gear_MirrorDefault_178
+    400264: Explorer Mid Wheel Assembly_20
+    400266: Explorer Mid Wheel Assembly_MirrorDefault_53
+    400268: Explorer Tyre_193
+    400270: Explorer Tyre_MirrorDefault_175
+    400272: Explorer Tyre_MirrorDefault_183
+    400274: Explorer Tyre_MirrorMirrorDefault_180
+    400276: Explorer Tyre_MirrorMirrorDefault_180 1
+    400278: Explorer Tyre_MirrorMirrorMirrorDefault_172
+    400280: Explorer Wheel Assembly_MirrorDefault_51
+    400282: Explorer Wheel Assembly_MirrorMirrorDefault_52
+    400284: Explorer Wheel Assembly_MirrorMirrorDefault_55
+    400286: Explorer Wheel Assembly_MirrorMirrorMirrorDefault_54
+    400288: Explorer Wheel Mounting_195
+    400290: Explorer Wheel Mounting_195 1
+    400292: Explorer Wheel Mounting_195 2
+    400294: Explorer Wheel Mounting_195 3
+    400296: Explorer Wheel Mounting_195 4
+    400298: Explorer Wheel Mounting_195 5
+    400300: Explorer Wheel Mounting_MirrorDefault_177
+    400302: Explorer Wheel Mounting_MirrorDefault_177 1
+    400304: Explorer Wheel Mounting_MirrorDefault_177 2
+    400306: Explorer Wheel Mounting_MirrorDefault_177 3
+    400308: Explorer Wheel Mounting_MirrorDefault_177 4
+    400310: Explorer Wheel Mounting_MirrorDefault_177 5
+    400312: Explorer Wheel Mounting_MirrorDefault_185
+    400314: Explorer Wheel Mounting_MirrorDefault_185 1
+    400316: Explorer Wheel Mounting_MirrorDefault_185 2
+    400318: Explorer Wheel Mounting_MirrorDefault_185 3
+    400320: Explorer Wheel Mounting_MirrorDefault_185 4
+    400322: Explorer Wheel Mounting_MirrorDefault_185 5
+    400324: Explorer Wheel Mounting_MirrorMirrorDefault_182
+    400326: Explorer Wheel Mounting_MirrorMirrorDefault_182 1
+    400328: Explorer Wheel Mounting_MirrorMirrorDefault_182 10
+    400330: Explorer Wheel Mounting_MirrorMirrorDefault_182 11
+    400332: Explorer Wheel Mounting_MirrorMirrorDefault_182 2
+    400334: Explorer Wheel Mounting_MirrorMirrorDefault_182 3
+    400336: Explorer Wheel Mounting_MirrorMirrorDefault_182 4
+    400338: Explorer Wheel Mounting_MirrorMirrorDefault_182 5
+    400340: Explorer Wheel Mounting_MirrorMirrorDefault_182 6
+    400342: Explorer Wheel Mounting_MirrorMirrorDefault_182 7
+    400344: Explorer Wheel Mounting_MirrorMirrorDefault_182 8
+    400346: Explorer Wheel Mounting_MirrorMirrorDefault_182 9
+    400348: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174
+    400350: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 1
+    400352: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 2
+    400354: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 3
+    400356: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 4
+    400358: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 5
+    400360: Explorer Wheel_194
+    400362: Explorer Wheel_MirrorDefault_176
+    400364: Explorer Wheel_MirrorDefault_184
+    400366: Explorer Wheel_MirrorMirrorDefault_181
+    400368: Explorer Wheel_MirrorMirrorDefault_181 1
+    400370: Explorer Wheel_MirrorMirrorMirrorDefault_173
+    400372: Front Lights and Laser_187
+    400374: Front Lights and Laser_187 1
+    400376: Front Lights and Laser_187 10
+    400378: Front Lights and Laser_187 11
+    400380: Front Lights and Laser_187 12
+    400382: Front Lights and Laser_187 13
+    400384: Front Lights and Laser_187 14
+    400386: Front Lights and Laser_187 15
+    400388: Front Lights and Laser_187 16
+    400390: Front Lights and Laser_187 17
+    400392: Front Lights and Laser_187 18
+    400394: Front Lights and Laser_187 19
+    400396: Front Lights and Laser_187 2
+    400398: Front Lights and Laser_187 20
+    400400: Front Lights and Laser_187 21
+    400402: Front Lights and Laser_187 22
+    400404: Front Lights and Laser_187 23
+    400406: Front Lights and Laser_187 24
+    400408: Front Lights and Laser_187 25
+    400410: Front Lights and Laser_187 26
+    400412: Front Lights and Laser_187 27
+    400414: Front Lights and Laser_187 3
+    400416: Front Lights and Laser_187 4
+    400418: Front Lights and Laser_187 5
+    400420: Front Lights and Laser_187 6
+    400422: Front Lights and Laser_187 7
+    400424: Front Lights and Laser_187 8
+    400426: Front Lights and Laser_187 9
+    400428: Front Lights Assembly_49
+    400430: Front Lights Assembly_50
+    400432: Front Lights Pod_186
+    400434: Front Lights Pod_186 1
+    400436: Front Lights Pod_186 10
+    400438: Front Lights Pod_186 11
+    400440: Front Lights Pod_186 12
+    400442: Front Lights Pod_186 13
+    400444: Front Lights Pod_186 14
+    400446: Front Lights Pod_186 15
+    400448: Front Lights Pod_186 16
+    400450: Front Lights Pod_186 17
+    400452: Front Lights Pod_186 18
+    400454: Front Lights Pod_186 19
+    400456: Front Lights Pod_186 2
+    400458: Front Lights Pod_186 20
+    400460: Front Lights Pod_186 21
+    400462: Front Lights Pod_186 3
+    400464: Front Lights Pod_186 4
+    400466: Front Lights Pod_186 5
+    400468: Front Lights Pod_186 6
+    400470: Front Lights Pod_186 7
+    400472: Front Lights Pod_186 8
+    400474: Front Lights Pod_186 9
+    400476: Front Plexy_27
+    400478: Frontal Cabin_25
+    400480: Frontal Cabin_25 1
+    400482: Frontal Cabin_25 2
+    400484: Frontal Cabin_25 3
+    400486: Frontal Cabin_25 4
+    400488: Frontal Cabin_25 5
+    400490: Frontal Cabin_25 6
+    400492: Frontal Cabin_25 7
+    400494: Frontal Cabin_25 8
+    400496: Frontal Cabin_25 9
+    400498: Hatch Cabin Module Assembly_48
+    400500: Hatch Door1_189
+    400502: Hatch Door1_189 1
+    400504: Hatch Door1_189 2
+    400506: Hatch Door2_190
+    400508: Lab Module_56
+    400510: Lab Module_56 1
+    400512: Lab Module_56 10
+    400514: Lab Module_56 11
+    400516: Lab Module_56 12
+    400518: Lab Module_56 13
+    400520: Lab Module_56 14
+    400522: Lab Module_56 15
+    400524: Lab Module_56 16
+    400526: Lab Module_56 17
+    400528: Lab Module_56 18
+    400530: Lab Module_56 19
+    400532: Lab Module_56 2
+    400534: Lab Module_56 20
+    400536: Lab Module_56 21
+    400538: Lab Module_56 22
+    400540: Lab Module_56 23
+    400542: Lab Module_56 24
+    400544: Lab Module_56 3
+    400546: Lab Module_56 4
+    400548: Lab Module_56 5
+    400550: Lab Module_56 6
+    400552: Lab Module_56 7
+    400554: Lab Module_56 8
+    400556: Lab Module_56 9
+    400558: Labour Air Distributor_76
+    400560: Labour Air Distributor_76 1
+    400562: Labour Air Distributor_76 2
+    400564: Labour Air Distributor_76 3
+    400566: Labour Plexy_57
+    400568: Labour Plexy_57 1
+    400570: Labour Plexy_57 2
+    400572: Ladder 2_67
+    400574: Ladder 2_67 1
+    400576: Ladder 2_67 10
+    400578: Ladder 2_67 2
+    400580: Ladder 2_67 3
+    400582: Ladder 2_67 4
+    400584: Ladder 2_67 5
+    400586: Ladder 2_67 6
+    400588: Ladder 2_67 7
+    400590: Ladder 2_67 8
+    400592: Ladder 2_67 9
+    400594: Ladder_192
+    400596: Led_46
+    400598: Led_46 1
+    400600: Led_46 2
+    400602: Led_46 3
+    400604: Led_46 4
+    400606: Led_46 5
+    400608: Led_77
+    400610: Led_77 1
+    400612: Led_77 2
+    400614: Led_77 3
+    400616: Led_77 4
+    400618: Led_77 5
+    400620: Led_78
+    400622: Led_78 1
+    400624: Led_78 2
+    400626: Led_78 3
+    400628: Led_78 4
+    400630: Led_78 5
+    400632: Led_79
+    400634: Led_79 1
+    400636: Led_79 2
+    400638: Led_79 3
+    400640: Led_79 4
+    400642: Led_79 5
+    400644: Led_80
+    400646: Led_80 1
+    400648: Led_80 2
+    400650: Led_80 3
+    400652: Led_80 4
+    400654: Led_80 5
+    400656: Led_81
+    400658: Led_81 1
+    400660: Led_81 2
+    400662: Led_81 3
+    400664: Led_81 4
+    400666: Led_81 5
+    400668: Led_82
+    400670: Led_82 1
+    400672: Led_82 2
+    400674: Led_82 3
+    400676: Led_82 4
+    400678: Led_82 5
+    400680: Led_83
+    400682: Led_83 1
+    400684: Led_83 2
+    400686: Led_83 3
+    400688: Led_83 4
+    400690: Led_83 5
+    400692: Main Platform_59
+    400694: //RootNode
+    400696: Mid Lower Cover_11
+    400698: Mid Lower Cover_11 1
+    400700: Mid Lower Cover_11 2
+    400702: Mid Lower Cover_11 3
+    400704: Mid Lower Cover_11 4
+    400706: Mid Lower Cover_11 5
+    400708: Mid Lower Cover_11 6
+    400710: Mid Lower Cover_11 7
+    400712: Mid Lower Cover_11 8
+    400714: MirrorExplorer Wheel Mounting_197
+    400716: MirrorExplorer Wheel Mounting_197 1
+    400718: MirrorExplorer Wheel Mounting_197 2
+    400720: MirrorExplorer Wheel Mounting_197 3
+    400722: MirrorExplorer Wheel Mounting_197 4
+    400724: MirrorExplorer Wheel Mounting_197 5
+    400726: MirrorExplorer Wheel Mounting_MirrorDefault_179
+    400728: MirrorExplorer Wheel Mounting_MirrorDefault_179 1
+    400730: MirrorExplorer Wheel Mounting_MirrorDefault_179 2
+    400732: MirrorExplorer Wheel Mounting_MirrorDefault_179 3
+    400734: MirrorExplorer Wheel Mounting_MirrorDefault_179 4
+    400736: MirrorExplorer Wheel Mounting_MirrorDefault_179 5
+    400738: MOXIE Assembly_68
+    400740: MOXIE Control Panel_163
+    400742: MOXIE Grid_102
+    400744: MOXIE Grid_102 1
+    400746: MOXIE Grid_102 2
+    400748: MOXIE_103
+    400750: MOXIE_104
+    400752: MOXIE_105
+    400754: MOXIE_106
+    400756: MOXIE_107
+    400758: MOXIE_108
+    400760: MOXIE_109
+    400762: MOXIE_110
+    400764: MOXIE_111
+    400766: MOXIE_112
+    400768: MOXIE_113
+    400770: MOXIE_114
+    400772: MOXIE_115
+    400774: MOXIE_116
+    400776: MOXIE_117
+    400778: MOXIE_118
+    400780: MOXIE_119
+    400782: MOXIE_120
+    400784: MOXIE_121
+    400786: MOXIE_122
+    400788: MOXIE_123
+    400790: MOXIE_124
+    400792: MOXIE_125
+    400794: MOXIE_126
+    400796: MOXIE_127
+    400798: MOXIE_128
+    400800: MOXIE_129
+    400802: MOXIE_130
+    400804: MOXIE_131
+    400806: MOXIE_132
+    400808: O2 Distributor_41
+    400810: O2 Distributor_41 1
+    400812: O2 Distributor_41 10
+    400814: O2 Distributor_41 11
+    400816: O2 Distributor_41 12
+    400818: O2 Distributor_41 13
+    400820: O2 Distributor_41 14
+    400822: O2 Distributor_41 2
+    400824: O2 Distributor_41 3
+    400826: O2 Distributor_41 4
+    400828: O2 Distributor_41 5
+    400830: O2 Distributor_41 6
+    400832: O2 Distributor_41 7
+    400834: O2 Distributor_41 8
+    400836: O2 Distributor_41 9
+    400838: O2 Pipeline_143
+    400840: O2 Pipeline_144
+    400842: O2 Pipeline_145
+    400844: O2 Pipeline_146
+    400846: O2 Pipeline_147
+    400848: O2 Pipeline_148
+    400850: O2 Pipeline_149
+    400852: O2 Pipeline_150
+    400854: O2 Pipeline_151
+    400856: O2 Pipeline_152
+    400858: Pipe Junction_164
+    400860: Pipe Junction_164 1
+    400862: Pipe Junction_164 2
+    400864: Pipe Junction_164 3
+    400866: Pipe Main Junction_101
+    400868: Pipe Main Junction_101 1
+    400870: Pipe Main Junction_101 2
+    400872: Pipe Main Junction_101 3
+    400874: Pipe Main Junction_101 4
+    400876: Pipe Main Junction_101 5
+    400878: Plexy Column_58
+    400880: Power Module Assembly_69
+    400882: Radar 1_63
+    400884: Radar 1_86
+    400886: Rubber Cover_26
+    400888: Side Light Cabin Assembly_65
+    400890: Side Light Cabin Assembly_87
+    400892: Side Light Cabin Assembly_88
+    400894: Side Light Cabin Assembly_89
+    400896: Side Light Cabin Assembly_90
+    400898: Side Light Cabin Assembly_91
+    400900: Side Lights Cabin_165
+    400902: Side Lights Cabin_165 1
+    400904: Side Lights Cabin_165 10
+    400906: Side Lights Cabin_165 11
+    400908: Side Lights Cabin_165 12
+    400910: Side Lights Cabin_165 13
+    400912: Side Lights Cabin_165 14
+    400914: Side Lights Cabin_165 15
+    400916: Side Lights Cabin_165 16
+    400918: Side Lights Cabin_165 17
+    400920: Side Lights Cabin_165 2
+    400922: Side Lights Cabin_165 3
+    400924: Side Lights Cabin_165 4
+    400926: Side Lights Cabin_165 5
+    400928: Side Lights Cabin_165 6
+    400930: Side Lights Cabin_165 7
+    400932: Side Lights Cabin_165 8
+    400934: Side Lights Cabin_165 9
+    400936: Side Lights Leds_166
+    400938: Side Lights Leds_166 1
+    400940: Side Lights Leds_166 10
+    400942: Side Lights Leds_166 100
+    400944: Side Lights Leds_166 101
+    400946: Side Lights Leds_166 102
+    400948: Side Lights Leds_166 103
+    400950: Side Lights Leds_166 104
+    400952: Side Lights Leds_166 105
+    400954: Side Lights Leds_166 106
+    400956: Side Lights Leds_166 107
+    400958: Side Lights Leds_166 108
+    400960: Side Lights Leds_166 109
+    400962: Side Lights Leds_166 11
+    400964: Side Lights Leds_166 110
+    400966: Side Lights Leds_166 111
+    400968: Side Lights Leds_166 112
+    400970: Side Lights Leds_166 113
+    400972: Side Lights Leds_166 114
+    400974: Side Lights Leds_166 115
+    400976: Side Lights Leds_166 116
+    400978: Side Lights Leds_166 117
+    400980: Side Lights Leds_166 118
+    400982: Side Lights Leds_166 119
+    400984: Side Lights Leds_166 12
+    400986: Side Lights Leds_166 120
+    400988: Side Lights Leds_166 121
+    400990: Side Lights Leds_166 122
+    400992: Side Lights Leds_166 123
+    400994: Side Lights Leds_166 124
+    400996: Side Lights Leds_166 125
+    400998: Side Lights Leds_166 126
+    401000: Side Lights Leds_166 127
+    401002: Side Lights Leds_166 128
+    401004: Side Lights Leds_166 129
+    401006: Side Lights Leds_166 13
+    401008: Side Lights Leds_166 130
+    401010: Side Lights Leds_166 131
+    401012: Side Lights Leds_166 132
+    401014: Side Lights Leds_166 133
+    401016: Side Lights Leds_166 134
+    401018: Side Lights Leds_166 135
+    401020: Side Lights Leds_166 136
+    401022: Side Lights Leds_166 137
+    401024: Side Lights Leds_166 138
+    401026: Side Lights Leds_166 139
+    401028: Side Lights Leds_166 14
+    401030: Side Lights Leds_166 140
+    401032: Side Lights Leds_166 141
+    401034: Side Lights Leds_166 142
+    401036: Side Lights Leds_166 143
+    401038: Side Lights Leds_166 144
+    401040: Side Lights Leds_166 145
+    401042: Side Lights Leds_166 146
+    401044: Side Lights Leds_166 147
+    401046: Side Lights Leds_166 148
+    401048: Side Lights Leds_166 149
+    401050: Side Lights Leds_166 15
+    401052: Side Lights Leds_166 150
+    401054: Side Lights Leds_166 151
+    401056: Side Lights Leds_166 152
+    401058: Side Lights Leds_166 153
+    401060: Side Lights Leds_166 154
+    401062: Side Lights Leds_166 155
+    401064: Side Lights Leds_166 16
+    401066: Side Lights Leds_166 17
+    401068: Side Lights Leds_166 18
+    401070: Side Lights Leds_166 19
+    401072: Side Lights Leds_166 2
+    401074: Side Lights Leds_166 20
+    401076: Side Lights Leds_166 21
+    401078: Side Lights Leds_166 22
+    401080: Side Lights Leds_166 23
+    401082: Side Lights Leds_166 24
+    401084: Side Lights Leds_166 25
+    401086: Side Lights Leds_166 26
+    401088: Side Lights Leds_166 27
+    401090: Side Lights Leds_166 28
+    401092: Side Lights Leds_166 29
+    401094: Side Lights Leds_166 3
+    401096: Side Lights Leds_166 30
+    401098: Side Lights Leds_166 31
+    401100: Side Lights Leds_166 32
+    401102: Side Lights Leds_166 33
+    401104: Side Lights Leds_166 34
+    401106: Side Lights Leds_166 35
+    401108: Side Lights Leds_166 36
+    401110: Side Lights Leds_166 37
+    401112: Side Lights Leds_166 38
+    401114: Side Lights Leds_166 39
+    401116: Side Lights Leds_166 4
+    401118: Side Lights Leds_166 40
+    401120: Side Lights Leds_166 41
+    401122: Side Lights Leds_166 42
+    401124: Side Lights Leds_166 43
+    401126: Side Lights Leds_166 44
+    401128: Side Lights Leds_166 45
+    401130: Side Lights Leds_166 46
+    401132: Side Lights Leds_166 47
+    401134: Side Lights Leds_166 48
+    401136: Side Lights Leds_166 49
+    401138: Side Lights Leds_166 5
+    401140: Side Lights Leds_166 50
+    401142: Side Lights Leds_166 51
+    401144: Side Lights Leds_166 52
+    401146: Side Lights Leds_166 53
+    401148: Side Lights Leds_166 54
+    401150: Side Lights Leds_166 55
+    401152: Side Lights Leds_166 56
+    401154: Side Lights Leds_166 57
+    401156: Side Lights Leds_166 58
+    401158: Side Lights Leds_166 59
+    401160: Side Lights Leds_166 6
+    401162: Side Lights Leds_166 60
+    401164: Side Lights Leds_166 61
+    401166: Side Lights Leds_166 62
+    401168: Side Lights Leds_166 63
+    401170: Side Lights Leds_166 64
+    401172: Side Lights Leds_166 65
+    401174: Side Lights Leds_166 66
+    401176: Side Lights Leds_166 67
+    401178: Side Lights Leds_166 68
+    401180: Side Lights Leds_166 69
+    401182: Side Lights Leds_166 7
+    401184: Side Lights Leds_166 70
+    401186: Side Lights Leds_166 71
+    401188: Side Lights Leds_166 72
+    401190: Side Lights Leds_166 73
+    401192: Side Lights Leds_166 74
+    401194: Side Lights Leds_166 75
+    401196: Side Lights Leds_166 76
+    401198: Side Lights Leds_166 77
+    401200: Side Lights Leds_166 78
+    401202: Side Lights Leds_166 79
+    401204: Side Lights Leds_166 8
+    401206: Side Lights Leds_166 80
+    401208: Side Lights Leds_166 81
+    401210: Side Lights Leds_166 82
+    401212: Side Lights Leds_166 83
+    401214: Side Lights Leds_166 84
+    401216: Side Lights Leds_166 85
+    401218: Side Lights Leds_166 86
+    401220: Side Lights Leds_166 87
+    401222: Side Lights Leds_166 88
+    401224: Side Lights Leds_166 89
+    401226: Side Lights Leds_166 9
+    401228: Side Lights Leds_166 90
+    401230: Side Lights Leds_166 91
+    401232: Side Lights Leds_166 92
+    401234: Side Lights Leds_166 93
+    401236: Side Lights Leds_166 94
+    401238: Side Lights Leds_166 95
+    401240: Side Lights Leds_166 96
+    401242: Side Lights Leds_166 97
+    401244: Side Lights Leds_166 98
+    401246: Side Lights Leds_166 99
+    401248: Solar Cell 1_100
+    401250: Solar Cell 1_100 1
+    401252: Solar Cell 1_100 10
+    401254: Solar Cell 1_100 11
+    401256: Solar Cell 1_100 12
+    401258: Solar Cell 1_100 13
+    401260: Solar Cell 1_100 14
+    401262: Solar Cell 1_100 15
+    401264: Solar Cell 1_100 2
+    401266: Solar Cell 1_100 3
+    401268: Solar Cell 1_100 4
+    401270: Solar Cell 1_100 5
+    401272: Solar Cell 1_100 6
+    401274: Solar Cell 1_100 7
+    401276: Solar Cell 1_100 8
+    401278: Solar Cell 1_100 9
+    401280: Solar Cell 1_99
+    401282: Solar Cell 1_99 1
+    401284: Solar Cell 1_99 10
+    401286: Solar Cell 1_99 11
+    401288: Solar Cell 1_99 12
+    401290: Solar Cell 1_99 13
+    401292: Solar Cell 1_99 14
+    401294: Solar Cell 1_99 15
+    401296: Solar Cell 1_99 2
+    401298: Solar Cell 1_99 3
+    401300: Solar Cell 1_99 4
+    401302: Solar Cell 1_99 5
+    401304: Solar Cell 1_99 6
+    401306: Solar Cell 1_99 7
+    401308: Solar Cell 1_99 8
+    401310: Solar Cell 1_99 9
+    401312: Solar Cell 2_Default<As Machined>_98
+    401314: Solar Cell 2_Default<As Machined>_98 1
+    401316: Solar Cell Assembly 2_85
+    401318: Solar Cell Assembly_84
+    401320: Solar Cell Mounting_94
+    401322: Solar Cell Mounting_96
+    401324: Solar Power Assembly_95
+    401326: Solar Power Assembly_97
+    401328: Wheel Cover 1_3
+    401330: Wheel Cover 1_MirrorDefault_5
+    401332: Wheel Cover 1_MirrorDefault_7
+    401334: Wheel Cover 1_MirrorMirrorDefault_9
+    401336: Wheel Cover 2_4
+    401338: Wheel Cover 2_MirrorDefault_6
+    401340: Wheel Cover 2_MirrorDefault_8
+    401342: Wheel Cover 2_MirrorMirrorDefault_10
+    401344: Wheel Cover 3_12
+    401346: Wheel Cover 3_MirrorDefault_14
+    401348: Wheel Cover 3_MirrorDefault_18
+    401350: Wheel Cover 3_MirrorMirrorDefault_16
+    401352: Wheel Cover 4_13
+    401354: Wheel Cover 4_MirrorDefault_15
+    401356: Wheel Cover 4_MirrorDefault_19
+    401358: Wheel Cover 4_MirrorMirrorDefault_17
+    2300000: 100_1500 Lights_42
+    2300002: 100_1500 Lights_43
+    2300004: 100_2000 Lights_44
+    2300006: 100_3000 Lights_45
+    2300008: 100_3000 Lights_70
+    2300010: 100_3000 Lights_71
+    2300012: 100_3000 Lights_72
+    2300014: Aerator Bottom_32
+    2300016: Aerator Bottom_33
+    2300018: Aerator Bottom_34
+    2300020: Aerator Bottom_35
+    2300022: Aerator Bottom_36
+    2300024: Aerator Bottom_37
+    2300026: Aerator Bottom_38
+    2300028: Aerator Bottom_39
+    2300030: Aerator Bottom_40
+    2300032: Aerator in Lab_73
+    2300034: Aerator in Lab_74
+    2300036: Aerator in Lab_75
+    2300038: Aerator_29
+    2300040: Aerator_30
+    2300042: Aerator_31
+    2300044: Air Springs 2_22 1
+    2300046: Air Springs 2_22 2
+    2300048: Air Springs 2_22 3
+    2300050: Air Springs 2_22 4
+    2300052: Air Springs 2_22 5
+    2300054: Air Springs 2_22 6
+    2300056: Air Springs 2_22 7
+    2300058: Air Springs 2_MirrorDefault_24 1
+    2300060: Air Springs 2_MirrorDefault_24 2
+    2300062: Air Springs 2_MirrorDefault_24 3
+    2300064: Air Springs 2_MirrorDefault_24 4
+    2300066: Air Springs 2_MirrorDefault_24 5
+    2300068: Air Springs 2_MirrorDefault_24 6
+    2300070: Air Springs 2_MirrorDefault_24 7
+    2300072: Air Springs_21 1
+    2300074: Air Springs_21 2
+    2300076: Air Springs_21 3
+    2300078: Air Springs_21 4
+    2300080: Air Springs_MirrorDefault_23 1
+    2300082: Air Springs_MirrorDefault_23 2
+    2300084: Air Springs_MirrorDefault_23 3
+    2300086: Air Springs_MirrorDefault_23 4
+    2300088: Airlock Door_66 1
+    2300090: Airlock Door_66 2
+    2300092: Airlock Door_66 3
+    2300094: Airlock Door_66 4
+    2300096: Aux Pipeline_153
+    2300098: Aux Pipeline_154
+    2300100: Aux Pipeline_155
+    2300102: Aux Pipeline_156
+    2300104: Aux Pipeline_157
+    2300106: Aux Pipeline_158
+    2300108: Aux Pipeline_159
+    2300110: Aux Pipeline_160
+    2300112: Aux Pipeline_161
+    2300114: Aux Pipeline_162
+    2300116: Body10_60 1
+    2300118: Body10_60 2
+    2300120: Body10_60 3
+    2300122: Body10_60 4
+    2300124: Cabin Hatch Module 1_188
+    2300126: CO2 Distributor_28 1
+    2300128: CO2 Distributor_28 10
+    2300130: CO2 Distributor_28 2
+    2300132: CO2 Distributor_28 3
+    2300134: CO2 Distributor_28 4
+    2300136: CO2 Distributor_28 5
+    2300138: CO2 Distributor_28 6
+    2300140: CO2 Distributor_28 7
+    2300142: CO2 Distributor_28 8
+    2300144: CO2 Distributor_28 9
+    2300146: CO2 Pipeline Ending_142
+    2300148: CO2 Pipeline Main_141 1
+    2300150: CO2 Pipeline Main_141 2
+    2300152: CO2 Pipeline Main_141 3
+    2300154: CO2 Pipeline_133
+    2300156: CO2 Pipeline_134
+    2300158: CO2 Pipeline_135
+    2300160: CO2 Pipeline_136
+    2300162: CO2 Pipeline_137
+    2300164: CO2 Pipeline_138
+    2300166: CO2 Pipeline_139
+    2300168: CO2 Pipeline_140
+    2300170: Cockpit Lights_47
+    2300172: Com Link 1_171
+    2300174: Com Link 1_171 1
+    2300176: Com Link 2_170
+    2300178: Com Link 2_170 1
+    2300180: Com Link 3_168
+    2300182: Com Link 4_169
+    2300184: Com Link Base_167
+    2300186: crane hook_92
+    2300188: crane hook_93
+    2300190: Crane_61 1
+    2300192: Crane_61 2
+    2300194: Crane_62 1
+    2300196: Crane_62 2
+    2300198: Door2 Hinge_191
+    2300200: Explorer Bottom Cover_1 1
+    2300202: Explorer Bottom Cover_1 2
+    2300204: Explorer Bottom Cover_1 3
+    2300206: Explorer Bottom Cover_1 4
+    2300208: Explorer Chassis_2 1
+    2300210: Explorer Chassis_2 10
+    2300212: Explorer Chassis_2 11
+    2300214: Explorer Chassis_2 12
+    2300216: Explorer Chassis_2 13
+    2300218: Explorer Chassis_2 2
+    2300220: Explorer Chassis_2 3
+    2300222: Explorer Chassis_2 4
+    2300224: Explorer Chassis_2 5
+    2300226: Explorer Chassis_2 6
+    2300228: Explorer Chassis_2 7
+    2300230: Explorer Chassis_2 8
+    2300232: Explorer Chassis_2 9
+    2300234: Explorer Main Gear_196
+    2300236: Explorer Main Gear_MirrorDefault_178
+    2300238: Explorer Tyre_193
+    2300240: Explorer Tyre_MirrorDefault_175
+    2300242: Explorer Tyre_MirrorDefault_183
+    2300244: Explorer Tyre_MirrorMirrorDefault_180
+    2300246: Explorer Tyre_MirrorMirrorDefault_180 1
+    2300248: Explorer Tyre_MirrorMirrorMirrorDefault_172
+    2300250: Explorer Wheel Mounting_195 1
+    2300252: Explorer Wheel Mounting_195 2
+    2300254: Explorer Wheel Mounting_195 3
+    2300256: Explorer Wheel Mounting_195 4
+    2300258: Explorer Wheel Mounting_195 5
+    2300260: Explorer Wheel Mounting_MirrorDefault_177 1
+    2300262: Explorer Wheel Mounting_MirrorDefault_177 2
+    2300264: Explorer Wheel Mounting_MirrorDefault_177 3
+    2300266: Explorer Wheel Mounting_MirrorDefault_177 4
+    2300268: Explorer Wheel Mounting_MirrorDefault_177 5
+    2300270: Explorer Wheel Mounting_MirrorDefault_185 1
+    2300272: Explorer Wheel Mounting_MirrorDefault_185 2
+    2300274: Explorer Wheel Mounting_MirrorDefault_185 3
+    2300276: Explorer Wheel Mounting_MirrorDefault_185 4
+    2300278: Explorer Wheel Mounting_MirrorDefault_185 5
+    2300280: Explorer Wheel Mounting_MirrorMirrorDefault_182 10
+    2300282: Explorer Wheel Mounting_MirrorMirrorDefault_182 11
+    2300284: Explorer Wheel Mounting_MirrorMirrorDefault_182 2
+    2300286: Explorer Wheel Mounting_MirrorMirrorDefault_182 3
+    2300288: Explorer Wheel Mounting_MirrorMirrorDefault_182 4
+    2300290: Explorer Wheel Mounting_MirrorMirrorDefault_182 5
+    2300292: Explorer Wheel Mounting_MirrorMirrorDefault_182 6
+    2300294: Explorer Wheel Mounting_MirrorMirrorDefault_182 7
+    2300296: Explorer Wheel Mounting_MirrorMirrorDefault_182 8
+    2300298: Explorer Wheel Mounting_MirrorMirrorDefault_182 9
+    2300300: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 1
+    2300302: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 2
+    2300304: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 3
+    2300306: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 4
+    2300308: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 5
+    2300310: Explorer Wheel_194
+    2300312: Explorer Wheel_MirrorDefault_176
+    2300314: Explorer Wheel_MirrorDefault_184
+    2300316: Explorer Wheel_MirrorMirrorDefault_181
+    2300318: Explorer Wheel_MirrorMirrorDefault_181 1
+    2300320: Explorer Wheel_MirrorMirrorMirrorDefault_173
+    2300322: Front Lights and Laser_187 10
+    2300324: Front Lights and Laser_187 11
+    2300326: Front Lights and Laser_187 12
+    2300328: Front Lights and Laser_187 13
+    2300330: Front Lights and Laser_187 14
+    2300332: Front Lights and Laser_187 15
+    2300334: Front Lights and Laser_187 16
+    2300336: Front Lights and Laser_187 17
+    2300338: Front Lights and Laser_187 18
+    2300340: Front Lights and Laser_187 19
+    2300342: Front Lights and Laser_187 2
+    2300344: Front Lights and Laser_187 20
+    2300346: Front Lights and Laser_187 21
+    2300348: Front Lights and Laser_187 22
+    2300350: Front Lights and Laser_187 23
+    2300352: Front Lights and Laser_187 24
+    2300354: Front Lights and Laser_187 25
+    2300356: Front Lights and Laser_187 26
+    2300358: Front Lights and Laser_187 27
+    2300360: Front Lights and Laser_187 3
+    2300362: Front Lights and Laser_187 4
+    2300364: Front Lights and Laser_187 5
+    2300366: Front Lights and Laser_187 6
+    2300368: Front Lights and Laser_187 7
+    2300370: Front Lights and Laser_187 8
+    2300372: Front Lights and Laser_187 9
+    2300374: Front Lights Pod_186 10
+    2300376: Front Lights Pod_186 11
+    2300378: Front Lights Pod_186 12
+    2300380: Front Lights Pod_186 13
+    2300382: Front Lights Pod_186 14
+    2300384: Front Lights Pod_186 15
+    2300386: Front Lights Pod_186 16
+    2300388: Front Lights Pod_186 17
+    2300390: Front Lights Pod_186 18
+    2300392: Front Lights Pod_186 19
+    2300394: Front Lights Pod_186 2
+    2300396: Front Lights Pod_186 20
+    2300398: Front Lights Pod_186 21
+    2300400: Front Lights Pod_186 3
+    2300402: Front Lights Pod_186 4
+    2300404: Front Lights Pod_186 5
+    2300406: Front Lights Pod_186 6
+    2300408: Front Lights Pod_186 7
+    2300410: Front Lights Pod_186 8
+    2300412: Front Lights Pod_186 9
+    2300414: Front Plexy_27
+    2300416: Frontal Cabin_25 1
+    2300418: Frontal Cabin_25 2
+    2300420: Frontal Cabin_25 3
+    2300422: Frontal Cabin_25 4
+    2300424: Frontal Cabin_25 5
+    2300426: Frontal Cabin_25 6
+    2300428: Frontal Cabin_25 7
+    2300430: Frontal Cabin_25 8
+    2300432: Frontal Cabin_25 9
+    2300434: Hatch Door1_189 1
+    2300436: Hatch Door1_189 2
+    2300438: Hatch Door2_190
+    2300440: Lab Module_56 1
+    2300442: Lab Module_56 10
+    2300444: Lab Module_56 11
+    2300446: Lab Module_56 12
+    2300448: Lab Module_56 13
+    2300450: Lab Module_56 14
+    2300452: Lab Module_56 15
+    2300454: Lab Module_56 16
+    2300456: Lab Module_56 17
+    2300458: Lab Module_56 18
+    2300460: Lab Module_56 19
+    2300462: Lab Module_56 2
+    2300464: Lab Module_56 20
+    2300466: Lab Module_56 21
+    2300468: Lab Module_56 22
+    2300470: Lab Module_56 23
+    2300472: Lab Module_56 24
+    2300474: Lab Module_56 3
+    2300476: Lab Module_56 4
+    2300478: Lab Module_56 5
+    2300480: Lab Module_56 6
+    2300482: Lab Module_56 7
+    2300484: Lab Module_56 8
+    2300486: Lab Module_56 9
+    2300488: Labour Air Distributor_76 1
+    2300490: Labour Air Distributor_76 2
+    2300492: Labour Air Distributor_76 3
+    2300494: Labour Plexy_57 1
+    2300496: Labour Plexy_57 2
+    2300498: Ladder 2_67 1
+    2300500: Ladder 2_67 10
+    2300502: Ladder 2_67 2
+    2300504: Ladder 2_67 3
+    2300506: Ladder 2_67 4
+    2300508: Ladder 2_67 5
+    2300510: Ladder 2_67 6
+    2300512: Ladder 2_67 7
+    2300514: Ladder 2_67 8
+    2300516: Ladder 2_67 9
+    2300518: Ladder_192
+    2300520: Led_46 1
+    2300522: Led_46 2
+    2300524: Led_46 3
+    2300526: Led_46 4
+    2300528: Led_46 5
+    2300530: Led_77 1
+    2300532: Led_77 2
+    2300534: Led_77 3
+    2300536: Led_77 4
+    2300538: Led_77 5
+    2300540: Led_78 1
+    2300542: Led_78 2
+    2300544: Led_78 3
+    2300546: Led_78 4
+    2300548: Led_78 5
+    2300550: Led_79 1
+    2300552: Led_79 2
+    2300554: Led_79 3
+    2300556: Led_79 4
+    2300558: Led_79 5
+    2300560: Led_80 1
+    2300562: Led_80 2
+    2300564: Led_80 3
+    2300566: Led_80 4
+    2300568: Led_80 5
+    2300570: Led_81 1
+    2300572: Led_81 2
+    2300574: Led_81 3
+    2300576: Led_81 4
+    2300578: Led_81 5
+    2300580: Led_82 1
+    2300582: Led_82 2
+    2300584: Led_82 3
+    2300586: Led_82 4
+    2300588: Led_82 5
+    2300590: Led_83 1
+    2300592: Led_83 2
+    2300594: Led_83 3
+    2300596: Led_83 4
+    2300598: Led_83 5
+    2300600: Main Platform_59
+    2300602: Mid Lower Cover_11 1
+    2300604: Mid Lower Cover_11 2
+    2300606: Mid Lower Cover_11 3
+    2300608: Mid Lower Cover_11 4
+    2300610: Mid Lower Cover_11 5
+    2300612: Mid Lower Cover_11 6
+    2300614: Mid Lower Cover_11 7
+    2300616: Mid Lower Cover_11 8
+    2300618: MirrorExplorer Wheel Mounting_197 1
+    2300620: MirrorExplorer Wheel Mounting_197 2
+    2300622: MirrorExplorer Wheel Mounting_197 3
+    2300624: MirrorExplorer Wheel Mounting_197 4
+    2300626: MirrorExplorer Wheel Mounting_197 5
+    2300628: MirrorExplorer Wheel Mounting_MirrorDefault_179 1
+    2300630: MirrorExplorer Wheel Mounting_MirrorDefault_179 2
+    2300632: MirrorExplorer Wheel Mounting_MirrorDefault_179 3
+    2300634: MirrorExplorer Wheel Mounting_MirrorDefault_179 4
+    2300636: MirrorExplorer Wheel Mounting_MirrorDefault_179 5
+    2300638: MOXIE Control Panel_163
+    2300640: MOXIE Grid_102 1
+    2300642: MOXIE Grid_102 2
+    2300644: MOXIE_103
+    2300646: MOXIE_104
+    2300648: MOXIE_105
+    2300650: MOXIE_106
+    2300652: MOXIE_107
+    2300654: MOXIE_108
+    2300656: MOXIE_109
+    2300658: MOXIE_110
+    2300660: MOXIE_111
+    2300662: MOXIE_112
+    2300664: MOXIE_113
+    2300666: MOXIE_114
+    2300668: MOXIE_115
+    2300670: MOXIE_116
+    2300672: MOXIE_117
+    2300674: MOXIE_118
+    2300676: MOXIE_119
+    2300678: MOXIE_120
+    2300680: MOXIE_121
+    2300682: MOXIE_122
+    2300684: MOXIE_123
+    2300686: MOXIE_124
+    2300688: MOXIE_125
+    2300690: MOXIE_126
+    2300692: MOXIE_127
+    2300694: MOXIE_128
+    2300696: MOXIE_129
+    2300698: MOXIE_130
+    2300700: MOXIE_131
+    2300702: MOXIE_132
+    2300704: O2 Distributor_41 1
+    2300706: O2 Distributor_41 10
+    2300708: O2 Distributor_41 11
+    2300710: O2 Distributor_41 12
+    2300712: O2 Distributor_41 13
+    2300714: O2 Distributor_41 14
+    2300716: O2 Distributor_41 2
+    2300718: O2 Distributor_41 3
+    2300720: O2 Distributor_41 4
+    2300722: O2 Distributor_41 5
+    2300724: O2 Distributor_41 6
+    2300726: O2 Distributor_41 7
+    2300728: O2 Distributor_41 8
+    2300730: O2 Distributor_41 9
+    2300732: O2 Pipeline_143
+    2300734: O2 Pipeline_144
+    2300736: O2 Pipeline_145
+    2300738: O2 Pipeline_146
+    2300740: O2 Pipeline_147
+    2300742: O2 Pipeline_148
+    2300744: O2 Pipeline_149
+    2300746: O2 Pipeline_150
+    2300748: O2 Pipeline_151
+    2300750: O2 Pipeline_152
+    2300752: Pipe Junction_164 1
+    2300754: Pipe Junction_164 2
+    2300756: Pipe Junction_164 3
+    2300758: Pipe Main Junction_101 1
+    2300760: Pipe Main Junction_101 2
+    2300762: Pipe Main Junction_101 3
+    2300764: Pipe Main Junction_101 4
+    2300766: Pipe Main Junction_101 5
+    2300768: Plexy Column_58
+    2300770: Rubber Cover_26
+    2300772: Side Lights Cabin_165 10
+    2300774: Side Lights Cabin_165 11
+    2300776: Side Lights Cabin_165 12
+    2300778: Side Lights Cabin_165 13
+    2300780: Side Lights Cabin_165 14
+    2300782: Side Lights Cabin_165 15
+    2300784: Side Lights Cabin_165 16
+    2300786: Side Lights Cabin_165 17
+    2300788: Side Lights Cabin_165 6
+    2300790: Side Lights Cabin_165 7
+    2300792: Side Lights Cabin_165 8
+    2300794: Side Lights Cabin_165 9
+    2300796: Side Lights Leds_166 10
+    2300798: Side Lights Leds_166 100
+    2300800: Side Lights Leds_166 101
+    2300802: Side Lights Leds_166 102
+    2300804: Side Lights Leds_166 103
+    2300806: Side Lights Leds_166 104
+    2300808: Side Lights Leds_166 105
+    2300810: Side Lights Leds_166 106
+    2300812: Side Lights Leds_166 107
+    2300814: Side Lights Leds_166 108
+    2300816: Side Lights Leds_166 109
+    2300818: Side Lights Leds_166 11
+    2300820: Side Lights Leds_166 110
+    2300822: Side Lights Leds_166 111
+    2300824: Side Lights Leds_166 112
+    2300826: Side Lights Leds_166 113
+    2300828: Side Lights Leds_166 114
+    2300830: Side Lights Leds_166 115
+    2300832: Side Lights Leds_166 116
+    2300834: Side Lights Leds_166 117
+    2300836: Side Lights Leds_166 118
+    2300838: Side Lights Leds_166 119
+    2300840: Side Lights Leds_166 12
+    2300842: Side Lights Leds_166 120
+    2300844: Side Lights Leds_166 121
+    2300846: Side Lights Leds_166 122
+    2300848: Side Lights Leds_166 123
+    2300850: Side Lights Leds_166 124
+    2300852: Side Lights Leds_166 125
+    2300854: Side Lights Leds_166 126
+    2300856: Side Lights Leds_166 127
+    2300858: Side Lights Leds_166 128
+    2300860: Side Lights Leds_166 129
+    2300862: Side Lights Leds_166 13
+    2300864: Side Lights Leds_166 130
+    2300866: Side Lights Leds_166 131
+    2300868: Side Lights Leds_166 132
+    2300870: Side Lights Leds_166 133
+    2300872: Side Lights Leds_166 134
+    2300874: Side Lights Leds_166 135
+    2300876: Side Lights Leds_166 136
+    2300878: Side Lights Leds_166 137
+    2300880: Side Lights Leds_166 138
+    2300882: Side Lights Leds_166 139
+    2300884: Side Lights Leds_166 14
+    2300886: Side Lights Leds_166 140
+    2300888: Side Lights Leds_166 141
+    2300890: Side Lights Leds_166 142
+    2300892: Side Lights Leds_166 143
+    2300894: Side Lights Leds_166 144
+    2300896: Side Lights Leds_166 145
+    2300898: Side Lights Leds_166 146
+    2300900: Side Lights Leds_166 147
+    2300902: Side Lights Leds_166 148
+    2300904: Side Lights Leds_166 149
+    2300906: Side Lights Leds_166 15
+    2300908: Side Lights Leds_166 150
+    2300910: Side Lights Leds_166 151
+    2300912: Side Lights Leds_166 152
+    2300914: Side Lights Leds_166 153
+    2300916: Side Lights Leds_166 154
+    2300918: Side Lights Leds_166 155
+    2300920: Side Lights Leds_166 16
+    2300922: Side Lights Leds_166 17
+    2300924: Side Lights Leds_166 18
+    2300926: Side Lights Leds_166 19
+    2300928: Side Lights Leds_166 20
+    2300930: Side Lights Leds_166 21
+    2300932: Side Lights Leds_166 22
+    2300934: Side Lights Leds_166 23
+    2300936: Side Lights Leds_166 24
+    2300938: Side Lights Leds_166 25
+    2300940: Side Lights Leds_166 26
+    2300942: Side Lights Leds_166 27
+    2300944: Side Lights Leds_166 28
+    2300946: Side Lights Leds_166 29
+    2300948: Side Lights Leds_166 30
+    2300950: Side Lights Leds_166 31
+    2300952: Side Lights Leds_166 32
+    2300954: Side Lights Leds_166 33
+    2300956: Side Lights Leds_166 34
+    2300958: Side Lights Leds_166 35
+    2300960: Side Lights Leds_166 36
+    2300962: Side Lights Leds_166 37
+    2300964: Side Lights Leds_166 38
+    2300966: Side Lights Leds_166 39
+    2300968: Side Lights Leds_166 40
+    2300970: Side Lights Leds_166 41
+    2300972: Side Lights Leds_166 42
+    2300974: Side Lights Leds_166 43
+    2300976: Side Lights Leds_166 44
+    2300978: Side Lights Leds_166 45
+    2300980: Side Lights Leds_166 46
+    2300982: Side Lights Leds_166 47
+    2300984: Side Lights Leds_166 48
+    2300986: Side Lights Leds_166 49
+    2300988: Side Lights Leds_166 50
+    2300990: Side Lights Leds_166 51
+    2300992: Side Lights Leds_166 52
+    2300994: Side Lights Leds_166 53
+    2300996: Side Lights Leds_166 54
+    2300998: Side Lights Leds_166 55
+    2301000: Side Lights Leds_166 56
+    2301002: Side Lights Leds_166 57
+    2301004: Side Lights Leds_166 58
+    2301006: Side Lights Leds_166 59
+    2301008: Side Lights Leds_166 6
+    2301010: Side Lights Leds_166 60
+    2301012: Side Lights Leds_166 61
+    2301014: Side Lights Leds_166 62
+    2301016: Side Lights Leds_166 63
+    2301018: Side Lights Leds_166 64
+    2301020: Side Lights Leds_166 65
+    2301022: Side Lights Leds_166 66
+    2301024: Side Lights Leds_166 67
+    2301026: Side Lights Leds_166 68
+    2301028: Side Lights Leds_166 69
+    2301030: Side Lights Leds_166 7
+    2301032: Side Lights Leds_166 70
+    2301034: Side Lights Leds_166 71
+    2301036: Side Lights Leds_166 72
+    2301038: Side Lights Leds_166 73
+    2301040: Side Lights Leds_166 74
+    2301042: Side Lights Leds_166 75
+    2301044: Side Lights Leds_166 76
+    2301046: Side Lights Leds_166 77
+    2301048: Side Lights Leds_166 78
+    2301050: Side Lights Leds_166 79
+    2301052: Side Lights Leds_166 8
+    2301054: Side Lights Leds_166 80
+    2301056: Side Lights Leds_166 81
+    2301058: Side Lights Leds_166 82
+    2301060: Side Lights Leds_166 83
+    2301062: Side Lights Leds_166 84
+    2301064: Side Lights Leds_166 85
+    2301066: Side Lights Leds_166 86
+    2301068: Side Lights Leds_166 87
+    2301070: Side Lights Leds_166 88
+    2301072: Side Lights Leds_166 89
+    2301074: Side Lights Leds_166 9
+    2301076: Side Lights Leds_166 90
+    2301078: Side Lights Leds_166 91
+    2301080: Side Lights Leds_166 92
+    2301082: Side Lights Leds_166 93
+    2301084: Side Lights Leds_166 94
+    2301086: Side Lights Leds_166 95
+    2301088: Side Lights Leds_166 96
+    2301090: Side Lights Leds_166 97
+    2301092: Side Lights Leds_166 98
+    2301094: Side Lights Leds_166 99
+    2301096: Solar Cell 1_100 10
+    2301098: Solar Cell 1_100 11
+    2301100: Solar Cell 1_100 12
+    2301102: Solar Cell 1_100 13
+    2301104: Solar Cell 1_100 14
+    2301106: Solar Cell 1_100 15
+    2301108: Solar Cell 1_100 2
+    2301110: Solar Cell 1_100 3
+    2301112: Solar Cell 1_100 4
+    2301114: Solar Cell 1_100 5
+    2301116: Solar Cell 1_100 6
+    2301118: Solar Cell 1_100 7
+    2301120: Solar Cell 1_100 8
+    2301122: Solar Cell 1_100 9
+    2301124: Solar Cell 1_99 10
+    2301126: Solar Cell 1_99 11
+    2301128: Solar Cell 1_99 12
+    2301130: Solar Cell 1_99 13
+    2301132: Solar Cell 1_99 14
+    2301134: Solar Cell 1_99 15
+    2301136: Solar Cell 1_99 2
+    2301138: Solar Cell 1_99 3
+    2301140: Solar Cell 1_99 4
+    2301142: Solar Cell 1_99 5
+    2301144: Solar Cell 1_99 6
+    2301146: Solar Cell 1_99 7
+    2301148: Solar Cell 1_99 8
+    2301150: Solar Cell 1_99 9
+    2301152: Solar Cell 2_Default<As Machined>_98
+    2301154: Solar Cell 2_Default<As Machined>_98 1
+    2301156: Solar Cell Mounting_94
+    2301158: Solar Cell Mounting_96
+    2301160: Wheel Cover 1_3
+    2301162: Wheel Cover 1_MirrorDefault_5
+    2301164: Wheel Cover 1_MirrorDefault_7
+    2301166: Wheel Cover 1_MirrorMirrorDefault_9
+    2301168: Wheel Cover 2_4
+    2301170: Wheel Cover 2_MirrorDefault_6
+    2301172: Wheel Cover 2_MirrorDefault_8
+    2301174: Wheel Cover 2_MirrorMirrorDefault_10
+    2301176: Wheel Cover 3_12
+    2301178: Wheel Cover 3_MirrorDefault_14
+    2301180: Wheel Cover 3_MirrorDefault_18
+    2301182: Wheel Cover 3_MirrorMirrorDefault_16
+    2301184: Wheel Cover 4_13
+    2301186: Wheel Cover 4_MirrorDefault_15
+    2301188: Wheel Cover 4_MirrorDefault_19
+    2301190: Wheel Cover 4_MirrorMirrorDefault_17
+    3300000: 100_1500 Lights_42
+    3300002: 100_1500 Lights_43
+    3300004: 100_2000 Lights_44
+    3300006: 100_3000 Lights_45
+    3300008: 100_3000 Lights_70
+    3300010: 100_3000 Lights_71
+    3300012: 100_3000 Lights_72
+    3300014: Aerator Bottom_32
+    3300016: Aerator Bottom_33
+    3300018: Aerator Bottom_34
+    3300020: Aerator Bottom_35
+    3300022: Aerator Bottom_36
+    3300024: Aerator Bottom_37
+    3300026: Aerator Bottom_38
+    3300028: Aerator Bottom_39
+    3300030: Aerator Bottom_40
+    3300032: Aerator in Lab_73
+    3300034: Aerator in Lab_74
+    3300036: Aerator in Lab_75
+    3300038: Aerator_29
+    3300040: Aerator_30
+    3300042: Aerator_31
+    3300044: Air Springs 2_22 1
+    3300046: Air Springs 2_22 2
+    3300048: Air Springs 2_22 3
+    3300050: Air Springs 2_22 4
+    3300052: Air Springs 2_22 5
+    3300054: Air Springs 2_22 6
+    3300056: Air Springs 2_22 7
+    3300058: Air Springs 2_MirrorDefault_24 1
+    3300060: Air Springs 2_MirrorDefault_24 2
+    3300062: Air Springs 2_MirrorDefault_24 3
+    3300064: Air Springs 2_MirrorDefault_24 4
+    3300066: Air Springs 2_MirrorDefault_24 5
+    3300068: Air Springs 2_MirrorDefault_24 6
+    3300070: Air Springs 2_MirrorDefault_24 7
+    3300072: Air Springs_21 1
+    3300074: Air Springs_21 2
+    3300076: Air Springs_21 3
+    3300078: Air Springs_21 4
+    3300080: Air Springs_MirrorDefault_23 1
+    3300082: Air Springs_MirrorDefault_23 2
+    3300084: Air Springs_MirrorDefault_23 3
+    3300086: Air Springs_MirrorDefault_23 4
+    3300088: Airlock Door_66 1
+    3300090: Airlock Door_66 2
+    3300092: Airlock Door_66 3
+    3300094: Airlock Door_66 4
+    3300096: Aux Pipeline_153
+    3300098: Aux Pipeline_154
+    3300100: Aux Pipeline_155
+    3300102: Aux Pipeline_156
+    3300104: Aux Pipeline_157
+    3300106: Aux Pipeline_158
+    3300108: Aux Pipeline_159
+    3300110: Aux Pipeline_160
+    3300112: Aux Pipeline_161
+    3300114: Aux Pipeline_162
+    3300116: Body10_60 1
+    3300118: Body10_60 2
+    3300120: Body10_60 3
+    3300122: Body10_60 4
+    3300124: Cabin Hatch Module 1_188
+    3300126: CO2 Distributor_28 1
+    3300128: CO2 Distributor_28 10
+    3300130: CO2 Distributor_28 2
+    3300132: CO2 Distributor_28 3
+    3300134: CO2 Distributor_28 4
+    3300136: CO2 Distributor_28 5
+    3300138: CO2 Distributor_28 6
+    3300140: CO2 Distributor_28 7
+    3300142: CO2 Distributor_28 8
+    3300144: CO2 Distributor_28 9
+    3300146: CO2 Pipeline Ending_142
+    3300148: CO2 Pipeline Main_141 1
+    3300150: CO2 Pipeline Main_141 2
+    3300152: CO2 Pipeline Main_141 3
+    3300154: CO2 Pipeline_133
+    3300156: CO2 Pipeline_134
+    3300158: CO2 Pipeline_135
+    3300160: CO2 Pipeline_136
+    3300162: CO2 Pipeline_137
+    3300164: CO2 Pipeline_138
+    3300166: CO2 Pipeline_139
+    3300168: CO2 Pipeline_140
+    3300170: Cockpit Lights_47
+    3300172: Com Link 1_171
+    3300174: Com Link 1_171 1
+    3300176: Com Link 2_170
+    3300178: Com Link 2_170 1
+    3300180: Com Link 3_168
+    3300182: Com Link 4_169
+    3300184: Com Link Base_167
+    3300186: crane hook_92
+    3300188: crane hook_93
+    3300190: Crane_61 1
+    3300192: Crane_61 2
+    3300194: Crane_62 1
+    3300196: Crane_62 2
+    3300198: Door2 Hinge_191
+    3300200: Explorer Bottom Cover_1 1
+    3300202: Explorer Bottom Cover_1 2
+    3300204: Explorer Bottom Cover_1 3
+    3300206: Explorer Bottom Cover_1 4
+    3300208: Explorer Chassis_2 1
+    3300210: Explorer Chassis_2 10
+    3300212: Explorer Chassis_2 11
+    3300214: Explorer Chassis_2 12
+    3300216: Explorer Chassis_2 13
+    3300218: Explorer Chassis_2 2
+    3300220: Explorer Chassis_2 3
+    3300222: Explorer Chassis_2 4
+    3300224: Explorer Chassis_2 5
+    3300226: Explorer Chassis_2 6
+    3300228: Explorer Chassis_2 7
+    3300230: Explorer Chassis_2 8
+    3300232: Explorer Chassis_2 9
+    3300234: Explorer Main Gear_196
+    3300236: Explorer Main Gear_MirrorDefault_178
+    3300238: Explorer Tyre_193
+    3300240: Explorer Tyre_MirrorDefault_175
+    3300242: Explorer Tyre_MirrorDefault_183
+    3300244: Explorer Tyre_MirrorMirrorDefault_180
+    3300246: Explorer Tyre_MirrorMirrorDefault_180 1
+    3300248: Explorer Tyre_MirrorMirrorMirrorDefault_172
+    3300250: Explorer Wheel Mounting_195 1
+    3300252: Explorer Wheel Mounting_195 2
+    3300254: Explorer Wheel Mounting_195 3
+    3300256: Explorer Wheel Mounting_195 4
+    3300258: Explorer Wheel Mounting_195 5
+    3300260: Explorer Wheel Mounting_MirrorDefault_177 1
+    3300262: Explorer Wheel Mounting_MirrorDefault_177 2
+    3300264: Explorer Wheel Mounting_MirrorDefault_177 3
+    3300266: Explorer Wheel Mounting_MirrorDefault_177 4
+    3300268: Explorer Wheel Mounting_MirrorDefault_177 5
+    3300270: Explorer Wheel Mounting_MirrorDefault_185 1
+    3300272: Explorer Wheel Mounting_MirrorDefault_185 2
+    3300274: Explorer Wheel Mounting_MirrorDefault_185 3
+    3300276: Explorer Wheel Mounting_MirrorDefault_185 4
+    3300278: Explorer Wheel Mounting_MirrorDefault_185 5
+    3300280: Explorer Wheel Mounting_MirrorMirrorDefault_182 10
+    3300282: Explorer Wheel Mounting_MirrorMirrorDefault_182 11
+    3300284: Explorer Wheel Mounting_MirrorMirrorDefault_182 2
+    3300286: Explorer Wheel Mounting_MirrorMirrorDefault_182 3
+    3300288: Explorer Wheel Mounting_MirrorMirrorDefault_182 4
+    3300290: Explorer Wheel Mounting_MirrorMirrorDefault_182 5
+    3300292: Explorer Wheel Mounting_MirrorMirrorDefault_182 6
+    3300294: Explorer Wheel Mounting_MirrorMirrorDefault_182 7
+    3300296: Explorer Wheel Mounting_MirrorMirrorDefault_182 8
+    3300298: Explorer Wheel Mounting_MirrorMirrorDefault_182 9
+    3300300: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 1
+    3300302: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 2
+    3300304: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 3
+    3300306: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 4
+    3300308: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174 5
+    3300310: Explorer Wheel_194
+    3300312: Explorer Wheel_MirrorDefault_176
+    3300314: Explorer Wheel_MirrorDefault_184
+    3300316: Explorer Wheel_MirrorMirrorDefault_181
+    3300318: Explorer Wheel_MirrorMirrorDefault_181 1
+    3300320: Explorer Wheel_MirrorMirrorMirrorDefault_173
+    3300322: Front Lights and Laser_187 10
+    3300324: Front Lights and Laser_187 11
+    3300326: Front Lights and Laser_187 12
+    3300328: Front Lights and Laser_187 13
+    3300330: Front Lights and Laser_187 14
+    3300332: Front Lights and Laser_187 15
+    3300334: Front Lights and Laser_187 16
+    3300336: Front Lights and Laser_187 17
+    3300338: Front Lights and Laser_187 18
+    3300340: Front Lights and Laser_187 19
+    3300342: Front Lights and Laser_187 2
+    3300344: Front Lights and Laser_187 20
+    3300346: Front Lights and Laser_187 21
+    3300348: Front Lights and Laser_187 22
+    3300350: Front Lights and Laser_187 23
+    3300352: Front Lights and Laser_187 24
+    3300354: Front Lights and Laser_187 25
+    3300356: Front Lights and Laser_187 26
+    3300358: Front Lights and Laser_187 27
+    3300360: Front Lights and Laser_187 3
+    3300362: Front Lights and Laser_187 4
+    3300364: Front Lights and Laser_187 5
+    3300366: Front Lights and Laser_187 6
+    3300368: Front Lights and Laser_187 7
+    3300370: Front Lights and Laser_187 8
+    3300372: Front Lights and Laser_187 9
+    3300374: Front Lights Pod_186 10
+    3300376: Front Lights Pod_186 11
+    3300378: Front Lights Pod_186 12
+    3300380: Front Lights Pod_186 13
+    3300382: Front Lights Pod_186 14
+    3300384: Front Lights Pod_186 15
+    3300386: Front Lights Pod_186 16
+    3300388: Front Lights Pod_186 17
+    3300390: Front Lights Pod_186 18
+    3300392: Front Lights Pod_186 19
+    3300394: Front Lights Pod_186 2
+    3300396: Front Lights Pod_186 20
+    3300398: Front Lights Pod_186 21
+    3300400: Front Lights Pod_186 3
+    3300402: Front Lights Pod_186 4
+    3300404: Front Lights Pod_186 5
+    3300406: Front Lights Pod_186 6
+    3300408: Front Lights Pod_186 7
+    3300410: Front Lights Pod_186 8
+    3300412: Front Lights Pod_186 9
+    3300414: Front Plexy_27
+    3300416: Frontal Cabin_25 1
+    3300418: Frontal Cabin_25 2
+    3300420: Frontal Cabin_25 3
+    3300422: Frontal Cabin_25 4
+    3300424: Frontal Cabin_25 5
+    3300426: Frontal Cabin_25 6
+    3300428: Frontal Cabin_25 7
+    3300430: Frontal Cabin_25 8
+    3300432: Frontal Cabin_25 9
+    3300434: Hatch Door1_189 1
+    3300436: Hatch Door1_189 2
+    3300438: Hatch Door2_190
+    3300440: Lab Module_56 1
+    3300442: Lab Module_56 10
+    3300444: Lab Module_56 11
+    3300446: Lab Module_56 12
+    3300448: Lab Module_56 13
+    3300450: Lab Module_56 14
+    3300452: Lab Module_56 15
+    3300454: Lab Module_56 16
+    3300456: Lab Module_56 17
+    3300458: Lab Module_56 18
+    3300460: Lab Module_56 19
+    3300462: Lab Module_56 2
+    3300464: Lab Module_56 20
+    3300466: Lab Module_56 21
+    3300468: Lab Module_56 22
+    3300470: Lab Module_56 23
+    3300472: Lab Module_56 24
+    3300474: Lab Module_56 3
+    3300476: Lab Module_56 4
+    3300478: Lab Module_56 5
+    3300480: Lab Module_56 6
+    3300482: Lab Module_56 7
+    3300484: Lab Module_56 8
+    3300486: Lab Module_56 9
+    3300488: Labour Air Distributor_76 1
+    3300490: Labour Air Distributor_76 2
+    3300492: Labour Air Distributor_76 3
+    3300494: Labour Plexy_57 1
+    3300496: Labour Plexy_57 2
+    3300498: Ladder 2_67 1
+    3300500: Ladder 2_67 10
+    3300502: Ladder 2_67 2
+    3300504: Ladder 2_67 3
+    3300506: Ladder 2_67 4
+    3300508: Ladder 2_67 5
+    3300510: Ladder 2_67 6
+    3300512: Ladder 2_67 7
+    3300514: Ladder 2_67 8
+    3300516: Ladder 2_67 9
+    3300518: Ladder_192
+    3300520: Led_46 1
+    3300522: Led_46 2
+    3300524: Led_46 3
+    3300526: Led_46 4
+    3300528: Led_46 5
+    3300530: Led_77 1
+    3300532: Led_77 2
+    3300534: Led_77 3
+    3300536: Led_77 4
+    3300538: Led_77 5
+    3300540: Led_78 1
+    3300542: Led_78 2
+    3300544: Led_78 3
+    3300546: Led_78 4
+    3300548: Led_78 5
+    3300550: Led_79 1
+    3300552: Led_79 2
+    3300554: Led_79 3
+    3300556: Led_79 4
+    3300558: Led_79 5
+    3300560: Led_80 1
+    3300562: Led_80 2
+    3300564: Led_80 3
+    3300566: Led_80 4
+    3300568: Led_80 5
+    3300570: Led_81 1
+    3300572: Led_81 2
+    3300574: Led_81 3
+    3300576: Led_81 4
+    3300578: Led_81 5
+    3300580: Led_82 1
+    3300582: Led_82 2
+    3300584: Led_82 3
+    3300586: Led_82 4
+    3300588: Led_82 5
+    3300590: Led_83 1
+    3300592: Led_83 2
+    3300594: Led_83 3
+    3300596: Led_83 4
+    3300598: Led_83 5
+    3300600: Main Platform_59
+    3300602: Mid Lower Cover_11 1
+    3300604: Mid Lower Cover_11 2
+    3300606: Mid Lower Cover_11 3
+    3300608: Mid Lower Cover_11 4
+    3300610: Mid Lower Cover_11 5
+    3300612: Mid Lower Cover_11 6
+    3300614: Mid Lower Cover_11 7
+    3300616: Mid Lower Cover_11 8
+    3300618: MirrorExplorer Wheel Mounting_197 1
+    3300620: MirrorExplorer Wheel Mounting_197 2
+    3300622: MirrorExplorer Wheel Mounting_197 3
+    3300624: MirrorExplorer Wheel Mounting_197 4
+    3300626: MirrorExplorer Wheel Mounting_197 5
+    3300628: MirrorExplorer Wheel Mounting_MirrorDefault_179 1
+    3300630: MirrorExplorer Wheel Mounting_MirrorDefault_179 2
+    3300632: MirrorExplorer Wheel Mounting_MirrorDefault_179 3
+    3300634: MirrorExplorer Wheel Mounting_MirrorDefault_179 4
+    3300636: MirrorExplorer Wheel Mounting_MirrorDefault_179 5
+    3300638: MOXIE Control Panel_163
+    3300640: MOXIE Grid_102 1
+    3300642: MOXIE Grid_102 2
+    3300644: MOXIE_103
+    3300646: MOXIE_104
+    3300648: MOXIE_105
+    3300650: MOXIE_106
+    3300652: MOXIE_107
+    3300654: MOXIE_108
+    3300656: MOXIE_109
+    3300658: MOXIE_110
+    3300660: MOXIE_111
+    3300662: MOXIE_112
+    3300664: MOXIE_113
+    3300666: MOXIE_114
+    3300668: MOXIE_115
+    3300670: MOXIE_116
+    3300672: MOXIE_117
+    3300674: MOXIE_118
+    3300676: MOXIE_119
+    3300678: MOXIE_120
+    3300680: MOXIE_121
+    3300682: MOXIE_122
+    3300684: MOXIE_123
+    3300686: MOXIE_124
+    3300688: MOXIE_125
+    3300690: MOXIE_126
+    3300692: MOXIE_127
+    3300694: MOXIE_128
+    3300696: MOXIE_129
+    3300698: MOXIE_130
+    3300700: MOXIE_131
+    3300702: MOXIE_132
+    3300704: O2 Distributor_41 1
+    3300706: O2 Distributor_41 10
+    3300708: O2 Distributor_41 11
+    3300710: O2 Distributor_41 12
+    3300712: O2 Distributor_41 13
+    3300714: O2 Distributor_41 14
+    3300716: O2 Distributor_41 2
+    3300718: O2 Distributor_41 3
+    3300720: O2 Distributor_41 4
+    3300722: O2 Distributor_41 5
+    3300724: O2 Distributor_41 6
+    3300726: O2 Distributor_41 7
+    3300728: O2 Distributor_41 8
+    3300730: O2 Distributor_41 9
+    3300732: O2 Pipeline_143
+    3300734: O2 Pipeline_144
+    3300736: O2 Pipeline_145
+    3300738: O2 Pipeline_146
+    3300740: O2 Pipeline_147
+    3300742: O2 Pipeline_148
+    3300744: O2 Pipeline_149
+    3300746: O2 Pipeline_150
+    3300748: O2 Pipeline_151
+    3300750: O2 Pipeline_152
+    3300752: Pipe Junction_164 1
+    3300754: Pipe Junction_164 2
+    3300756: Pipe Junction_164 3
+    3300758: Pipe Main Junction_101 1
+    3300760: Pipe Main Junction_101 2
+    3300762: Pipe Main Junction_101 3
+    3300764: Pipe Main Junction_101 4
+    3300766: Pipe Main Junction_101 5
+    3300768: Plexy Column_58
+    3300770: Rubber Cover_26
+    3300772: Side Lights Cabin_165 10
+    3300774: Side Lights Cabin_165 11
+    3300776: Side Lights Cabin_165 12
+    3300778: Side Lights Cabin_165 13
+    3300780: Side Lights Cabin_165 14
+    3300782: Side Lights Cabin_165 15
+    3300784: Side Lights Cabin_165 16
+    3300786: Side Lights Cabin_165 17
+    3300788: Side Lights Cabin_165 6
+    3300790: Side Lights Cabin_165 7
+    3300792: Side Lights Cabin_165 8
+    3300794: Side Lights Cabin_165 9
+    3300796: Side Lights Leds_166 10
+    3300798: Side Lights Leds_166 100
+    3300800: Side Lights Leds_166 101
+    3300802: Side Lights Leds_166 102
+    3300804: Side Lights Leds_166 103
+    3300806: Side Lights Leds_166 104
+    3300808: Side Lights Leds_166 105
+    3300810: Side Lights Leds_166 106
+    3300812: Side Lights Leds_166 107
+    3300814: Side Lights Leds_166 108
+    3300816: Side Lights Leds_166 109
+    3300818: Side Lights Leds_166 11
+    3300820: Side Lights Leds_166 110
+    3300822: Side Lights Leds_166 111
+    3300824: Side Lights Leds_166 112
+    3300826: Side Lights Leds_166 113
+    3300828: Side Lights Leds_166 114
+    3300830: Side Lights Leds_166 115
+    3300832: Side Lights Leds_166 116
+    3300834: Side Lights Leds_166 117
+    3300836: Side Lights Leds_166 118
+    3300838: Side Lights Leds_166 119
+    3300840: Side Lights Leds_166 12
+    3300842: Side Lights Leds_166 120
+    3300844: Side Lights Leds_166 121
+    3300846: Side Lights Leds_166 122
+    3300848: Side Lights Leds_166 123
+    3300850: Side Lights Leds_166 124
+    3300852: Side Lights Leds_166 125
+    3300854: Side Lights Leds_166 126
+    3300856: Side Lights Leds_166 127
+    3300858: Side Lights Leds_166 128
+    3300860: Side Lights Leds_166 129
+    3300862: Side Lights Leds_166 13
+    3300864: Side Lights Leds_166 130
+    3300866: Side Lights Leds_166 131
+    3300868: Side Lights Leds_166 132
+    3300870: Side Lights Leds_166 133
+    3300872: Side Lights Leds_166 134
+    3300874: Side Lights Leds_166 135
+    3300876: Side Lights Leds_166 136
+    3300878: Side Lights Leds_166 137
+    3300880: Side Lights Leds_166 138
+    3300882: Side Lights Leds_166 139
+    3300884: Side Lights Leds_166 14
+    3300886: Side Lights Leds_166 140
+    3300888: Side Lights Leds_166 141
+    3300890: Side Lights Leds_166 142
+    3300892: Side Lights Leds_166 143
+    3300894: Side Lights Leds_166 144
+    3300896: Side Lights Leds_166 145
+    3300898: Side Lights Leds_166 146
+    3300900: Side Lights Leds_166 147
+    3300902: Side Lights Leds_166 148
+    3300904: Side Lights Leds_166 149
+    3300906: Side Lights Leds_166 15
+    3300908: Side Lights Leds_166 150
+    3300910: Side Lights Leds_166 151
+    3300912: Side Lights Leds_166 152
+    3300914: Side Lights Leds_166 153
+    3300916: Side Lights Leds_166 154
+    3300918: Side Lights Leds_166 155
+    3300920: Side Lights Leds_166 16
+    3300922: Side Lights Leds_166 17
+    3300924: Side Lights Leds_166 18
+    3300926: Side Lights Leds_166 19
+    3300928: Side Lights Leds_166 20
+    3300930: Side Lights Leds_166 21
+    3300932: Side Lights Leds_166 22
+    3300934: Side Lights Leds_166 23
+    3300936: Side Lights Leds_166 24
+    3300938: Side Lights Leds_166 25
+    3300940: Side Lights Leds_166 26
+    3300942: Side Lights Leds_166 27
+    3300944: Side Lights Leds_166 28
+    3300946: Side Lights Leds_166 29
+    3300948: Side Lights Leds_166 30
+    3300950: Side Lights Leds_166 31
+    3300952: Side Lights Leds_166 32
+    3300954: Side Lights Leds_166 33
+    3300956: Side Lights Leds_166 34
+    3300958: Side Lights Leds_166 35
+    3300960: Side Lights Leds_166 36
+    3300962: Side Lights Leds_166 37
+    3300964: Side Lights Leds_166 38
+    3300966: Side Lights Leds_166 39
+    3300968: Side Lights Leds_166 40
+    3300970: Side Lights Leds_166 41
+    3300972: Side Lights Leds_166 42
+    3300974: Side Lights Leds_166 43
+    3300976: Side Lights Leds_166 44
+    3300978: Side Lights Leds_166 45
+    3300980: Side Lights Leds_166 46
+    3300982: Side Lights Leds_166 47
+    3300984: Side Lights Leds_166 48
+    3300986: Side Lights Leds_166 49
+    3300988: Side Lights Leds_166 50
+    3300990: Side Lights Leds_166 51
+    3300992: Side Lights Leds_166 52
+    3300994: Side Lights Leds_166 53
+    3300996: Side Lights Leds_166 54
+    3300998: Side Lights Leds_166 55
+    3301000: Side Lights Leds_166 56
+    3301002: Side Lights Leds_166 57
+    3301004: Side Lights Leds_166 58
+    3301006: Side Lights Leds_166 59
+    3301008: Side Lights Leds_166 6
+    3301010: Side Lights Leds_166 60
+    3301012: Side Lights Leds_166 61
+    3301014: Side Lights Leds_166 62
+    3301016: Side Lights Leds_166 63
+    3301018: Side Lights Leds_166 64
+    3301020: Side Lights Leds_166 65
+    3301022: Side Lights Leds_166 66
+    3301024: Side Lights Leds_166 67
+    3301026: Side Lights Leds_166 68
+    3301028: Side Lights Leds_166 69
+    3301030: Side Lights Leds_166 7
+    3301032: Side Lights Leds_166 70
+    3301034: Side Lights Leds_166 71
+    3301036: Side Lights Leds_166 72
+    3301038: Side Lights Leds_166 73
+    3301040: Side Lights Leds_166 74
+    3301042: Side Lights Leds_166 75
+    3301044: Side Lights Leds_166 76
+    3301046: Side Lights Leds_166 77
+    3301048: Side Lights Leds_166 78
+    3301050: Side Lights Leds_166 79
+    3301052: Side Lights Leds_166 8
+    3301054: Side Lights Leds_166 80
+    3301056: Side Lights Leds_166 81
+    3301058: Side Lights Leds_166 82
+    3301060: Side Lights Leds_166 83
+    3301062: Side Lights Leds_166 84
+    3301064: Side Lights Leds_166 85
+    3301066: Side Lights Leds_166 86
+    3301068: Side Lights Leds_166 87
+    3301070: Side Lights Leds_166 88
+    3301072: Side Lights Leds_166 89
+    3301074: Side Lights Leds_166 9
+    3301076: Side Lights Leds_166 90
+    3301078: Side Lights Leds_166 91
+    3301080: Side Lights Leds_166 92
+    3301082: Side Lights Leds_166 93
+    3301084: Side Lights Leds_166 94
+    3301086: Side Lights Leds_166 95
+    3301088: Side Lights Leds_166 96
+    3301090: Side Lights Leds_166 97
+    3301092: Side Lights Leds_166 98
+    3301094: Side Lights Leds_166 99
+    3301096: Solar Cell 1_100 10
+    3301098: Solar Cell 1_100 11
+    3301100: Solar Cell 1_100 12
+    3301102: Solar Cell 1_100 13
+    3301104: Solar Cell 1_100 14
+    3301106: Solar Cell 1_100 15
+    3301108: Solar Cell 1_100 2
+    3301110: Solar Cell 1_100 3
+    3301112: Solar Cell 1_100 4
+    3301114: Solar Cell 1_100 5
+    3301116: Solar Cell 1_100 6
+    3301118: Solar Cell 1_100 7
+    3301120: Solar Cell 1_100 8
+    3301122: Solar Cell 1_100 9
+    3301124: Solar Cell 1_99 10
+    3301126: Solar Cell 1_99 11
+    3301128: Solar Cell 1_99 12
+    3301130: Solar Cell 1_99 13
+    3301132: Solar Cell 1_99 14
+    3301134: Solar Cell 1_99 15
+    3301136: Solar Cell 1_99 2
+    3301138: Solar Cell 1_99 3
+    3301140: Solar Cell 1_99 4
+    3301142: Solar Cell 1_99 5
+    3301144: Solar Cell 1_99 6
+    3301146: Solar Cell 1_99 7
+    3301148: Solar Cell 1_99 8
+    3301150: Solar Cell 1_99 9
+    3301152: Solar Cell 2_Default<As Machined>_98
+    3301154: Solar Cell 2_Default<As Machined>_98 1
+    3301156: Solar Cell Mounting_94
+    3301158: Solar Cell Mounting_96
+    3301160: Wheel Cover 1_3
+    3301162: Wheel Cover 1_MirrorDefault_5
+    3301164: Wheel Cover 1_MirrorDefault_7
+    3301166: Wheel Cover 1_MirrorMirrorDefault_9
+    3301168: Wheel Cover 2_4
+    3301170: Wheel Cover 2_MirrorDefault_6
+    3301172: Wheel Cover 2_MirrorDefault_8
+    3301174: Wheel Cover 2_MirrorMirrorDefault_10
+    3301176: Wheel Cover 3_12
+    3301178: Wheel Cover 3_MirrorDefault_14
+    3301180: Wheel Cover 3_MirrorDefault_18
+    3301182: Wheel Cover 3_MirrorMirrorDefault_16
+    3301184: Wheel Cover 4_13
+    3301186: Wheel Cover 4_MirrorDefault_15
+    3301188: Wheel Cover 4_MirrorDefault_19
+    3301190: Wheel Cover 4_MirrorMirrorDefault_17
+    4300000: Explorer Bottom Cover_1
+    4300002: Explorer Bottom Cover_1
+    4300004: Explorer Bottom Cover_1
+    4300006: Explorer Bottom Cover_1
+    4300008: Explorer Chassis_2
+    4300010: Explorer Chassis_2
+    4300012: Explorer Chassis_2
+    4300014: Explorer Chassis_2
+    4300016: Explorer Chassis_2
+    4300018: Explorer Chassis_2
+    4300020: Explorer Chassis_2
+    4300022: Explorer Chassis_2
+    4300024: Explorer Chassis_2
+    4300026: Explorer Chassis_2
+    4300028: Explorer Chassis_2
+    4300030: Explorer Chassis_2
+    4300032: Explorer Chassis_2
+    4300034: Wheel Cover 1_3
+    4300036: Wheel Cover 2_4
+    4300038: Wheel Cover 1_MirrorDefault_5
+    4300040: Wheel Cover 2_MirrorDefault_6
+    4300042: Wheel Cover 1_MirrorDefault_7
+    4300044: Wheel Cover 2_MirrorDefault_8
+    4300046: Wheel Cover 1_MirrorMirrorDefault_9
+    4300048: Wheel Cover 2_MirrorMirrorDefault_10
+    4300050: Mid Lower Cover_11
+    4300052: Mid Lower Cover_11
+    4300054: Mid Lower Cover_11
+    4300056: Mid Lower Cover_11
+    4300058: Mid Lower Cover_11
+    4300060: Mid Lower Cover_11
+    4300062: Mid Lower Cover_11
+    4300064: Mid Lower Cover_11
+    4300066: Wheel Cover 3_12
+    4300068: Wheel Cover 4_13
+    4300070: Wheel Cover 3_MirrorDefault_14
+    4300072: Wheel Cover 4_MirrorDefault_15
+    4300074: Wheel Cover 3_MirrorMirrorDefault_16
+    4300076: Wheel Cover 4_MirrorMirrorDefault_17
+    4300078: Wheel Cover 3_MirrorDefault_18
+    4300080: Wheel Cover 4_MirrorDefault_19
+    4300082: Explorer Tyre_193
+    4300084: Explorer Wheel_194
+    4300086: Explorer Wheel Mounting_195
+    4300088: Explorer Wheel Mounting_195
+    4300090: Explorer Wheel Mounting_195
+    4300092: Explorer Wheel Mounting_195
+    4300094: Explorer Wheel Mounting_195
+    4300096: Explorer Main Gear_196
+    4300098: MirrorExplorer Wheel Mounting_197
+    4300100: MirrorExplorer Wheel Mounting_197
+    4300102: MirrorExplorer Wheel Mounting_197
+    4300104: MirrorExplorer Wheel Mounting_197
+    4300106: MirrorExplorer Wheel Mounting_197
+    4300108: Air Springs_21
+    4300110: Air Springs_21
+    4300112: Air Springs_21
+    4300114: Air Springs_21
+    4300116: Air Springs 2_22
+    4300118: Air Springs 2_22
+    4300120: Air Springs 2_22
+    4300122: Air Springs 2_22
+    4300124: Air Springs 2_22
+    4300126: Air Springs 2_22
+    4300128: Air Springs 2_22
+    4300130: Air Springs_MirrorDefault_23
+    4300132: Air Springs_MirrorDefault_23
+    4300134: Air Springs_MirrorDefault_23
+    4300136: Air Springs_MirrorDefault_23
+    4300138: Air Springs 2_MirrorDefault_24
+    4300140: Air Springs 2_MirrorDefault_24
+    4300142: Air Springs 2_MirrorDefault_24
+    4300144: Air Springs 2_MirrorDefault_24
+    4300146: Air Springs 2_MirrorDefault_24
+    4300148: Air Springs 2_MirrorDefault_24
+    4300150: Air Springs 2_MirrorDefault_24
+    4300152: Frontal Cabin_25
+    4300154: Frontal Cabin_25
+    4300156: Frontal Cabin_25
+    4300158: Frontal Cabin_25
+    4300160: Frontal Cabin_25
+    4300162: Frontal Cabin_25
+    4300164: Frontal Cabin_25
+    4300166: Frontal Cabin_25
+    4300168: Frontal Cabin_25
+    4300170: Rubber Cover_26
+    4300172: Front Plexy_27
+    4300174: CO2 Distributor_28
+    4300176: CO2 Distributor_28
+    4300178: CO2 Distributor_28
+    4300180: CO2 Distributor_28
+    4300182: CO2 Distributor_28
+    4300184: CO2 Distributor_28
+    4300186: CO2 Distributor_28
+    4300188: CO2 Distributor_28
+    4300190: CO2 Distributor_28
+    4300192: CO2 Distributor_28
+    4300194: Aerator_29
+    4300196: Aerator_30
+    4300198: Aerator_31
+    4300200: Aerator Bottom_32
+    4300202: Aerator Bottom_33
+    4300204: Aerator Bottom_34
+    4300206: Aerator Bottom_35
+    4300208: Aerator Bottom_36
+    4300210: Aerator Bottom_37
+    4300212: Aerator Bottom_38
+    4300214: Aerator Bottom_39
+    4300216: Aerator Bottom_40
+    4300218: O2 Distributor_41
+    4300220: O2 Distributor_41
+    4300222: O2 Distributor_41
+    4300224: O2 Distributor_41
+    4300226: O2 Distributor_41
+    4300228: O2 Distributor_41
+    4300230: O2 Distributor_41
+    4300232: O2 Distributor_41
+    4300234: O2 Distributor_41
+    4300236: O2 Distributor_41
+    4300238: O2 Distributor_41
+    4300240: O2 Distributor_41
+    4300242: O2 Distributor_41
+    4300244: O2 Distributor_41
+    4300246: 100_1500 Lights_42
+    4300248: 100_1500 Lights_43
+    4300250: 100_2000 Lights_44
+    4300252: 100_3000 Lights_45
+    4300254: Led_46
+    4300256: Led_46
+    4300258: Led_46
+    4300260: Led_46
+    4300262: Led_46
+    4300264: Cockpit Lights_47
+    4300266: Cabin Hatch Module 1_188
+    4300268: Hatch Door1_189
+    4300270: Hatch Door1_189
+    4300272: Hatch Door2_190
+    4300274: Door2 Hinge_191
+    4300276: Ladder_192
+    4300278: Front Lights Pod_186
+    4300280: Front Lights Pod_186
+    4300282: Front Lights Pod_186
+    4300284: Front Lights Pod_186
+    4300286: Front Lights Pod_186
+    4300288: Front Lights Pod_186
+    4300290: Front Lights Pod_186
+    4300292: Front Lights Pod_186
+    4300294: Front Lights Pod_186
+    4300296: Front Lights Pod_186
+    4300298: Front Lights and Laser_187
+    4300300: Front Lights and Laser_187
+    4300302: Front Lights and Laser_187
+    4300304: Front Lights and Laser_187
+    4300306: Front Lights and Laser_187
+    4300308: Front Lights and Laser_187
+    4300310: Front Lights and Laser_187
+    4300312: Front Lights and Laser_187
+    4300314: Front Lights and Laser_187
+    4300316: Front Lights and Laser_187
+    4300318: Front Lights and Laser_187
+    4300320: Front Lights and Laser_187
+    4300322: Front Lights and Laser_187
+    4300324: Front Lights Pod_186
+    4300326: Front Lights Pod_186
+    4300328: Front Lights Pod_186
+    4300330: Front Lights Pod_186
+    4300332: Front Lights Pod_186
+    4300334: Front Lights Pod_186
+    4300336: Front Lights Pod_186
+    4300338: Front Lights Pod_186
+    4300340: Front Lights Pod_186
+    4300342: Front Lights Pod_186
+    4300344: Front Lights and Laser_187
+    4300346: Front Lights and Laser_187
+    4300348: Front Lights and Laser_187
+    4300350: Front Lights and Laser_187
+    4300352: Front Lights and Laser_187
+    4300354: Front Lights and Laser_187
+    4300356: Front Lights and Laser_187
+    4300358: Front Lights and Laser_187
+    4300360: Front Lights and Laser_187
+    4300362: Front Lights and Laser_187
+    4300364: Front Lights and Laser_187
+    4300366: Front Lights and Laser_187
+    4300368: Front Lights and Laser_187
+    4300370: Explorer Tyre_MirrorDefault_183
+    4300372: Explorer Wheel_MirrorDefault_184
+    4300374: Explorer Wheel Mounting_MirrorDefault_185
+    4300376: Explorer Wheel Mounting_MirrorDefault_185
+    4300378: Explorer Wheel Mounting_MirrorDefault_185
+    4300380: Explorer Wheel Mounting_MirrorDefault_185
+    4300382: Explorer Wheel Mounting_MirrorDefault_185
+    4300384: Explorer Tyre_MirrorMirrorDefault_180
+    4300386: Explorer Wheel_MirrorMirrorDefault_181
+    4300388: Explorer Wheel Mounting_MirrorMirrorDefault_182
+    4300390: Explorer Wheel Mounting_MirrorMirrorDefault_182
+    4300392: Explorer Wheel Mounting_MirrorMirrorDefault_182
+    4300394: Explorer Wheel Mounting_MirrorMirrorDefault_182
+    4300396: Explorer Wheel Mounting_MirrorMirrorDefault_182
+    4300398: Explorer Tyre_MirrorDefault_175
+    4300400: Explorer Wheel_MirrorDefault_176
+    4300402: Explorer Wheel Mounting_MirrorDefault_177
+    4300404: Explorer Wheel Mounting_MirrorDefault_177
+    4300406: Explorer Wheel Mounting_MirrorDefault_177
+    4300408: Explorer Wheel Mounting_MirrorDefault_177
+    4300410: Explorer Wheel Mounting_MirrorDefault_177
+    4300412: Explorer Main Gear_MirrorDefault_178
+    4300414: MirrorExplorer Wheel Mounting_MirrorDefault_179
+    4300416: MirrorExplorer Wheel Mounting_MirrorDefault_179
+    4300418: MirrorExplorer Wheel Mounting_MirrorDefault_179
+    4300420: MirrorExplorer Wheel Mounting_MirrorDefault_179
+    4300422: MirrorExplorer Wheel Mounting_MirrorDefault_179
+    4300424: Explorer Tyre_MirrorMirrorMirrorDefault_172
+    4300426: Explorer Wheel_MirrorMirrorMirrorDefault_173
+    4300428: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174
+    4300430: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174
+    4300432: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174
+    4300434: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174
+    4300436: Explorer Wheel Mounting_MirrorMirrorMirrorDefault_174
+    4300438: Explorer Tyre_MirrorMirrorDefault_180
+    4300440: Explorer Wheel_MirrorMirrorDefault_181
+    4300442: Explorer Wheel Mounting_MirrorMirrorDefault_182
+    4300444: Explorer Wheel Mounting_MirrorMirrorDefault_182
+    4300446: Explorer Wheel Mounting_MirrorMirrorDefault_182
+    4300448: Explorer Wheel Mounting_MirrorMirrorDefault_182
+    4300450: Explorer Wheel Mounting_MirrorMirrorDefault_182
+    4300452: Lab Module_56
+    4300454: Lab Module_56
+    4300456: Lab Module_56
+    4300458: Lab Module_56
+    4300460: Lab Module_56
+    4300462: Lab Module_56
+    4300464: Lab Module_56
+    4300466: Lab Module_56
+    4300468: Lab Module_56
+    4300470: Lab Module_56
+    4300472: Lab Module_56
+    4300474: Lab Module_56
+    4300476: Lab Module_56
+    4300478: Lab Module_56
+    4300480: Lab Module_56
+    4300482: Lab Module_56
+    4300484: Lab Module_56
+    4300486: Lab Module_56
+    4300488: Lab Module_56
+    4300490: Lab Module_56
+    4300492: Lab Module_56
+    4300494: Lab Module_56
+    4300496: Lab Module_56
+    4300498: Lab Module_56
+    4300500: Labour Plexy_57
+    4300502: Labour Plexy_57
+    4300504: Plexy Column_58
+    4300506: Main Platform_59
+    4300508: Body10_60
+    4300510: Body10_60
+    4300512: Body10_60
+    4300514: Body10_60
+    4300516: Crane_61
+    4300518: Crane_61
+    4300520: Crane_62
+    4300522: Crane_62
+    4300524: Com Link 2_170
+    4300526: Com Link 1_171
+    4300528: Com Link Base_167
+    4300530: Com Link 3_168
+    4300532: Com Link 4_169
+    4300534: Side Lights Cabin_165
+    4300536: Side Lights Cabin_165
+    4300538: Side Lights Leds_166
+    4300540: Side Lights Leds_166
+    4300542: Side Lights Leds_166
+    4300544: Side Lights Leds_166
+    4300546: Side Lights Leds_166
+    4300548: Side Lights Leds_166
+    4300550: Side Lights Leds_166
+    4300552: Side Lights Leds_166
+    4300554: Side Lights Leds_166
+    4300556: Side Lights Leds_166
+    4300558: Side Lights Leds_166
+    4300560: Side Lights Leds_166
+    4300562: Side Lights Leds_166
+    4300564: Side Lights Leds_166
+    4300566: Side Lights Leds_166
+    4300568: Side Lights Leds_166
+    4300570: Side Lights Leds_166
+    4300572: Side Lights Leds_166
+    4300574: Side Lights Leds_166
+    4300576: Side Lights Leds_166
+    4300578: Side Lights Leds_166
+    4300580: Side Lights Leds_166
+    4300582: Side Lights Leds_166
+    4300584: Side Lights Leds_166
+    4300586: Side Lights Leds_166
+    4300588: Airlock Door_66
+    4300590: Airlock Door_66
+    4300592: Airlock Door_66
+    4300594: Airlock Door_66
+    4300596: Ladder 2_67
+    4300598: Ladder 2_67
+    4300600: Ladder 2_67
+    4300602: Ladder 2_67
+    4300604: Ladder 2_67
+    4300606: Ladder 2_67
+    4300608: Ladder 2_67
+    4300610: Ladder 2_67
+    4300612: Ladder 2_67
+    4300614: Ladder 2_67
+    4300616: MOXIE Grid_102
+    4300618: MOXIE Grid_102
+    4300620: MOXIE_103
+    4300622: MOXIE_104
+    4300624: MOXIE_105
+    4300626: MOXIE_106
+    4300628: MOXIE_107
+    4300630: MOXIE_108
+    4300632: MOXIE_109
+    4300634: MOXIE_110
+    4300636: MOXIE_111
+    4300638: MOXIE_112
+    4300640: MOXIE_113
+    4300642: MOXIE_114
+    4300644: MOXIE_115
+    4300646: MOXIE_116
+    4300648: MOXIE_117
+    4300650: MOXIE_118
+    4300652: MOXIE_119
+    4300654: MOXIE_120
+    4300656: MOXIE_121
+    4300658: MOXIE_122
+    4300660: MOXIE_123
+    4300662: MOXIE_124
+    4300664: MOXIE_125
+    4300666: MOXIE_126
+    4300668: MOXIE_127
+    4300670: MOXIE_128
+    4300672: MOXIE_129
+    4300674: MOXIE_130
+    4300676: MOXIE_131
+    4300678: MOXIE_132
+    4300680: CO2 Pipeline_133
+    4300682: CO2 Pipeline_134
+    4300684: CO2 Pipeline_135
+    4300686: CO2 Pipeline_136
+    4300688: CO2 Pipeline_137
+    4300690: CO2 Pipeline_138
+    4300692: CO2 Pipeline_139
+    4300694: CO2 Pipeline_140
+    4300696: CO2 Pipeline Main_141
+    4300698: CO2 Pipeline Main_141
+    4300700: CO2 Pipeline Main_141
+    4300702: CO2 Pipeline Ending_142
+    4300704: O2 Pipeline_143
+    4300706: O2 Pipeline_144
+    4300708: O2 Pipeline_145
+    4300710: O2 Pipeline_146
+    4300712: O2 Pipeline_147
+    4300714: O2 Pipeline_148
+    4300716: O2 Pipeline_149
+    4300718: O2 Pipeline_150
+    4300720: O2 Pipeline_151
+    4300722: O2 Pipeline_152
+    4300724: Aux Pipeline_153
+    4300726: Aux Pipeline_154
+    4300728: Aux Pipeline_155
+    4300730: Aux Pipeline_156
+    4300732: Aux Pipeline_157
+    4300734: Aux Pipeline_158
+    4300736: Aux Pipeline_159
+    4300738: Aux Pipeline_160
+    4300740: Aux Pipeline_161
+    4300742: Aux Pipeline_162
+    4300744: MOXIE Control Panel_163
+    4300746: Pipe Junction_164
+    4300748: Pipe Junction_164
+    4300750: Pipe Junction_164
+    4300752: Pipe Main Junction_101
+    4300754: Pipe Main Junction_101
+    4300756: Pipe Main Junction_101
+    4300758: Pipe Main Junction_101
+    4300760: Pipe Main Junction_101
+    4300762: 100_3000 Lights_70
+    4300764: 100_3000 Lights_71
+    4300766: 100_3000 Lights_72
+    4300768: Aerator in Lab_73
+    4300770: Aerator in Lab_74
+    4300772: Aerator in Lab_75
+    4300774: Labour Air Distributor_76
+    4300776: Labour Air Distributor_76
+    4300778: Labour Air Distributor_76
+    4300780: Led_77
+    4300782: Led_77
+    4300784: Led_77
+    4300786: Led_77
+    4300788: Led_77
+    4300790: Led_78
+    4300792: Led_78
+    4300794: Led_78
+    4300796: Led_78
+    4300798: Led_78
+    4300800: Led_79
+    4300802: Led_79
+    4300804: Led_79
+    4300806: Led_79
+    4300808: Led_79
+    4300810: Led_80
+    4300812: Led_80
+    4300814: Led_80
+    4300816: Led_80
+    4300818: Led_80
+    4300820: Led_81
+    4300822: Led_81
+    4300824: Led_81
+    4300826: Led_81
+    4300828: Led_81
+    4300830: Led_82
+    4300832: Led_82
+    4300834: Led_82
+    4300836: Led_82
+    4300838: Led_82
+    4300840: Led_83
+    4300842: Led_83
+    4300844: Led_83
+    4300846: Led_83
+    4300848: Led_83
+    4300850: Solar Cell Mounting_96
+    4300852: Solar Cell 2_Default<As Machined>_98
+    4300854: Solar Cell 1_99
+    4300856: Solar Cell 1_99
+    4300858: Solar Cell 1_99
+    4300860: Solar Cell 1_99
+    4300862: Solar Cell 1_99
+    4300864: Solar Cell 1_99
+    4300866: Solar Cell 1_99
+    4300868: Solar Cell 1_100
+    4300870: Solar Cell 1_100
+    4300872: Solar Cell 1_100
+    4300874: Solar Cell 1_100
+    4300876: Solar Cell 1_100
+    4300878: Solar Cell 1_100
+    4300880: Solar Cell 1_100
+    4300882: Solar Cell Mounting_94
+    4300884: Solar Cell 2_Default<As Machined>_98
+    4300886: Solar Cell 1_99
+    4300888: Solar Cell 1_99
+    4300890: Solar Cell 1_99
+    4300892: Solar Cell 1_99
+    4300894: Solar Cell 1_99
+    4300896: Solar Cell 1_99
+    4300898: Solar Cell 1_99
+    4300900: Solar Cell 1_100
+    4300902: Solar Cell 1_100
+    4300904: Solar Cell 1_100
+    4300906: Solar Cell 1_100
+    4300908: Solar Cell 1_100
+    4300910: Solar Cell 1_100
+    4300912: Solar Cell 1_100
+    4300914: Com Link 2_170
+    4300916: Com Link 1_171
+    4300918: Side Lights Cabin_165
+    4300920: Side Lights Cabin_165
+    4300922: Side Lights Leds_166
+    4300924: Side Lights Leds_166
+    4300926: Side Lights Leds_166
+    4300928: Side Lights Leds_166
+    4300930: Side Lights Leds_166
+    4300932: Side Lights Leds_166
+    4300934: Side Lights Leds_166
+    4300936: Side Lights Leds_166
+    4300938: Side Lights Leds_166
+    4300940: Side Lights Leds_166
+    4300942: Side Lights Leds_166
+    4300944: Side Lights Leds_166
+    4300946: Side Lights Leds_166
+    4300948: Side Lights Leds_166
+    4300950: Side Lights Leds_166
+    4300952: Side Lights Leds_166
+    4300954: Side Lights Leds_166
+    4300956: Side Lights Leds_166
+    4300958: Side Lights Leds_166
+    4300960: Side Lights Leds_166
+    4300962: Side Lights Leds_166
+    4300964: Side Lights Leds_166
+    4300966: Side Lights Leds_166
+    4300968: Side Lights Leds_166
+    4300970: Side Lights Leds_166
+    4300972: Side Lights Cabin_165
+    4300974: Side Lights Cabin_165
+    4300976: Side Lights Leds_166
+    4300978: Side Lights Leds_166
+    4300980: Side Lights Leds_166
+    4300982: Side Lights Leds_166
+    4300984: Side Lights Leds_166
+    4300986: Side Lights Leds_166
+    4300988: Side Lights Leds_166
+    4300990: Side Lights Leds_166
+    4300992: Side Lights Leds_166
+    4300994: Side Lights Leds_166
+    4300996: Side Lights Leds_166
+    4300998: Side Lights Leds_166
+    4301000: Side Lights Leds_166
+    4301002: Side Lights Leds_166
+    4301004: Side Lights Leds_166
+    4301006: Side Lights Leds_166
+    4301008: Side Lights Leds_166
+    4301010: Side Lights Leds_166
+    4301012: Side Lights Leds_166
+    4301014: Side Lights Leds_166
+    4301016: Side Lights Leds_166
+    4301018: Side Lights Leds_166
+    4301020: Side Lights Leds_166
+    4301022: Side Lights Leds_166
+    4301024: Side Lights Leds_166
+    4301026: Side Lights Cabin_165
+    4301028: Side Lights Cabin_165
+    4301030: Side Lights Leds_166
+    4301032: Side Lights Leds_166
+    4301034: Side Lights Leds_166
+    4301036: Side Lights Leds_166
+    4301038: Side Lights Leds_166
+    4301040: Side Lights Leds_166
+    4301042: Side Lights Leds_166
+    4301044: Side Lights Leds_166
+    4301046: Side Lights Leds_166
+    4301048: Side Lights Leds_166
+    4301050: Side Lights Leds_166
+    4301052: Side Lights Leds_166
+    4301054: Side Lights Leds_166
+    4301056: Side Lights Leds_166
+    4301058: Side Lights Leds_166
+    4301060: Side Lights Leds_166
+    4301062: Side Lights Leds_166
+    4301064: Side Lights Leds_166
+    4301066: Side Lights Leds_166
+    4301068: Side Lights Leds_166
+    4301070: Side Lights Leds_166
+    4301072: Side Lights Leds_166
+    4301074: Side Lights Leds_166
+    4301076: Side Lights Leds_166
+    4301078: Side Lights Leds_166
+    4301080: Side Lights Cabin_165
+    4301082: Side Lights Cabin_165
+    4301084: Side Lights Leds_166
+    4301086: Side Lights Leds_166
+    4301088: Side Lights Leds_166
+    4301090: Side Lights Leds_166
+    4301092: Side Lights Leds_166
+    4301094: Side Lights Leds_166
+    4301096: Side Lights Leds_166
+    4301098: Side Lights Leds_166
+    4301100: Side Lights Leds_166
+    4301102: Side Lights Leds_166
+    4301104: Side Lights Leds_166
+    4301106: Side Lights Leds_166
+    4301108: Side Lights Leds_166
+    4301110: Side Lights Leds_166
+    4301112: Side Lights Leds_166
+    4301114: Side Lights Leds_166
+    4301116: Side Lights Leds_166
+    4301118: Side Lights Leds_166
+    4301120: Side Lights Leds_166
+    4301122: Side Lights Leds_166
+    4301124: Side Lights Leds_166
+    4301126: Side Lights Leds_166
+    4301128: Side Lights Leds_166
+    4301130: Side Lights Leds_166
+    4301132: Side Lights Leds_166
+    4301134: Side Lights Cabin_165
+    4301136: Side Lights Cabin_165
+    4301138: Side Lights Leds_166
+    4301140: Side Lights Leds_166
+    4301142: Side Lights Leds_166
+    4301144: Side Lights Leds_166
+    4301146: Side Lights Leds_166
+    4301148: Side Lights Leds_166
+    4301150: Side Lights Leds_166
+    4301152: Side Lights Leds_166
+    4301154: Side Lights Leds_166
+    4301156: Side Lights Leds_166
+    4301158: Side Lights Leds_166
+    4301160: Side Lights Leds_166
+    4301162: Side Lights Leds_166
+    4301164: Side Lights Leds_166
+    4301166: Side Lights Leds_166
+    4301168: Side Lights Leds_166
+    4301170: Side Lights Leds_166
+    4301172: Side Lights Leds_166
+    4301174: Side Lights Leds_166
+    4301176: Side Lights Leds_166
+    4301178: Side Lights Leds_166
+    4301180: Side Lights Leds_166
+    4301182: Side Lights Leds_166
+    4301184: Side Lights Leds_166
+    4301186: Side Lights Leds_166
+    4301188: crane hook_92
+    4301190: crane hook_93
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

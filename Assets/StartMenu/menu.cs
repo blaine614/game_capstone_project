@@ -39,7 +39,7 @@ public class menu : MonoBehaviour
 	public void StartLevel ()
 
 	{
-		Application.LoadLevel (1);
+		Application.LoadLevel (2);
 
 	}
 
@@ -51,6 +51,20 @@ public class menu : MonoBehaviour
 		
 	}
 
+	public void Website ()
+	{
+		Application.OpenURL ("http://www.blumander.com");
+	}
+
+    public void About ()
+    {
+        Application.LoadLevel(1);
+    }
+
+    public void HighScores ()
+    {
+        Application.LoadLevel(3);
+    }
 
 
 
