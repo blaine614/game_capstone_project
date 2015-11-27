@@ -36,6 +36,7 @@ public class InteractWithObject1 : MonoBehaviour {
 		Ray ray = camera.ScreenPointToRay(new Vector3(x,y));
 		RaycastHit hit;
 		if(Physics.Raycast(ray, out hit, distance)) {
+			Debug.Log (hit.collider);
 
 			Interactable a = hit.collider.GetComponent<Interactable>();
 			if(a != null) {

@@ -212,6 +212,47 @@ ModelImporter:
     4300076: final_sector_2_build_1
     4300078: final_sector_2_build_1
     4300080: final_sector_2_build_1
+    6400000: final_sector_2_build_1
+    6400002: final_sector_2_build_1 1
+    6400004: final_sector_2_build_1 10
+    6400006: final_sector_2_build_1 11
+    6400008: final_sector_2_build_1 12
+    6400010: final_sector_2_build_1 13
+    6400012: final_sector_2_build_1 14
+    6400014: final_sector_2_build_1 15
+    6400016: final_sector_2_build_1 16
+    6400018: final_sector_2_build_1 17
+    6400020: final_sector_2_build_1 18
+    6400022: final_sector_2_build_1 19
+    6400024: final_sector_2_build_1 2
+    6400026: final_sector_2_build_1 20
+    6400028: final_sector_2_build_1 21
+    6400030: final_sector_2_build_1 22
+    6400032: final_sector_2_build_1 23
+    6400034: final_sector_2_build_1 24
+    6400036: final_sector_2_build_1 25
+    6400038: final_sector_2_build_1 26
+    6400040: final_sector_2_build_1 27
+    6400042: final_sector_2_build_1 28
+    6400044: final_sector_2_build_1 29
+    6400046: final_sector_2_build_1 3
+    6400048: final_sector_2_build_1 30
+    6400050: final_sector_2_build_1 31
+    6400052: final_sector_2_build_1 32
+    6400054: final_sector_2_build_1 33
+    6400056: final_sector_2_build_1 34
+    6400058: final_sector_2_build_1 35
+    6400060: final_sector_2_build_1 36
+    6400062: final_sector_2_build_1 37
+    6400064: final_sector_2_build_1 38
+    6400066: final_sector_2_build_1 39
+    6400068: final_sector_2_build_1 4
+    6400070: final_sector_2_build_1 40
+    6400072: final_sector_2_build_1 5
+    6400074: final_sector_2_build_1 6
+    6400076: final_sector_2_build_1 7
+    6400078: final_sector_2_build_1 8
+    6400080: final_sector_2_build_1 9
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -238,7 +279,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -269,10 +310,8 @@ ModelImporter:
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
-    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
-  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

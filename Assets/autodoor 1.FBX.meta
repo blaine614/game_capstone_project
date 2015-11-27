@@ -52,6 +52,15 @@ ModelImporter:
     4300012: automatic_door
     4300014: automatic_door
     4300016: automatic_door
+    6400000: automatic_door
+    6400002: automatic_door 1
+    6400004: automatic_door 2
+    6400006: automatic_door 3
+    6400008: automatic_door 4
+    6400010: automatic_door 5
+    6400012: automatic_door 6
+    6400014: automatic_door 7
+    6400016: automatic_door 8
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -78,7 +87,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -109,10 +118,8 @@ ModelImporter:
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
-    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
-  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
