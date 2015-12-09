@@ -125,10 +125,14 @@ public class SteveScript : MonoBehaviour {
 
     IEnumerator Attack()
     {
+        GameObject temp = target;
         animator.SetBool("Attack", true);
         yield return new WaitForSeconds(.75f);
+        temp.GetComponentInChildren<SanityMeter1>().Kill();
+        target = waypoints[waypointInd];
         state = SteveScript.State.PATROL;
-//        target.GetComponentInChildren<SanityMeter>().Kill();
+        
+        //target.GetComponentInChildren<SanityMeter>().Kill();
     }
 
     void Investigating()
