@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 373e38c7b02ee0a45aacc91b86d5c520
+timeCreated: 1449809993
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: cannula
+    100002: cannula_MeshPart0
+    100004: cannula_MeshPart1
+    100006: cannula_MeshPart2
+    100008: cannula_MeshPart3
+    100010: needle
+    100012: plunger_front
+    100014: plunger_front_MeshPart0
+    100016: plunger_front_MeshPart1
+    100018: plunger_front_MeshPart2
+    100020: plunger_rear
+    100022: plunger_rear_MeshPart0
+    100024: plunger_rear_MeshPart1
+    100026: plunger_rear_MeshPart2
+    100028: Syringe
+    100030: //RootNode
+    100032: syringe_body
+    100034: syringe_body_MeshPart0
+    100036: syringe_body_MeshPart1
+    100038: syringe_body_MeshPart2
+    100040: syringe_body_MeshPart3
+    100042: syringe_body_MeshPart4
+    100044: syringe_body_MeshPart5
+    100046: syringe_body_MeshPart6
+    100048: syringe_body_MeshPart7
+    100050: syringe_body_MeshPart8
+    100052: syringe_body_MeshPart9
+    400000: cannula
+    400002: cannula_MeshPart0
+    400004: cannula_MeshPart1
+    400006: cannula_MeshPart2
+    400008: cannula_MeshPart3
+    400010: needle
+    400012: plunger_front
+    400014: plunger_front_MeshPart0
+    400016: plunger_front_MeshPart1
+    400018: plunger_front_MeshPart2
+    400020: plunger_rear
+    400022: plunger_rear_MeshPart0
+    400024: plunger_rear_MeshPart1
+    400026: plunger_rear_MeshPart2
+    400028: Syringe
+    400030: //RootNode
+    400032: syringe_body
+    400034: syringe_body_MeshPart0
+    400036: syringe_body_MeshPart1
+    400038: syringe_body_MeshPart2
+    400040: syringe_body_MeshPart3
+    400042: syringe_body_MeshPart4
+    400044: syringe_body_MeshPart5
+    400046: syringe_body_MeshPart6
+    400048: syringe_body_MeshPart7
+    400050: syringe_body_MeshPart8
+    400052: syringe_body_MeshPart9
+    2300000: cannula_MeshPart0
+    2300002: cannula_MeshPart1
+    2300004: cannula_MeshPart2
+    2300006: cannula_MeshPart3
+    2300008: needle
+    2300010: plunger_front_MeshPart0
+    2300012: plunger_front_MeshPart1
+    2300014: plunger_front_MeshPart2
+    2300016: plunger_rear_MeshPart0
+    2300018: plunger_rear_MeshPart1
+    2300020: plunger_rear_MeshPart2
+    2300022: syringe_body_MeshPart0
+    2300024: syringe_body_MeshPart1
+    2300026: syringe_body_MeshPart2
+    2300028: syringe_body_MeshPart3
+    2300030: syringe_body_MeshPart4
+    2300032: syringe_body_MeshPart5
+    2300034: syringe_body_MeshPart6
+    2300036: syringe_body_MeshPart7
+    2300038: syringe_body_MeshPart8
+    2300040: syringe_body_MeshPart9
+    3300000: cannula_MeshPart0
+    3300002: cannula_MeshPart1
+    3300004: cannula_MeshPart2
+    3300006: cannula_MeshPart3
+    3300008: needle
+    3300010: plunger_front_MeshPart0
+    3300012: plunger_front_MeshPart1
+    3300014: plunger_front_MeshPart2
+    3300016: plunger_rear_MeshPart0
+    3300018: plunger_rear_MeshPart1
+    3300020: plunger_rear_MeshPart2
+    3300022: syringe_body_MeshPart0
+    3300024: syringe_body_MeshPart1
+    3300026: syringe_body_MeshPart2
+    3300028: syringe_body_MeshPart3
+    3300030: syringe_body_MeshPart4
+    3300032: syringe_body_MeshPart5
+    3300034: syringe_body_MeshPart6
+    3300036: syringe_body_MeshPart7
+    3300038: syringe_body_MeshPart8
+    3300040: syringe_body_MeshPart9
+    4300000: syringe_body_MeshPart0
+    4300002: syringe_body_MeshPart1
+    4300004: syringe_body_MeshPart2
+    4300006: syringe_body_MeshPart3
+    4300008: syringe_body_MeshPart4
+    4300010: syringe_body_MeshPart5
+    4300012: syringe_body_MeshPart6
+    4300014: syringe_body_MeshPart7
+    4300016: syringe_body_MeshPart8
+    4300018: syringe_body_MeshPart9
+    4300020: cannula_MeshPart0
+    4300022: cannula_MeshPart1
+    4300024: cannula_MeshPart2
+    4300026: cannula_MeshPart3
+    4300028: needle
+    4300030: plunger_front_MeshPart0
+    4300032: plunger_front_MeshPart1
+    4300034: plunger_front_MeshPart2
+    4300036: plunger_rear_MeshPart0
+    4300038: plunger_rear_MeshPart1
+    4300040: plunger_rear_MeshPart2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
